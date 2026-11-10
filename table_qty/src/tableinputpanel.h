@@ -4,6 +4,7 @@
 #include <QSet>
 #include <QVector>
 #include <QToolButton>
+#include <QPointer>
 #include "models.h"
 
 class QComboBox;
@@ -89,6 +90,7 @@ private:
     QLabel* footer = nullptr;
     QTableWidget* table = nullptr;
     SectionCalculator* calculator = nullptr;
+    QPointer<QWidget> toolWindows[5];   // calctools::Kind 对应的独立工具窗口
     QJsonObject lastCalculationBefore, lastCalculationAfter;
     QString lastCalculationPart;
     QMap<QString, bool> visibility;

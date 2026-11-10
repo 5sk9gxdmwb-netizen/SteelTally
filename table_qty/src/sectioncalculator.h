@@ -1,6 +1,7 @@
 #pragma once
 #include <QtWidgets>
 #include "models.h"
+class SectionDrawing;
 
 class SectionCalculator : public QWidget {
     Q_OBJECT
@@ -10,6 +11,9 @@ public:
     QJsonObject selectedRecord() const;
 signals:
     void commitRequested(QJsonObject record, double lengthMm, int count, QString material, bool clearManual);
+    void windowClosed();
+protected:
+    void closeEvent(QCloseEvent* event) override;
 private:
     void filter();
     void updatePreview();
@@ -25,9 +29,14 @@ private:
     QListWidget* list;
     QWidget* standardPage;
     QWidget* customPage;
-    QDoubleSpinBox *length,*width,*h,*b,*tw,*tf,*radius;
+    QDoubleSpinBox *length,*width,*h,*b,*tw,*tf,*radius,*extra;
     QSpinBox* count;
     QCheckBox *live,*clearManual;
     QLabel *preview,*target,*details;
     QPushButton* apply;
+    QTreeWidget* types;
+    SectionDrawing* drawing;
+    QFormLayout* dimensionForm;
+    QLabel* validation;
+    void updateDimensions();
 };

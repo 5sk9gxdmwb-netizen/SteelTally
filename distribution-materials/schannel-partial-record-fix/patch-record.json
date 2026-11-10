@@ -1,0 +1,9 @@
+{
+  "original_prefix": "E:/SteelTallyToolchain/static-6.8.3-20261110-101215/install",
+  "patched_prefix": "C:/SteelTallySchannelDiagnostic/install",
+  "original_source_sha256": "3f46501b2c6f6922be38493ea52188a3ea612278f9efbced1e324398397e589f",
+  "patched_source_sha256": "d4cbde79940d95fbfd3b60eff8a9da8f087409ecc2255126f16cfd53400b979e",
+  "license": "Qt 6.8.3 existing distribution-materials and original Qt source licenses apply; only Schannel object replaced in copied archive",
+  "scope": "consume partial encrypted records; existing no-new-data exit retained; no certificate validation change",
+  "probe_result": "verification/probe-schannel-patched.json"
+}

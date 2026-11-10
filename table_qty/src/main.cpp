@@ -17,6 +17,10 @@
 #include <QTimer>
 #include <QFontDatabase>
 #include <cstdio>
+#include <memory>
+#include "startupsplash.h"
+#include "uichecks.h"
+#include "calculationtools.h"
 #include "mainwindow.h"
 #include "updater.h"
 #include "tableinputpanel.h"
@@ -33,10 +37,23 @@ int main(int argc, char** argv) {
     app.setFont(QFont(QStringLiteral("Microsoft YaHei"),9));
     app.setApplicationName(QStringLiteral("GJGTableQty"));
     app.setOrganizationName(QStringLiteral("SteelTally"));
-    app.setApplicationVersion(QStringLiteral("1.0.3"));
+    app.setApplicationVersion(QStringLiteral("1.2.0"));
+    app.setWindowIcon(QIcon(QStringLiteral(":/assets/icons/light/product/App/logo.ico")));
     const int updaterMode = updater::commandMode(app.arguments());
     if (updaterMode >= 0) return updaterMode;
 
+    if (app.arguments().contains(QStringLiteral("--ui-selftest"))) {
+        extras::loadLibraries(QStringLiteral(":/assets"));
+        const int out=app.arguments().indexOf(QStringLiteral("--selftest-dir"));
+        if(out<0 || out+1>=app.arguments().size())return 2;
+        return runUiChecks(app.arguments()[out+1]);
+    }
+    if (app.arguments().contains(QStringLiteral("--tools-selftest"))) {
+        const int out=app.arguments().indexOf(QStringLiteral("--selftest-dir"));
+        QString error;const bool ok=runCalculationToolChecks(&error,out>=0&&out+1<app.arguments().size()?app.arguments()[out+1]:QString());
+        std::printf("tools-selftest: %s %s\n",ok?"ok":"FAILED",error.toUtf8().constData());
+        return ok?0:1;
+    }
     if (app.arguments().contains(QStringLiteral("--section-selftest"))) {
         extras::loadLibraries(QStringLiteral(":/assets"));
         Project p;TableInputPanel panel(&p,nullptr,false);QString error;
@@ -45,7 +62,19 @@ int main(int argc, char** argv) {
         return ok?0:1;
     }
 
+    const bool interactiveStartup = !app.arguments().contains(QStringLiteral("--selftest")) &&
+        !app.arguments().contains(QStringLiteral("--calculation-probe"));
+    QElapsedTimer startupElapsed; startupElapsed.start();
+    std::unique_ptr<StartupSplash> splash;
+    if (interactiveStartup) {
+        splash = std::make_unique<StartupSplash>();
+        splash->show();
+        app.processEvents(QEventLoop::ExcludeUserInputEvents);
+        splash->setStage(30, QStringLiteral("正在加载内嵌型材库和工作区…"));
+        app.processEvents(QEventLoop::ExcludeUserInputEvents);
+    }
     MainWindow w;
+    if (splash) splash->setStage(90, QStringLiteral("界面与型材库已就绪…"));
     const int probeArgument = app.arguments().indexOf(QStringLiteral("--calculation-probe"));
     if (probeArgument >= 0) {
         if (probeArgument + 2 >= app.arguments().size()) {
@@ -226,7 +255,10 @@ int main(int argc, char** argv) {
                 helpOk = help.open(QIODevice::ReadOnly) && help.size() > 100 && helpOk;
             }
             auto* updateLabel = w.findChild<QLabel*>(QStringLiteral("updateStatus"));
-            helpOk = helpOk && updateLabel && updateLabel->text().contains(QStringLiteral("未配置更新源")) &&
+            // The label shows either the unconfigured state or a live check status,
+            // so assert only that it carries the running version and is non-empty.
+            helpOk = helpOk && updateLabel && !updateLabel->text().isEmpty() &&
+                updateLabel->text().contains(app.applicationVersion()) &&
                 w.windowTitle().contains(app.applicationVersion());
             std::printf("help: embedded-pages=4 status=%s\n", helpOk ? "ok" : "FAILED");
             bool helpDialogObserved = false;
@@ -248,8 +280,12 @@ int main(int argc, char** argv) {
                      w.validIconCount() == w.iconActionCount() && panel && panelIcons == panel->iconCount() ? 0 : 1);
         });
     } else {
-        w.show();
-        updater::acknowledgeHealth(app.arguments());
+        QTimer::singleShot(qMax<qint64>(0, 2400 - startupElapsed.elapsed()), &w, [&] {
+            if (splash) splash->setStage(100, QStringLiteral("加载完成"));
+            w.show();
+            if (splash) splash->finish(&w);
+            updater::acknowledgeHealth(app.arguments());
+        });
     }
     return app.exec();
 }

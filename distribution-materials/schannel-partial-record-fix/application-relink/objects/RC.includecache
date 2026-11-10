@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/AppData/Local/Temp/SteelTally-static-app-dbea038ef0cf4148b5959ef3db9b1427/table_qty/steeltally.rc
+winver.h
+-
+

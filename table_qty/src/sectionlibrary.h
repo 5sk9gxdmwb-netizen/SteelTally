@@ -57,13 +57,18 @@ inline QJsonObject resolve(const QString& spec) {
     const auto i=index().constFind(key(spec));
     return i==index().cend()?QJsonObject():records().value(i.value());
 }
-inline QJsonObject formula(int shape, double h, double b, double tw, double tf, double radius=0) {
+inline constexpr int kCustomShapeCount=15; // IDs 0-5 are persisted by v1.0/v1.1; append only.
+inline QJsonObject formula(int shape, double h, double b, double tw, double tf, double radius=0, double c=0) {
     // All dimensions are in mm; area is mm²; perimeter is mm.
     QJsonObject r;
     double a=0,p=0;
     QString spec,formula,basis=QStringLiteral("纵向外表面；不计端面、切口和连接扣除");
     const auto dim=[](double v){return QString::number(v,'g',12);};
-    if (h<=0 || !std::isfinite(h) || radius<0) return r;
+    if (h<=0 || !std::isfinite(h) || radius<0 || c<0 || !std::isfinite(c)) return r;
+    const double fillet=(2-kPi/2)*radius*radius, trim=2*(2-kPi/2)*radius; // two root fillets
+    const bool usesRadius=shape==0||shape==2||shape==6||shape==7;
+    if (!usesRadius) radius=0;
+    if (!(shape==8||shape==9||shape==13||shape==14)) c=0;
     switch(shape) {
     case 0: // welded H: root fillets are optional independent geometry
         if (b<=0 || tw<=0 || tf<=0 || h<=2*tf || b<=tw ||
@@ -97,13 +102,48 @@ inline QJsonObject formula(int shape, double h, double b, double tw, double tf, 
         a=h*tw;p=2*h;spec="FB"+dim(h)+"x"+dim(tw);
         basis=QStringLiteral("钢板双面大面；不计侧边、端面及孔洞");
         formula="W=宽×长×厚×7.85×10⁻⁶；S=2×宽×长×10⁻⁶";break;
+    case 6: // welded/cut T: flange b×tf on top of web tw; optional two root fillets
+        if (b<=tw || tw<=0 || tf<=0 || h<=tf || radius>qMin((b-tw)/2,h-tf)) return r;
+        a=b*tf+(h-tf)*tw+fillet; p=2*(b+h)-trim;
+        spec="WT"+dim(h)+"x"+dim(b)+"x"+dim(tw)+"x"+dim(tf);
+        formula="A=b·tf+(h−tf)·tw+(2−π/2)r²；P=2(b+h)−2(2−π/2)r"; break;
+    case 7: // welded channel, web on the back, two root fillets
+        if (b<=tw || tw<=0 || tf<=0 || h<=2*tf || radius>qMin(b-tw,(h-2*tf)/2)) return r;
+        a=h*tw+2*(b-tw)*tf+fillet; p=2*h+4*b-2*tw-trim;
+        spec="WCH"+dim(h)+"x"+dim(b)+"x"+dim(tw)+"x"+dim(tf);
+        formula="A=h·tw+2(b−tw)tf+(2−π/2)r²；P=2h+4b−2tw−2(2−π/2)r"; break;
+    case 8: case 9: // cold-formed lipped C / Z, constant t, sharp corners, c measured from the outer flange face
+        if (b<=0 || tw<=0 || c<=tw || h<=2*tw || b<=2*tw || 2*c>=h) return r;
+        a=tw*(h+2*b+2*c-4*tw); p=2*h+4*b+4*c-6*tw;
+        spec=QString(shape==8?"CFC":"CFZ")+dim(h)+"x"+dim(b)+"x"+dim(c)+"x"+dim(tw);
+        formula="A=t(h+2b+2c−4t)；P=2h+4b+4c−6t；尖角，c 自翼缘外表面量起"; break;
+    case 10: // solid rectangular bar
+        if (b<=0) return r;
+        a=h*b; p=2*(h+b); spec="BAR"+dim(h)+"x"+dim(b);
+        formula="A=h·b；P=2(h+b)"; break;
+    case 11: // hexagon bar, h = across flats
+        a=std::sqrt(3.0)/2*h*h; p=2*std::sqrt(3.0)*h; spec="HEX"+dim(h);
+        formula="A=(√3/2)s²；P=2√3·s，s 为对边距"; break;
+    case 12: // octagon bar, h = across flats
+        a=2*(std::sqrt(2.0)-1)*h*h; p=8*(std::sqrt(2.0)-1)*h; spec="OCT"+dim(h);
+        formula="A=2(√2−1)s²；P=8(√2−1)s，s 为对边距"; break;
+    case 13: // box with side plates tw, top plate tf, bottom plate c; outer surface only, sharp corners
+        if (b<=0 || tw<=0 || tf<=0 || c<=0 || b<=2*tw || h<=tf+c) return r;
+        a=h*b-(h-tf-c)*(b-2*tw); p=2*(h+b);
+        spec="UBOX"+dim(h)+"x"+dim(b)+"x"+dim(tw)+"x"+dim(tf)+"x"+dim(c);
+        formula="A=hb−(h−tf−c)(b−2tw)；P=2(h+b)，仅外表面"; break;
+    case 14: // welded I with unequal flange widths b (top), c (bottom), equal flange thickness
+        if (b<=tw || c<=tw || tw<=0 || tf<=0 || h<=2*tf) return r;
+        a=(b+c)*tf+(h-2*tf)*tw; p=2*(b+c+h)-2*tw;
+        spec="WHU"+dim(h)+"x"+dim(b)+"x"+dim(c)+"x"+dim(tw)+"x"+dim(tf);
+        formula="A=(b+c)tf+(h−2tf)tw；P=2(b+c+h)−2tw"; break;
     default:return r;
     }
     if (!std::isfinite(a) || !std::isfinite(p) || a<=0 || p<=0) return {};
     r={{"id",QString("formula:v1:%1").arg(shape)},{"spec",spec},{"family",QStringLiteral("非标参数计算")},
         {"standard",QStringLiteral("几何公式 / 非标尺寸")},{"mass",a*0.00785},{"surface",p*0.001},
         {"unit","kg/m"},{"surface_basis",basis},{"source",formula},{"area_mm2",a},
-        {"shape",shape},{"h",h},{"b",b},{"tw",tw},{"tf",tf},{"radius",radius}};
+        {"shape",shape},{"h",h},{"b",b},{"tw",tw},{"tf",tf},{"radius",radius},{"c",c}};
     return r;
 }
 }

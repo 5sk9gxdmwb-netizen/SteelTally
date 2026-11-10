@@ -44,6 +44,7 @@ inline SectionProps sectionProps(const QString& specIn) {
                tw = m.captured(4).toDouble(), tf = m.captured(5).toDouble();
         double h = (h1 + h2) / 2.0;
         double area = 2 * b * tf + (h - 2 * tf) * tw;
+        if (!(tw > 0 && tf > 0 && b > tw && h > 2 * tf)) return r;  // 尺寸无效：不给出重量
         r.ok = true; r.kind = QStringLiteral("TH"); r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = (2 * h + 4 * b) * 1e-3;
         return r;
     }
@@ -55,6 +56,7 @@ inline SectionProps sectionProps(const QString& specIn) {
         double h = m.captured(2).toDouble(), b = m.captured(3).toDouble(), tw = m.captured(4).toDouble();
         double tf = m.captured(5).isEmpty() ? tw : m.captured(5).toDouble();
         double area = 2 * b * tf + (h - 2 * tf) * tw;
+        if (!(tw > 0 && tf > 0 && b > tw && h > 2 * tf)) return r;
         r.ok = true; r.kind = k; r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = (2 * h + 4 * b) * 1e-3;
         return r;
     }
@@ -64,6 +66,7 @@ inline SectionProps sectionProps(const QString& specIn) {
     if (m.hasMatch()) {
         double b = m.captured(1).toDouble(), t = m.captured(2).toDouble();
         double area = t * (2 * b - t);
+        if (!(t > 0 && b > t)) return r;
         r.ok = true; r.kind = QStringLiteral("L"); r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = 2 * (2 * b - t) * 1e-3;
         return r;
     }
@@ -72,7 +75,8 @@ inline SectionProps sectionProps(const QString& specIn) {
     m = re.match(s);
     if (m.hasMatch()) {
         double D = m.captured(1).toDouble(), t = m.captured(2).toDouble();
-        double area = (D > 2 * t) ? (kPi / 4.0 * (D * D - (D - 2 * t) * (D - 2 * t))) : 0.0;
+        if (!(t > 0 && D > 2 * t)) return r;
+        double area = kPi / 4.0 * (D * D - (D - 2 * t) * (D - 2 * t));
         r.ok = true; r.kind = QStringLiteral("PIPE"); r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = kPi * D * 1e-3;
         return r;
     }
@@ -82,6 +86,7 @@ inline SectionProps sectionProps(const QString& specIn) {
     if (m.hasMatch()) {
         double a = m.captured(1).toDouble(), b = m.captured(2).toDouble(), t = m.captured(3).toDouble();
         double area = a * b - (a - 2 * t) * (b - 2 * t);
+        if (!(t > 0 && 2 * t < qMin(a, b))) return r;
         r.ok = true; r.kind = QStringLiteral("SHS"); r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = 2 * (a + b) * 1e-3;
         return r;
     }
@@ -91,6 +96,7 @@ inline SectionProps sectionProps(const QString& specIn) {
     if (m.hasMatch()) {
         double a = m.captured(1).toDouble(), b = m.captured(2).toDouble(), t = m.captured(3).toDouble();
         double area = a * b - (a - 2 * t) * (b - 2 * t);
+        if (!(t > 0 && 2 * t < qMin(a, b))) return r;
         r.ok = true; r.kind = QStringLiteral("BOX"); r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = 2 * (a + b) * 1e-3;
         return r;
     }
@@ -99,6 +105,7 @@ inline SectionProps sectionProps(const QString& specIn) {
     m = re.match(s);
     if (m.hasMatch()) {
         double d = m.captured(1).toDouble();
+        if (!(d > 0)) return r;
         double area = kPi / 4.0 * d * d;
         r.ok = true; r.kind = QStringLiteral("ROD"); r.massPerM = area * 1e-6 * 7850.0; r.surfacePerM = kPi * d * 1e-3;
         return r;
@@ -109,6 +116,7 @@ inline SectionProps sectionProps(const QString& specIn) {
     if (m.hasMatch()) {
         double h = m.captured(2).toDouble(), b = m.captured(3).toDouble(),
                lip = m.captured(4).toDouble(), t = m.captured(5).toDouble();
+        if (!(t > 0 && h > 2 * t && b > 2 * t)) return r;
         double dev = h + 2 * b + 2 * lip - 4 * t;
         r.ok = true; r.kind = m.captured(1); r.massPerM = dev * t * 1e-6 * 7850.0;
         r.surfacePerM = (2 * (h + b) + 2 * lip) * 1e-3;
@@ -119,6 +127,7 @@ inline SectionProps sectionProps(const QString& specIn) {
     m = re.match(s);
     if (m.hasMatch()) {
         double b = m.captured(1).toDouble(), t = m.captured(2).toDouble();
+        if (!(b > 0 && t > 0)) return r;
         r.ok = true; r.kind = QStringLiteral("FB"); r.massPerM = b * t * 1e-6 * 7850.0; r.surfacePerM = 2 * (b + t) * 1e-3;
         return r;
     }

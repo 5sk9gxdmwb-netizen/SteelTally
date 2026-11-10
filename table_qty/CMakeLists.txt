@@ -27,6 +27,8 @@ qt_add_executable(gjg_table_qty MANUAL_FINALIZATION
     src/xlsx.cpp
     src/workspaceextras.cpp
     src/sectioncalculator.cpp
+    src/sectiondrawing.cpp
+    src/calculationtools.cpp
 )
 
 target_include_directories(gjg_table_qty PRIVATE "${CMAKE_CURRENT_BINARY_DIR}/generated")
@@ -44,6 +46,13 @@ target_link_libraries(gjg_table_qty PRIVATE
 
 # Qt imports the matching static platform/image plugins when Qt is static.
 set_target_properties(gjg_table_qty PROPERTIES WIN32_EXECUTABLE TRUE)
+# Embed the product logo and version info with an explicit .rc. Qt's own .rc generator runs inside
+# qt_add_executable, before target properties set here exist, so it would silently produce nothing.
+if(WIN32)
+    enable_language(RC)
+    target_sources(gjg_table_qty PRIVATE steeltally.rc)
+    target_include_directories(gjg_table_qty PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}")
+endif()
 get_target_property(QT_CORE_LIBRARY_TYPE Qt6::Core TYPE)
 if(QT_CORE_LIBRARY_TYPE STREQUAL "STATIC_LIBRARY")
     # Desktop runtime and the existing headless regression suite both need a platform.
@@ -52,6 +61,7 @@ if(QT_CORE_LIBRARY_TYPE STREQUAL "STATIC_LIBRARY")
         Qt6::QOffscreenIntegrationPlugin
         Qt6::QSvgPlugin
         Qt6::QSvgIconPlugin
+        Qt6::QICOPlugin
     )
 endif()
 qt_finalize_executable(gjg_table_qty)

@@ -1,0 +1,3 @@
+E:\SteelTallyToolchain\official-20261110-094827\cmake-3.31.8-windows-x86_64\extracted\cmake-3.31.8-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\gjg_table_qty.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\gjg_table_qty.dir/objects.a @CMakeFiles\gjg_table_qty.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -O3 -DNDEBUG -static -static-libgcc -static-libstdc++ -mwindows -static -Wl,--gc-sections -Wl,--whole-archive CMakeFiles\gjg_table_qty.dir/objects.a -Wl,--no-whole-archive -o gjg_table_qty.exe -Wl,--out-implib,libgjg_table_qty.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gjg_table_qty.dir\linkLibs.rsp

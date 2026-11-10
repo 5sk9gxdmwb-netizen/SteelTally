@@ -4,11 +4,14 @@
  [string]$Ninja='C:\Qt\Tools\mingw1310_64\bin\mingw32-make.exe',
  [ValidateSet('Ninja','MinGW Makefiles')][string]$Generator='MinGW Makefiles',
  [string]$CompilerRoot='C:\Qt\Tools\mingw1310_64',
+ [switch]$DisableUpdates, [string]$UpdateConfig='',
  [string]$UpdateUrl='',
  [string]$UpdatePublicKeyFile='',
+ [string]$PublishDirectory='',
  [string]$BuildRoot=(Join-Path $env:TEMP ('SteelTally-static-app-'+[guid]::NewGuid().ToString('N')))
 )
 $ErrorActionPreference='Stop'
+if(-not $UpdateConfig){$UpdateConfig=Join-Path $PSScriptRoot 'update-release.json'}
 if($BuildRoot -match '[^\x00-\x7F]'){throw 'BuildRoot must be ASCII'}
 if(Test-Path -LiteralPath $BuildRoot){throw 'BuildRoot must be new'}
 $config=Join-Path $QtPrefix 'mkspecs\qconfig.pri'
@@ -34,13 +37,22 @@ foreach($entry in $qrc.RCC.qresource.file){
 $qrc.Save($qrcPath)
 $build=Join-Path $BuildRoot 'build'
 $updateKey=''
+if($DisableUpdates){
+ if($UpdateUrl -or $UpdatePublicKeyFile){throw 'DisableUpdates conflicts with explicit update source'}
+ $UpdateUrl=''
+}elseif(-not $UpdateUrl -and -not $UpdatePublicKeyFile){
+ $releaseConfig=Get-Content -LiteralPath $UpdateConfig -Raw -Encoding UTF8 | ConvertFrom-Json
+ $UpdateUrl=[string]$releaseConfig.url
+ $updateKey=[string]$releaseConfig.public_key
+ if(-not $UpdateUrl -or -not $updateKey){throw 'Release update config is incomplete'}
+}
 if($UpdatePublicKeyFile){$updateKey=[IO.File]::ReadAllText((Resolve-Path -LiteralPath $UpdatePublicKeyFile).Path).Trim()}
-if($UpdateUrl -and (-not $UpdatePublicKeyFile)){throw 'UpdatePublicKeyFile is required with UpdateUrl'}
+if($UpdateUrl -and (-not $updateKey)){throw 'UpdatePublicKeyFile is required with UpdateUrl'}
 & $CMake -S $source -B $build "-DSTEELTALLY_UPDATE_URL=$UpdateUrl" "-DSTEELTALLY_UPDATE_PUBLIC_KEY=$updateKey" -G $Generator "-DCMAKE_MAKE_PROGRAM=$Ninja" "-DCMAKE_PREFIX_PATH=$QtPrefix" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_CXX_COMPILER=$CompilerRoot/bin/g++.exe" "-DCMAKE_C_COMPILER=$CompilerRoot/bin/gcc.exe" '-DCMAKE_EXE_LINKER_FLAGS=-static -static-libgcc -static-libstdc++'
 if($LASTEXITCODE){throw 'Static application configure failed'}
 & $CMake --build $build --parallel 6
 if($LASTEXITCODE){throw 'Static application build failed'}
-$publish=Join-Path $PSScriptRoot 'release-static'
+$publish=if($PublishDirectory){$PublishDirectory}else{Join-Path $PSScriptRoot 'release-static'}
 if(Test-Path $publish){
  $backup=Join-Path $PSScriptRoot ('旧版可删\release-static-'+(Get-Date -Format 'yyyyMMdd-HHmmss-fff'))
  New-Item -ItemType Directory -Path (Split-Path $backup) -Force | Out-Null

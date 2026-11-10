@@ -1,0 +1,21 @@
+--- a/src/plugins/tls/schannel/qtls_schannel.cpp
++++ b/src/plugins/tls/schannel/qtls_schannel.cpp
+@@ -1849,15 +1849,9 @@
+     bool hadIncompleteData = false;
+     const auto readBufferMaxSize = d->maxReadBufferSize();
+     while (!readBufferMaxSize || buffer.size() < readBufferMaxSize) {
+-        if (missingData > plainSocket->bytesAvailable()
+-            && (!readBufferMaxSize || readBufferMaxSize >= missingData)) {
+-#ifdef QSSLSOCKET_DEBUG
+-            qCDebug(lcTlsBackendSchannel, "We're still missing %lld bytes, will check later.",
+-                    missingData);
+-#endif
+-            break;
+-        }
+-
++        // Consume partial encrypted input instead of waiting for the entire missing
++        // TLS record in QTcpSocket: its bounded buffer can be smaller than missingData.
++        // The incomplete-data branch below stops when no new bytes are available.
+         missingData = 0;
+         const qint64 bytesRead = readToBuffer(intermediateBuffer, plainSocket);
+ #ifdef QSSLSOCKET_DEBUG

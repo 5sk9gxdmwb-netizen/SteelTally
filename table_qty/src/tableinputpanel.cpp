@@ -4,6 +4,7 @@
 #include "pasteutils.h"
 #include "partcatalog.h"
 #include "sectioncalculator.h"
+#include "calculationtools.h"
 #include <QtWidgets>
 #include <cmath>
 #include <functional>
@@ -216,7 +217,23 @@ void TableInputPanel::buildUi() {
     auto* calculate = new QPushButton(QStringLiteral("型材查询 / 计算"), this);
     calculate->setObjectName("toggleCalculator");
     calculate->setCheckable(true);floorBar->addWidget(calculate);
-    auto* undoCalc = new QPushButton(QStringLiteral("撤销本次计算"),this);floorBar->addWidget(undoCalc);
+    auto* tools = new QPushButton(QStringLiteral("计算工具"), this);
+    tools->setObjectName("calculationTools");
+    auto* toolMenu = new QMenu(tools);
+    static const QStringList toolNames{QStringLiteral("面积重量计算器"), QStringLiteral("围护板计算器"),
+        QStringLiteral("曲线构件重量"), QStringLiteral("高强度螺栓抗滑移"), QStringLiteral("钢楼梯 / 栏杆校核")};
+    for (int kind = 0; kind < toolNames.size(); ++kind) {
+        auto* open = toolMenu->addAction(toolNames[kind]);
+        open->setObjectName(QStringLiteral("openTool%1").arg(kind));
+        connect(open, &QAction::triggered, this, [this, kind] {   // 每个工具一个独立窗口，重复点击只前置
+            QPointer<QWidget>& w = toolWindows[kind];
+            if (!w) w = createCalculationTool(kind, this);
+            if (!w) return;
+            w->show(); w->raise(); w->activateWindow();
+        });
+    }
+    tools->setMenu(toolMenu);floorBar->addWidget(tools);
+    auto* undoCalc = new QPushButton(QStringLiteral("撤销本次计算"),this);undoCalc->setObjectName("undoCalculation");floorBar->addWidget(undoCalc);
     floorBar->addStretch();
     root->addWidget(floorFrame);
     auto* split = new QSplitter(Qt::Horizontal, this);
@@ -320,12 +337,19 @@ auto* nodeAction = new QAction(QStringLiteral("参数节点零件…"), table);
     footer = new QLabel(this); footer->setObjectName(QStringLiteral("inputFooter")); right->addWidget(footer);
     split->setStretchFactor(0, 0); split->setStretchFactor(1, 0); split->setStretchFactor(2, 1);
     split->setSizes({140, 240, 1170});
-    auto* scroll = new QScrollArea(split);
-    scroll->setWidgetResizable(true);scroll->setMinimumWidth(385);
-    calculator = new SectionCalculator(scroll);scroll->setWidget(calculator);
-    split->addWidget(scroll);scroll->hide();
-    connect(calculate,&QPushButton::toggled,this,[this,scroll](bool on){
-        scroll->setVisible(on);if(on)syncCalculator();
+    // The calculator is one reusable, resizable, non-modal top-level window owned by this panel.
+    calculator = new SectionCalculator(this);
+    calculator->setWindowFlag(Qt::Window,true);
+    calculator->setWindowTitle(QStringLiteral("型材查询 / 计算"));
+    calculator->setWindowIcon(QIcon(QStringLiteral(":/assets/icons/light/product/App/logo.ico")));
+    calculator->setMinimumSize(650,540);calculator->resize(940,700);
+    calculator->hide();
+    connect(calculate,&QPushButton::toggled,this,[this](bool on){
+        if(!on){calculator->close();return;}
+        syncCalculator();calculator->show();calculator->raise();calculator->activateWindow();
+    });
+    connect(calculator,&SectionCalculator::windowClosed,calculate,[calculate]{
+        const QSignalBlocker block(calculate);calculate->setChecked(false);
     });
     connect(calculator,&SectionCalculator::commitRequested,this,&TableInputPanel::commitCalculation);
     connect(table,&QTableWidget::currentCellChanged,this,[this]{
@@ -672,6 +696,35 @@ bool TableInputPanel::runCalculationChecks(QString* error) {
         std::abs(rowCalc(project->elements[0],project->elements[0].parts[0]).unitWeight-expected)<1e-9,"invalid dimensions do not overwrite"))return false;
     if(!check(sectionlib::formula(0,10,20,5,6).isEmpty() &&
         sectionlib::formula(2,100,50,30,0).isEmpty(),"invalid geometry rejected"))return false;
+    // Typed-spec fallbacks must not report 0 kg or nonsense for impossible sizes.
+    if(!check(!sectionProps("PIPE114X60").ok && !sectionProps("SHS100X100X60").ok &&
+        !sectionProps("H100X200X8X60").ok && sectionProps("PIPE114X4").ok,"legacy spec fallback rejects impossible sizes"))return false;
+    {
+        // Shapes 6-14 against hand calculations (A mm², P mm; mass = A·0.00785 kg/m, surface = P·0.001 m²/m).
+        auto near=[](const QJsonObject& r,double a,double p){return !r.isEmpty() && std::abs(r["area_mm2"].toDouble()-a)<1e-6*a &&
+            std::abs(r["mass"].toDouble()-a*0.00785)<1e-9*a && std::abs(r["surface"].toDouble()-p*0.001)<1e-9*p;};
+        // Independent polygon check for the lipped C: shoelace area and edge-sum perimeter.
+        const double ch=160,cb=60,cc=20,ct=2.5;
+        const QVector<QPointF> poly={{0,0},{cb,0},{cb,cc},{cb-ct,cc},{cb-ct,ct},{ct,ct},{ct,ch-ct},{cb-ct,ch-ct},{cb-ct,ch-cc},{cb,ch-cc},{cb,ch},{0,ch}};
+        double pa=0,pp=0;for(int i=0;i<poly.size();++i){const auto a=poly[i],z=poly[(i+1)%poly.size()];pa+=a.x()*z.y()-z.x()*a.y();pp+=std::hypot(z.x()-a.x(),z.y()-a.y());}
+        const double fillet=(2-kPi/2)*10*10;
+        if(!check(near(sectionlib::formula(6,200,100,10,20),3800,600) && near(sectionlib::formula(6,200,100,10,20,10),3800+fillet,600-2*(2-kPi/2)*10) &&
+            near(sectionlib::formula(7,200,75,6,10),2580,688) &&
+            near(sectionlib::formula(8,ch,cb,ct,0,0,cc),std::abs(pa)/2,pp) &&
+            near(sectionlib::formula(8,ch,cb,ct,0,0,cc),775,625) && near(sectionlib::formula(9,ch,cb,ct,0,0,cc),775,625) &&
+            near(sectionlib::formula(10,40,25,0,0),1000,130) &&
+            near(sectionlib::formula(11,20,0,0,0),std::sqrt(3.0)/2*400,2*std::sqrt(3.0)*20) &&
+            near(sectionlib::formula(12,20,0,0,0),2*(std::sqrt(2.0)-1)*400,8*(std::sqrt(2.0)-1)*20) &&
+            near(sectionlib::formula(13,300,200,10,20,0,30),15000,1000) && near(sectionlib::formula(14,400,200,8,12,0,150),7208,1484),
+            "custom shapes 6-14 match hand calculations"))return false;
+        if(!check(sectionlib::formula(8,160,60,2.5,0,0,0).isEmpty() && sectionlib::formula(8,40,60,2.5,0,0,20).isEmpty() &&
+            sectionlib::formula(6,10,50,5,10).isEmpty() && sectionlib::formula(11,0,0,0,0).isEmpty() &&
+            sectionlib::formula(13,50,100,10,30,0,20).isEmpty() && sectionlib::formula(14,100,5,8,10,0,50).isEmpty() &&
+            sectionlib::formula(15,10,10,1,1).isEmpty(),"new shapes reject non-fitting dimensions"))return false;
+        const auto angle=sectionlib::formula(4,100,80,8,0,5,7);
+        if(!check(angle["radius"].toDouble()==0 && angle["c"].toDouble()==0 && sectionlib::formula(6,200,100,10,20,10,7)["c"].toDouble()==0,
+            "unused radius and c are not stored"))return false;
+    }
     Part missing;missing.spec="UNKNOWN_SECTION";
     if(!check(!std::isfinite(rowCalc(e,missing).unitWeight),"unknown spec not silently zero"))return false;
     Part ar;ar.spec="AreaTest";ar.calculation={{"id","area-test"},{"spec","AreaTest"},{"mass",78.5},
@@ -684,15 +737,54 @@ bool TableInputPanel::runCalculationChecks(QString* error) {
         "incomplete project identified"))return false;
     copyElement();
     if(!check(project->elements[0].parts[0].id!=project->elements.last().parts[0].id,"copied components have distinct row identity"))return false;
+    {
+        // Undo: restores the exact pre-commit part, and refuses once another edit touched the row.
+        selectElement(0);table->setCurrentCell(rowFor(0,0),Spec);
+        // Consecutive commits on one part form a single undo step, so break any earlier chain first.
+        project->elements[0].parts[0].name=QStringLiteral("undo baseline");syncCalculator();
+        auto* undo=findChild<QPushButton*>("undoCalculation");
+        if(!check(undo!=nullptr,"undo button is addressable"))return false;
+        const auto beforeUndo=project->elements[0].parts[0].toJson();
+        commitCalculation(record,2500,1,"Q355B",true);
+        if(!check(project->elements[0].parts[0].toJson()!=beforeUndo && std::abs(project->elements[0].parts[0].lengthMm-2500)<1e-9,"undo test commit changes the row"))return false;
+        undo->click();
+        if(!check(project->elements[0].parts[0].toJson()==beforeUndo,"undo restores the exact previous part"))return false;
+        commitCalculation(record,2600,1,"Q355B",true);commitCalculation(record,2700,1,"Q355B",true);
+        undo->click();
+        if(!check(project->elements[0].parts[0].toJson()==beforeUndo,"consecutive commits undo as one step to the original part"))return false;
+        commitCalculation(record,3100,1,"Q355B",true);
+        project->elements[0].parts[0].name=QStringLiteral("edited elsewhere");
+        const auto afterOtherEdit=project->elements[0].parts[0].toJson();
+        undo->click();
+        if(!check(project->elements[0].parts[0].toJson()==afterOtherEdit,"undo refuses to overwrite a later edit"))return false;
+        syncCalculator();
+    }
     // Use the actual widget for the deliverable screenshot, without opening a desktop window.
     selectElement(0);table->setCurrentCell(rowFor(0,0),Spec);
     calculator->findChild<QDoubleSpinBox*>("dimensionTw")->setValue(5);
-    findChild<QPushButton*>("toggleCalculator")->setChecked(true);
+    auto* toggle=findChild<QPushButton*>("toggleCalculator");
     resize(1620,920);show();QCoreApplication::processEvents();
+    auto* windowPtr=calculator;
+    toggle->setChecked(true);QCoreApplication::processEvents();
+    if(!check(calculator->isWindow() && calculator->isVisible() && !calculator->isModal() && calculator->parentWidget()==this,"calculator opens as a visible non-modal top-level window"))return false;
+    calculator->resize(1100,760);QCoreApplication::processEvents();
+    if(!check(calculator->size().width()>=1000 && calculator->minimumWidth()<=650,"calculator window is resizable"))return false;
+    toggle->setChecked(false);QCoreApplication::processEvents();
+    if(!check(!calculator->isVisible() && !toggle->isChecked(),"toggle off closes the window"))return false;
+    toggle->setChecked(true);QCoreApplication::processEvents();
+    if(!check(calculator==windowPtr && calculator->isVisible() && toggle->isChecked(),"repeated open reuses the same window"))return false;
+    live->setChecked(true);calculator->close();QCoreApplication::processEvents();
+    if(!check(!calculator->isVisible() && !toggle->isChecked() && !live->isChecked(),"closing the window disarms live write-back and unchecks the toggle"))return false;
+    const double lengthAtClose=project->elements[0].parts[0].lengthMm;
+    length->setValue(lengthAtClose+500);
+    if(!check(std::abs(project->elements[0].parts[0].lengthMm-lengthAtClose)<1e-9,"closed window does not write to the row"))return false;
+    toggle->setChecked(true);QCoreApplication::processEvents();
+    if(!check(calculator==windowPtr && calculator->isVisible() && !live->isChecked(),"reopen after close is safe and starts without live write-back"))return false;
     const auto args=QCoreApplication::arguments();const int out=args.indexOf("--selftest-dir");
     if(out>=0 && out+1<args.size()) {
         QDir().mkpath(args[out+1]);
-        if(!check(grab().save(QDir(args[out+1]).filePath("ui_calculator.png")),"calculator screenshot"))return false;
+        if(!check(grab().save(QDir(args[out+1]).filePath("ui_input_panel_with_calculator_window.png")) &&
+            calculator->grab().save(QDir(args[out+1]).filePath("ui_calculator.png")),"calculator window and panel screenshots"))return false;
         const QString outputFolder=args.at(out+1);
         QFile f{QDir(outputFolder).filePath("calculator-project.json")};
         if(!check(f.open(QIODevice::WriteOnly) && f.write(QJsonDocument(project->toJson()).toJson())>0,"sample project persisted"))return false;
@@ -706,10 +798,10 @@ bool TableInputPanel::runCalculationChecks(QString* error) {
         calculator->findChild<QListWidget*>("sectionResults")->setCurrentRow(1);
         commitCalculation(newEdition,1000,1,"Q355B",true);
         calculator->findChild<QPushButton*>("applyCalculation")->click();
-        if(!check(grab().save(QDir(outputFolder).filePath("ui_standard_library.png")) &&
+        if(!check(calculator->grab().save(QDir(outputFolder).filePath("ui_standard_library.png")) &&
             newEdition["id"]!=oldEdition["id"],"standard library screenshot and edition identity"))return false;
     }
-    hide();return true;
+    calculator->close();hide();return true;
 }
 
 void TableInputPanel::cellChanged(int row, int column) {

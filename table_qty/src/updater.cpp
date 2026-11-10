@@ -29,6 +29,11 @@
 #include <QProcess>
 #include <QUuid>
 #include <QSet>
+#include <QEventLoop>
+#include <QElapsedTimer>
+#include <QNetworkCookieJar>
+#include <QNetworkCookie>
+#include <functional>
 #include <QtEndian>
 #include <cmath>
 #include <cstdio>
@@ -308,13 +313,94 @@ bool verifyFile(const QString& path, const Release& release, QString* error) {
 }
 
 namespace {
+// A fresh manager plus a deny-all jar also prevents Qt's redirect path from adding cookies.
+class NoCookies : public QNetworkCookieJar {
+public:
+    QList<QNetworkCookie> cookiesForUrl(const QUrl&) const override { return {}; }
+    bool setCookiesFromUrl(const QList<QNetworkCookie>&, const QUrl&) override { return false; }
+};
+bool allowRedirect(const QUrl& url, int count) { return https(url) && count <= 5; }
+bool acceptsBody(int status) { return status == 200; }
+// One shared network/data path for Controller and the download-only diagnostic.
+class Transfer : public QObject {
+public:
+    QNetworkAccessManager network;
+    QNetworkReply* reply = nullptr;
+    QTimer deadline, inactivity;
+    QString failure;
+    qint64 received = 0, limit = 0;
+    int redirects = 0, httpStatus = 0, networkError = 0;
+    QElapsedTimer elapsed;
+    qint64 lastDataMs = 0, progressBytes = 0;
+    int readyEvents = 0;
+    std::function<bool(const QByteArray&)> sink;
+    std::function<void(bool, const QString&)> done;
+    Transfer(QObject* parent = nullptr) : QObject(parent), network(this) {
+        network.setCookieJar(new NoCookies);
+        inactivity.setSingleShot(true);
+        connect(&inactivity, &QTimer::timeout, this, [this] { cancel(QStringLiteral("更新请求15秒无传输进展")); });
+        deadline.setSingleShot(true);
+        connect(&deadline, &QTimer::timeout, this, [this] { cancel(QStringLiteral("更新请求总时限已到")); });
+    }
+    void cancel(const QString& reason) { failure = reason; if (reply) reply->abort(); }
+    void drain() {
+        // Qt can deliver 3xx data before redirected(); discard it before the sink.
+        consume(reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt(), reply->read(64 * 1024),
+                reply->header(QNetworkRequest::ContentLengthHeader).toLongLong());
+    }
+    void consume(int status, const QByteArray& data, qint64 contentLength) {
+        if (!acceptsBody(status)) return;
+        if (contentLength > limit || received + data.size() > limit) {
+            cancel(QStringLiteral("响应超过大小限制")); return;
+        }
+        if (!data.isEmpty()) { inactivity.start(15000); lastDataMs = elapsed.elapsed(); }
+        received += data.size();
+        if (!data.isEmpty() && !sink(data)) cancel(QStringLiteral("响应写入失败"));
+    }
+    void start(const QUrl& url, qint64 maximum, int milliseconds) {
+        if (!elapsed.isValid()) { elapsed.start(); deadline.start(milliseconds); inactivity.start(15000); }
+        limit = maximum;
+        if (!https(url)) { done(false, QStringLiteral("拒绝不安全 HTTPS 地址")); return; }
+        QNetworkRequest req(url);
+        req.setAttribute(QNetworkRequest::RedirectPolicyAttribute, QNetworkRequest::ManualRedirectPolicy);
+        req.setMaximumRedirectsAllowed(5);
+        req.setAttribute(QNetworkRequest::CookieLoadControlAttribute, QNetworkRequest::Manual);
+        req.setAttribute(QNetworkRequest::CookieSaveControlAttribute, QNetworkRequest::Manual);
+        req.setAttribute(QNetworkRequest::AuthenticationReuseAttribute, QNetworkRequest::Manual);
+        req.setRawHeader("Accept-Encoding", "identity");
+        // Both time limits belong to the complete transaction, not each redirect hop.
+        reply = network.get(req);
+        reply->setReadBufferSize(128 * 1024);
+        connect(reply, &QNetworkReply::sslErrors, this, [this](const QList<QSslError>&) { cancel(QStringLiteral("HTTPS 证书校验失败")); });
+        connect(reply, &QNetworkReply::downloadProgress, this, [this](qint64 value, qint64) { progressBytes = value; });
+        connect(reply, &QNetworkReply::readyRead, this, [this] { ++readyEvents; while (reply && reply->bytesAvailable() > 0 && failure.isEmpty()) drain(); });
+        connect(reply, &QNetworkReply::finished, this, [this] {
+            if (reply->isOpen()) drain();
+            const int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+            if (failure.isEmpty() && (status == 301 || status == 302 || status == 303 || status == 307 || status == 308)) {
+                const QUrl target = reply->url().resolved(reply->attribute(QNetworkRequest::RedirectionTargetAttribute).toUrl());
+                reply->deleteLater(); reply = nullptr;
+                if (allowRedirect(target, ++redirects)) { start(target, limit, 0); return; }
+                failure = QStringLiteral("拒绝不安全或过多 HTTPS 跳转");
+                deadline.stop(); inactivity.stop(); done(false, failure); return;
+            }
+            deadline.stop(); inactivity.stop();
+            const auto code = reply->error();
+            httpStatus = status; networkError = int(code);
+            const bool ok = failure.isEmpty() && code == QNetworkReply::NoError && status == 200;
+            // errorString can contain signed query strings: numeric diagnostics only.
+            if (!ok && failure.isEmpty()) failure = QStringLiteral("网络请求失败（Qt %1，HTTP %2）").arg(int(code)).arg(status);
+            reply->deleteLater(); reply = nullptr;
+            done(ok, failure);
+        });
+    }
+};
 class Controller : public QObject {
     QMainWindow* window;
     QLabel* label;
     QAction* checkAction;
-    QNetworkAccessManager network;
-    QNetworkReply* reply = nullptr;
-    QTimer deadline, interval;
+    Transfer* transfer = nullptr;
+    QTimer interval;
     QProgressDialog* progress = nullptr;
     QFile output;
     QByteArray bytes, envelope;
@@ -331,36 +417,21 @@ class Controller : public QObject {
         }
         if (manual) QMessageBox::information(window, QStringLiteral("在线更新"), message);
     }
-    void abort(const QString& reason) { failure = reason; if (reply) reply->abort(); }
+    void abort(const QString& reason) { if (transfer) transfer->cancel(reason); }
     void request(const QUrl& url) {
         failure.clear(); bytes.clear();
-        QNetworkRequest req(url);
-        req.setAttribute(QNetworkRequest::RedirectPolicyAttribute, QNetworkRequest::ManualRedirectPolicy);
-        req.setRawHeader("Accept-Encoding", "identity");
-        req.setTransferTimeout(15000);
-        reply = network.get(req);
-        reply->setReadBufferSize(128 * 1024);
-        deadline.start(downloading ? 10 * 60 * 1000 : 30000);
-        connect(reply, &QNetworkReply::sslErrors, this, [this](const QList<QSslError>&) { abort(QStringLiteral("HTTPS 证书校验失败")); });
-        connect(reply, &QNetworkReply::readyRead, this, [this]() {
-            const QByteArray data = reply->readAll();
-            const qint64 length = reply->header(QNetworkRequest::ContentLengthHeader).toLongLong();
-            if (length > (downloading ? release.size : MaxEnvelope)) { abort(QStringLiteral("响应超过大小限制")); return; }
+        transfer = new Transfer(this);
+        transfer->sink = [this](const QByteArray& data) {
             if (downloading) {
-                if (output.size() + data.size() > release.size || output.write(data) != data.size()) abort(QStringLiteral("下载大小超限或磁盘写入失败"));
+                if (output.write(data) != data.size()) return false;
                 if (progress) progress->setValue(int(output.size() * 100 / release.size));
-            } else {
-                if (bytes.size() + data.size() > MaxEnvelope) { abort(QStringLiteral("更新清单过大")); return; }
-                bytes += data;
-            }
-        });
-        connect(reply, &QNetworkReply::finished, this, [this]() {
-            deadline.stop();
-            auto* finished = reply; reply = nullptr;
-            const bool ok = failure.isEmpty() && finished->error() == QNetworkReply::NoError
-                && finished->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt() == 200;
-            if (!ok && failure.isEmpty()) failure = QStringLiteral("网络请求失败：%1（HTTP %2）").arg(finished->errorString()).arg(finished->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt());
-            finished->deleteLater(); checkAction->setEnabled(true);
+            } else bytes += data;
+            return true;
+        };
+        transfer->done = [this](bool ok, const QString& errorMessage) {
+            failure = errorMessage;
+            transfer->deleteLater(); transfer = nullptr;
+            checkAction->setEnabled(true);
             if (progress) { progress->hide(); progress->deleteLater(); progress = nullptr; }
             if (downloading) output.close();
             if (!ok) { report(failure); return; }
@@ -383,7 +454,8 @@ class Controller : public QObject {
             QMessageBox box(QMessageBox::Question, QStringLiteral("发现更新"), QStringLiteral("版本 %1\n\n%2\n\n是否下载完整 EXE？下载期间可以继续编辑。").arg(release.version, release.notes), QMessageBox::Yes | QMessageBox::No, window);
             box.setTextFormat(Qt::PlainText); box.setDefaultButton(QMessageBox::No);
             if (box.exec() == QMessageBox::Yes) download();
-        });
+        };
+        transfer->start(url, downloading ? release.size : MaxEnvelope, downloading ? 600000 : 30000);
     }
     void download() {
         stage = QDir(QDir::tempPath()).filePath(StagePrefix + uniqueId()); nonce = uniqueId();
@@ -432,9 +504,7 @@ class Controller : public QObject {
 #endif
     }
 public:
-    Controller(QMainWindow* w, QLabel* l, QAction* a) : QObject(w), window(w), label(l), checkAction(a), network(this) {
-        deadline.setSingleShot(true);
-        connect(&deadline, &QTimer::timeout, this, [this]() { abort(QStringLiteral("更新请求超时")); });
+    Controller(QMainWindow* w, QLabel* l, QAction* a) : QObject(w), window(w), label(l), checkAction(a) {
         connect(a, &QAction::triggered, this, [this]() { check(true); });
         connect(&interval, &QTimer::timeout, this, [this]() { check(false); });
         interval.start(6 * 60 * 60 * 1000);
@@ -444,7 +514,7 @@ public:
     }
     bool configured() const { return https(QUrl(QString::fromUtf8(STEELTALLY_UPDATE_URL), QUrl::StrictMode)) && !trustedKey().isEmpty(); }
     void check(bool explicitCheck) {
-        if (reply) { if (explicitCheck) abort(QStringLiteral("检查已取消")); return; }
+        if (transfer) { if (explicitCheck) abort(QStringLiteral("检查已取消")); return; }
         manual = explicitCheck; downloading = false;
         if (!configured()) { if (explicitCheck) report(QStringLiteral("未配置更新源。需要构建时配置 HTTPS 地址和受信 RSA 公钥，当前可离线使用。")); return; }
         status(QStringLiteral("正在检查更新（再次点击可取消）"));
@@ -453,6 +523,7 @@ public:
 };
 }
 void attach(QMainWindow* window, QLabel* label, QAction* action) { new Controller(window, label, action); }
+bool configured() { return https(QUrl(QString::fromUtf8(STEELTALLY_UPDATE_URL), QUrl::StrictMode)) && !trustedKey().isEmpty(); }
 void acknowledgeHealth(const QStringList& args) {
 #ifdef Q_OS_WIN
     const int index = args.indexOf("--update-health");
@@ -473,6 +544,24 @@ void acknowledgeHealth(const QStringList& args) {
 static int selftest(const QString& path) {
     QJsonArray checks;
     auto test = [&](const QString& name, bool ok) { checks.append(QJsonObject{{"name",name},{"ok",ok}}); };
+    test("redirect-reject-http", !allowRedirect(QUrl("http://example.com/a"),1));
+    test("redirect-reject-credentials", !allowRedirect(QUrl("https://user@example.com/a"),1));
+    test("redirect-reject-port", !allowRedirect(QUrl("https://example.com:444/a"),1));
+    test("redirect-reject-malformed", !allowRedirect(QUrl("https:///"),1));
+    test("redirect-reject-fragment", !allowRedirect(QUrl("https://example.com/a#x"),1));
+    test("redirect-limit", allowRedirect(QUrl("https://other.example/a?token=x"),5) && !allowRedirect(QUrl("https://other.example/a"),6));
+    QByteArray collected;
+    Transfer synthetic;
+    synthetic.limit = 5;
+    synthetic.sink = [&](const QByteArray& data) { collected += data; return true; };
+    synthetic.consume(302,"redirect-body",999999);
+    synthetic.consume(307,"another-body",999999);
+    synthetic.consume(200,"final",5);
+    test("redirect-body-excluded", collected == "final" && synthetic.received == 5 && synthetic.failure.isEmpty());
+    synthetic.consume(200,"overflow",8);
+    test("transfer-size-limit", !synthetic.failure.isEmpty() && collected == "final");
+    synthetic.cancel("cancelled");
+    test("transfer-cancellation", synthetic.failure == "cancelled");
     int parts[3];
     test("numeric-version", compareVersions("1.10.0", "1.9.99") == 1 && compareVersions("1.0.3", "1.0.3") == 0);
     test("invalid-versions", !parseVersion("01.2.3",parts) && !parseVersion("1.2",parts) && !parseVersion("1.2.3-beta",parts) && !parseVersion("9999999.0.0",parts));
@@ -545,7 +634,37 @@ static int selftest(const QString& path) {
     std::printf("updater-selftest: %s checks=%d\n",ok?"ok":"FAILED",int(checks.size()));
     return ok ? 0 : 1;
 }
+static int networkTest(const QString& path) {
+    if (QFileInfo::exists(path) || !QDir().mkpath(path)) return 2;
+    QJsonArray transfers;
+    QString error;
+    auto fetch = [&](const QUrl& url, qint64 maximum, QFile* file, QByteArray* memory) {
+        Transfer transfer;
+        QEventLoop loop;
+        bool ok = false;
+        transfer.sink = [&](const QByteArray& data) { if (file) return file->write(data) == data.size(); *memory += data; return true; };
+        transfer.done = [&](bool success, const QString& message) { ok = success; error = message; loop.quit(); };
+        transfer.start(url, maximum, file ? 600000 : 30000);
+        if (transfer.reply) loop.exec();
+        transfers.append(QJsonObject{{"ok",ok},{"redirects",transfer.redirects},{"bytes",double(transfer.received)},{"elapsed_ms",double(transfer.elapsed.elapsed())},
+            {"last_data_ms",double(transfer.lastDataMs)},{"ready_events",transfer.readyEvents},{"download_progress",double(transfer.progressBytes)},{"http_status",transfer.httpStatus},{"qt_error",transfer.networkError},{"abort_reason",transfer.failure}});
+        return ok;
+    };
+    QByteArray envelope; Release release;
+    bool ok = configured() && fetch(QUrl(QString::fromUtf8(STEELTALLY_UPDATE_URL)), MaxEnvelope, nullptr, &envelope);
+    if (ok) { writeBytes(QDir(path).filePath("manifest.json"),envelope); ok = verifyEnvelope(envelope,trustedKey(),&release,&error); }
+    QFile file(QDir(path).filePath("download.exe"));
+    if (ok) { ok = file.open(QIODevice::WriteOnly | QIODevice::NewOnly); if (!ok) error = "Cannot create download"; }
+    if (ok) ok = fetch(release.url,release.size,&file,nullptr);
+    file.close();
+    if (ok) ok = verifyFile(file.fileName(),release,&error);
+    const QJsonObject result{{"ok",ok},{"error",error},{"version",release.version},{"size",double(release.size)},
+        {"sha256",release.sha256},{"transfers",transfers},{"installed",false},{"trust","embedded production public key"}};
+    writeBytes(QDir(path).filePath("result.json"),QJsonDocument(result).toJson());
+    return ok ? 0 : 1;
+}
 int commandMode(const QStringList& args) {
+    if (args.contains("--update-network-test")) return args.size() == 3 && args[1] == "--update-network-test" ? networkTest(args[2]) : 2;
     if (args.contains("--update-helper")) {
 #ifdef Q_OS_WIN
         return args.size() == 3 && args[1] == "--update-helper" ? helper(args[2]) : 20;

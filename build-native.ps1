@@ -1,7 +1,9 @@
 ﻿param([string]$QtRoot='C:\Qt\6.8.3\mingw_64',[string]$CompilerRoot='C:\Qt\Tools\mingw1310_64',
-      [string]$UpdateUrl='', [string]$UpdatePublicKeyFile='',
+      [switch]$DisableUpdates, [string]$UpdateConfig='',
+ [string]$UpdateUrl='', [string]$UpdatePublicKeyFile='',
       [string]$BuildRoot=(Join-Path $env:TEMP ('SteelTally-native-' + [guid]::NewGuid().ToString('N'))))
 $ErrorActionPreference='Stop'
+if(-not $UpdateConfig){$UpdateConfig=Join-Path $PSScriptRoot 'update-release.json'}
 $env:PATH="$CompilerRoot\bin;$QtRoot\bin;$env:SystemRoot\System32;$env:SystemRoot"
 if ($BuildRoot -match '[^\x00-\x7F]') { throw 'BuildRoot must be an ASCII path' }
 if (Test-Path -LiteralPath $BuildRoot) { throw 'BuildRoot must be a new directory' }
@@ -9,6 +11,15 @@ New-Item -ItemType Directory -Path $BuildRoot | Out-Null
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'table_qty\src') -Destination $BuildRoot -Recurse
 $src=Join-Path $BuildRoot 'src'
 $updateKey=''
+if($DisableUpdates){
+ if($UpdateUrl -or $UpdatePublicKeyFile){throw 'DisableUpdates conflicts with explicit update source'}
+ $UpdateUrl=''
+}elseif(-not $UpdateUrl -and -not $UpdatePublicKeyFile){
+ $releaseConfig=Get-Content -LiteralPath $UpdateConfig -Raw -Encoding UTF8 | ConvertFrom-Json
+ $UpdateUrl=[string]$releaseConfig.url
+ $updateKey=[string]$releaseConfig.public_key
+ if(-not $UpdateUrl -or -not $updateKey){throw 'Release update config is incomplete'}
+}
 if($UpdatePublicKeyFile){$updateKey=[IO.File]::ReadAllText((Resolve-Path -LiteralPath $UpdatePublicKeyFile).Path).Trim()}
 if($UpdateUrl -and -not $updateKey){throw 'Update public key required'}
 if($UpdateUrl -and ($UpdateUrl -notmatch '^https://' -or $UpdateUrl -match '["\\\r\n]')){throw 'Invalid HTTPS update URL'}
@@ -31,8 +42,12 @@ foreach($name in @('mainwindow','tableinputpanel','sectioncalculator')) {
     if($LASTEXITCODE){throw "moc failed: $name"}
     $moc+=$target
 }
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'table_qty\steeltally.rc') -Destination $BuildRoot
+$iconResource=Join-Path $out 'steeltally-res.o'
+& "$CompilerRoot\bin\windres.exe" "-I$BuildRoot" (Join-Path $BuildRoot 'steeltally.rc') -O coff -o $iconResource
+if($LASTEXITCODE){throw 'Windows icon/version resource compilation failed'}
 $files=Get-ChildItem -LiteralPath $src -Filter '*.cpp' -File | Select-Object -ExpandProperty FullName
-& "$CompilerRoot\bin\g++.exe" -std=c++17 -O2 -mwindows -DNDEBUG -DUNICODE -D_UNICODE @include @files @moc $resources "-L$QtRoot\lib" -lQt6Widgets -lQt6Svg -lQt6PrintSupport -lQt6Gui -lQt6Network -lQt6Core -lbcrypt -o "$out\gjg_table_qty.exe"
+& "$CompilerRoot\bin\g++.exe" -std=c++17 -O2 -mwindows -DNDEBUG -DUNICODE -D_UNICODE @include @files @moc $resources $iconResource "-L$QtRoot\lib" -lQt6Widgets -lQt6Svg -lQt6PrintSupport -lQt6Gui -lQt6Network -lQt6Core -lbcrypt -o "$out\gjg_table_qty.exe"
 if($LASTEXITCODE){throw 'Native compile failed'}
 $publish=Join-Path $PSScriptRoot 'build'
 if (Test-Path -LiteralPath $publish) {

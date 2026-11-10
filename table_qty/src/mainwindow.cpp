@@ -192,7 +192,7 @@ void MainWindow::reloadIcons() {
         tabs->setTabIcon(1, iconFor(QStringLiteral("product/Ribbon/GJG_CalcSetting(16).svg")));
         tabs->setTabIcon(2, iconFor(QStringLiteral("product/Ribbon/GJG_ReportView(16).svg")));
     }
-    setWindowIcon(iconFor(QStringLiteral("product/App/logo.ico")));
+    setWindowIcon(QIcon(QStringLiteral(":/assets/icons/light/product/App/logo.ico")));
 }
 
 bool MainWindow::setTheme(const QString& name) {
@@ -212,6 +212,8 @@ bool MainWindow::setTheme(const QString& name) {
     qss.replace(QStringLiteral("__ASSETS__"), a);
 
     currentTheme = dark ? QStringLiteral("CoolDark") : QStringLiteral("SilveryWhite");
+    qss += dark ? QStringLiteral("\nQWidget#sectionCalculator, QWidget#sectionParameterPane { background: #363738; }")
+                : QStringLiteral("\nQWidget#sectionCalculator, QWidget#sectionParameterPane { background: #f4f4f4; }");
     qApp->setStyleSheet(qss);
     reloadIcons();
     if (inputPanel) inputPanel->setTheme(assetsRoot, dark);
@@ -393,7 +395,9 @@ void MainWindow::buildToolBar(QToolBar* tb) {
     auto* spacer = new QWidget(updateBar);
     spacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     updateBar->addWidget(spacer);
-    auto* updateStatus = new QLabel(QStringLiteral("v%1 · 未配置更新源").arg(QCoreApplication::applicationVersion()), updateBar);
+    // Placeholder until the updater attaches; it immediately replaces this with the real state.
+    auto* updateStatus = new QLabel(QStringLiteral("v%1 · %2").arg(QCoreApplication::applicationVersion())
+        .arg(updater::configured() ? QStringLiteral("等待检查更新") : QStringLiteral("未配置更新源")), updateBar);
     updateStatus->setObjectName(QStringLiteral("updateStatus"));
     updateBar->addWidget(updateStatus);
     auto* check = updateBar->addAction(QStringLiteral("检查更新"));
