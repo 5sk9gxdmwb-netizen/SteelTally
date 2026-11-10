@@ -58,3 +58,6 @@ __pycache__/
 
 # Windows image cache
 *.db
+
+# Release staging (EXE artifacts belong in GitHub Releases, not Git history)
+releases/

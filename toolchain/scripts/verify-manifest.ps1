@@ -1,4 +1,4 @@
-#!/usr/bin/env pwsh
+﻿#!/usr/bin/env pwsh
 # Verify signed manifest and demonstrate acceptance/rejection
 param(
     [Parameter(Mandatory=$true)][string]$ManifestPath,
@@ -34,26 +34,27 @@ Write-Host "Signature: $($signatureBytes.Length) bytes"
 $publicKeyB64 = [IO.File]::ReadAllText($PublicKeyPath).Trim()
 $blob = [Convert]::FromBase64String($publicKeyB64)
 
-# 解析 BCrypt blob
-$ms = New-Object IO.MemoryStream($blob)
-$br = New-Object IO.BinaryReader($ms)
-
-$magic = $br.ReadUInt32()
-$bitLength = $br.ReadUInt32()
-$cbPublicExp = $br.ReadUInt32()
-$cbModulus = $br.ReadUInt32()
-$cbPrime1 = $br.ReadUInt32()
-$cbPrime2 = $br.ReadUInt32()
+# 按固定偏移解析 BCrypt blob（避免 BinaryReader 重载歧义）
+if ($blob.Length -lt 24) { throw "Public key blob too short: $($blob.Length) bytes" }
+$magic      = [BitConverter]::ToUInt32($blob, 0)
+$bitLength  = [BitConverter]::ToUInt32($blob, 4)
+$cbPublicExp= [BitConverter]::ToUInt32($blob, 8)
+$cbModulus  = [BitConverter]::ToUInt32($blob, 12)
 
 if ($magic -ne 0x31415352) {
     throw "Invalid public key magic: expected 0x31415352, got 0x$($magic.ToString('X8'))"
 }
+if (($blob.Length - 24) -ne ($cbPublicExp + $cbModulus)) {
+    throw "Public key blob length mismatch: header says $($cbPublicExp + $cbModulus) payload bytes, file has $($blob.Length - 24)"
+}
+if (($bitLength / 8) -ne $cbModulus) {
+    throw "RSA modulus length inconsistent: $bitLength-bit key needs $($bitLength / 8) bytes, got $cbModulus"
+}
 
-$exponent = $br.ReadBytes($cbPublicExp)
-$modulus = $br.ReadBytes($cbModulus)
-
-$br.Dispose()
-$ms.Dispose()
+$exponent = New-Object byte[] $cbPublicExp
+$modulus  = New-Object byte[] $cbModulus
+[Array]::Copy($blob, 24, $exponent, 0, $cbPublicExp)
+[Array]::Copy($blob, 24 + $cbPublicExp, $modulus, 0, $cbModulus)
 
 Write-Host "Public key: $bitLength-bit RSA"
 

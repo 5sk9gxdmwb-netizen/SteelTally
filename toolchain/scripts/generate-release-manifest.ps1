@@ -1,4 +1,4 @@
-#!/usr/bin/env pwsh
+﻿#!/usr/bin/env pwsh
 # Generate signed update manifest for SteelTally GitHub Releases
 param(
     [Parameter(Mandatory=$true)][string]$ExePath,
