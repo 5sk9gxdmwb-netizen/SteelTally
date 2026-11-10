@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>矩形阵列</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1042.000000, -1062.000000)">
+            <g id="-矩形阵列" transform="translate(1042.000000, 1062.000000)">
+                <rect id="矩形复制-4" stroke="#3898F9" fill="#32404F" x="0.5" y="0.5" width="6" height="6" rx="1"></rect>
+                <rect id="矩形复制-4" stroke="#3898F9" fill="#32404F" x="8.5" y="0.5" width="6" height="6" rx="1"></rect>
+                <rect id="矩形复制-4" stroke="#D4D5D5" x="0.5" y="8.5" width="6" height="6" rx="1"></rect>
+                <rect id="矩形复制-4" stroke="#3898F9" fill="#32404F" x="8.5" y="8.5" width="6" height="6" rx="1"></rect>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

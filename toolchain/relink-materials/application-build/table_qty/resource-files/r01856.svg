@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>窗口</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1304.000000, -2021.000000)">
+            <circle id="椭圆形" stroke="#51596A" cx="1311.5" cy="2028.5" r="6"></circle>
+            <line x1="1316" y1="2033" x2="1319" y2="2036" id="直线" stroke="#51596A" stroke-linecap="round"></line>
+            <rect id="矩形" stroke="#1874E6" x="1309.5" y="2026.5" width="4" height="4" rx="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>基坑支护-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-190.000000, -475.000000)">
+            <polygon id="矩形" fill="#76B0FF" transform="translate(196.000000, 485.000000) scale(1, -1) translate(-196.000000, -485.000000) " points="190 479 202 486 202 491 190 484"></polygon>
+            <polygon id="矩形备份-35" fill="#B4D5FF" transform="translate(208.000000, 485.000000) scale(-1, -1) translate(-208.000000, -485.000000) " points="202 479 214 486 214 491 202 484"></polygon>
+            <polygon id="路径-5" fill="#2F7AFC" points="190 491 202 484 214 491 202 498"></polygon>
+            <polygon id="矩形备份-39" fill="#B4D5FF" points="198 486 200 487 200 491 198 490"></polygon>
+            <polygon id="矩形备份-41" fill="#B4D5FF" points="202 484 204 485 204 489 202 488"></polygon>
+            <polygon id="矩形备份-40" fill="#76B0FF" transform="translate(201.000000, 488.500000) scale(1, -1) translate(-201.000000, -488.500000) " points="200 486 202 487 202 491 200 490"></polygon>
+            <polygon id="矩形备份-42" fill="#76B0FF" transform="translate(205.000000, 486.500000) scale(1, -1) translate(-205.000000, -486.500000) " points="204 484 206 485 206 489 204 488"></polygon>
+            <polygon id="路径-6备份-2" fill="#FFFFFF" points="200 487 198 486 200 485 202 486"></polygon>
+            <polygon id="路径-6备份-3" fill="#FFFFFF" points="204 485 202 484 204 483 206 484"></polygon>
+            <polygon id="矩形" fill="#B4D5FF" points="190 486 202 493 202 498 190 491"></polygon>
+            <polygon id="矩形备份-35" fill="#76B0FF" transform="translate(208.000000, 492.000000) scale(-1, 1) translate(-208.000000, -492.000000) " points="202 486 214 493 214 498 202 491"></polygon>
+        </g>
+    </g>
+</svg>

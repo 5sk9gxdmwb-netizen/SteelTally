@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>型材桁架</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-912.000000, -3440.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M919.5,3444 L927,3452 L912,3452 L919.5,3444 Z M916.232,3448.946 L914.307014,3450.99987 L918.286,3450.999 L916.232,3448.946 Z M922.757,3448.934 L920.691,3450.999 L924.692014,3450.99987 L922.757,3448.934 Z M918.989,3446.005 L916.916,3448.217 L918.989,3450.289 L918.989,3446.005 Z M919.989,3445.982 L919.989,3450.288 L922.073,3448.205 L919.989,3445.982 Z" id="形状结合" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

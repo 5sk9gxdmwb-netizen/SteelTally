@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>定义网格</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-75.000000, -3611.000000)">
+            <path d="M88,3611 C89.1045695,3611 90,3611.89543 90,3613 L90,3624 C90,3625.10457 89.1045695,3626 88,3626 L77,3626 C75.8954305,3626 75,3625.10457 75,3624 L75,3613 C75,3611.89543 75.8954305,3611 77,3611 L88,3611 Z M88,3612 L77,3612 C76.4871642,3612 76.0644928,3612.38604 76.0067277,3612.88338 L76,3613 L76,3624 C76,3624.51284 76.3860402,3624.93551 76.8833789,3624.99327 L77,3625 L88,3625 C88.5128358,3625 88.9355072,3624.61396 88.9932723,3624.11662 L89,3624 L89,3613 C89,3612.48716 88.6139598,3612.06449 88.1166211,3612.00673 L88,3612 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#51596A" x="76" y="3616" width="13" height="1"></rect>
+            <rect id="矩形" fill="#51596A" transform="translate(80.000000, 3618.500000) rotate(-270.000000) translate(-80.000000, -3618.500000) " x="73" y="3618" width="14" height="1"></rect>
+            <rect id="矩形" fill="#51596A" transform="translate(84.500000, 3618.500000) rotate(-270.000000) translate(-84.500000, -3618.500000) " x="78" y="3618" width="13" height="1"></rect>
+            <rect id="矩形" fill="#51596A" x="76" y="3620" width="13" height="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

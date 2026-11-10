@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>相等</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="装饰GDQ" transform="translate(-1512.000000, -5103.000000)" fill="#1874E6" fill-rule="nonzero">
+            <path d="M1516,5108 L1524,5108 C1524.55228,5108 1525,5108.44772 1525,5109 C1525,5109.55228 1524.55228,5110 1524,5110 L1516,5110 C1515.44772,5110 1515,5109.55228 1515,5109 C1515,5108.44772 1515.44772,5108 1516,5108 Z M1516,5112 L1524,5112 C1524.55228,5112 1525,5112.44772 1525,5113 C1525,5113.55228 1524.55228,5114 1524,5114 L1516,5114 C1515.44772,5114 1515,5113.55228 1515,5113 C1515,5112.44772 1515.44772,5112 1516,5112 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

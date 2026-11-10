@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>下移</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-897.000000, -3301.000000)">
+            <path d="M910,3301 C911.104569,3301 912,3301.89543 912,3303 L912,3314 C912,3315.10457 911.104569,3316 910,3316 L899,3316 C897.895431,3316 897,3315.10457 897,3314 L897,3303 C897,3301.89543 897.895431,3301 899,3301 L910,3301 Z M910,3302 L899,3302 C898.487164,3302 898.064493,3302.38604 898.006728,3302.88338 L898,3303 L898,3314 C898,3314.51284 898.38604,3314.93551 898.883379,3314.99327 L899,3315 L910,3315 C910.512836,3315 910.935507,3314.61396 910.993272,3314.11662 L911,3314 L911,3303 C911,3302.48716 910.61396,3302.06449 910.116621,3302.00673 L910,3302 Z" id="矩形" fill="#51596A" fill-rule="nonzero" transform="translate(904.500000, 3308.500000) scale(1, -1) translate(-904.500000, -3308.500000) "></path>
+            <rect id="矩形" fill="#1874E6" transform="translate(904.500000, 3311.500000) scale(-1, -1) translate(-904.500000, -3311.500000) " x="904" y="3311" width="1" height="1"></rect>
+            <line x1="904.5" y1="3304.5" x2="904.5" y2="3311.5" id="直线-7" stroke="#1874E6" stroke-linecap="round" transform="translate(904.500000, 3308.000000) scale(1, -1) translate(-904.500000, -3308.000000) "></line>
+            <path d="M901,3312 L903.851075,3309.55764 C904.225657,3309.23675 904.77826,3309.23691 905.152658,3309.55801 L908,3312 L908,3312" id="路径-64" stroke="#1874E6" transform="translate(904.500000, 3310.500000) scale(1, -1) translate(-904.500000, -3310.500000) "></path>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

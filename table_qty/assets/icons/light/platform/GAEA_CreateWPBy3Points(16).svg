@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>三点创建工作平面</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-762.000000, -2284.000000)">
+            <path d="M775,2284 C776.104569,2284 777,2284.89543 777,2286 L777,2297 C777,2298.10457 776.104569,2299 775,2299 L764,2299 C762.895431,2299 762,2298.10457 762,2297 L762,2286 C762,2284.89543 762.895431,2284 764,2284 L775,2284 Z M775,2285 L764,2285 C763.487164,2285 763.064493,2285.38604 763.006728,2285.88338 L763,2286 L763,2297 C763,2297.51284 763.38604,2297.93551 763.883379,2297.99327 L764,2298 L775,2298 C775.512836,2298 775.935507,2297.61396 775.993272,2297.11662 L776,2297 L776,2286 C776,2285.48716 775.61396,2285.06449 775.116621,2285.00673 L775,2285 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#51596A" x="763" y="2289" width="2" height="1"></rect>
+            <rect id="矩形备份-162" fill="#51596A" x="774" y="2289" width="2" height="1"></rect>
+            <rect id="矩形" fill="#51596A" x="763" y="2293" width="2" height="1"></rect>
+            <rect id="矩形备份-162" fill="#51596A" x="770" y="2293" width="6" height="1"></rect>
+            <rect id="矩形" fill="#1874E6" x="767" y="2288" width="1" height="3"></rect>
+            <rect id="矩形备份-163" fill="#51596A" x="767" y="2296" width="1" height="2"></rect>
+            <rect id="矩形备份-164" fill="#51596A" x="767" y="2285" width="1" height="2"></rect>
+            <rect id="矩形备份-163" fill="#51596A" x="771" y="2292" width="1" height="6"></rect>
+            <rect id="矩形备份-164" fill="#51596A" x="771" y="2285" width="1" height="2"></rect>
+            <rect id="矩形" fill="#1874E6" transform="translate(767.500000, 2289.500000) scale(1, -1) rotate(-90.000000) translate(-767.500000, -2289.500000) " x="767" y="2288" width="1" height="3"></rect>
+            <rect id="矩形" fill="#1874E6" x="771" y="2288" width="1" height="3"></rect>
+            <rect id="矩形" fill="#1874E6" transform="translate(771.500000, 2289.500000) scale(1, -1) rotate(-90.000000) translate(-771.500000, -2289.500000) " x="771" y="2288" width="1" height="3"></rect>
+            <rect id="矩形" fill="#1874E6" x="767" y="2292" width="1" height="3"></rect>
+            <rect id="矩形" fill="#1874E6" transform="translate(767.500000, 2293.500000) scale(1, -1) rotate(-90.000000) translate(-767.500000, -2293.500000) " x="767" y="2292" width="1" height="3"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

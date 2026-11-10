@@ -1,0 +1,14 @@
+[
+  {
+    "path": "E:\\\u8868\u683c\u7b97\u91cf\\toolchain\\scripts\\download-static-toolchain.py",
+    "sha256": "4f33e8ba9a9776b843ad18a2a5fab4d89a701177ea85488b0a6f1acc911b3922"
+  },
+  {
+    "path": "E:\\\u8868\u683c\u7b97\u91cf\\toolchain\\scripts\\build-qt-toolchain.py",
+    "sha256": "fb23cb825ee2934e4e4ae7b254202edc7e56619f1d957dc35ae88a30bbddd0c0"
+  },
+  {
+    "path": "E:\\\u8868\u683c\u7b97\u91cf\\toolchain\\scripts\\resume-qt-toolchain.py",
+    "sha256": "c6c6e8c4e5e43d574c764f962977593e2b28b5b30173299f7d0c0a7b5d86156b"
+  }
+]

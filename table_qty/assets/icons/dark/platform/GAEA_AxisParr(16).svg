@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>平行辅轴</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-631.000000, -472.000000)">
+            <g id="平行辅轴" transform="translate(631.000000, 472.000000)">
+                <rect id="矩形复制-31" fill="#D4D5D5" x="2" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-32" fill="#D4D5D5" x="12" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-33" fill="#D4D5D5" transform="translate(7.500000, 2.500000) rotate(-270.000000) translate(-7.500000, -2.500000) " x="7" y="-5" width="1" height="15"></rect>
+                <rect id="矩形复制-36" fill="#3898F9" transform="translate(7.500000, 7.500000) rotate(-270.000000) translate(-7.500000, -7.500000) " x="7" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-35" fill="#D4D5D5" transform="translate(7.500000, 12.500000) rotate(-270.000000) translate(-7.500000, -12.500000) " x="7" y="5" width="1" height="15"></rect>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

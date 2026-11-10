@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>WorkStyle_01</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-131.000000, -5164.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M201,5225 L182,5221.833 L182,5175.167 L201,5172 L201,5225 Z M177,5175 L177,5222 L159,5225 L159,5172 L177,5175 Z" id="形状结合" fill-opacity="0.2" fill="#FDC200"></path>
+            <rect id="矩形" fill="#CBA358" x="200" y="5172" width="1" height="53"></rect>
+            <rect id="矩形备份-127" fill="#CBA358" x="159" y="5172" width="1" height="53"></rect>
+            <path d="M201,5167 L201,5172 L182,5175.167 L182,5221.833 L201,5225 L201,5230 L159,5230 L159,5225 L177,5222 L177,5175 L159,5172 L159,5167 L201,5167 Z M200,5168 L160,5168 L160,5171.152 L178,5174.15287 L178,5222.84713 L160,5225.847 L160,5229 L200,5229 L200,5225.847 L181,5222.68011 L181,5174.31989 L200,5171.152 L200,5168 Z" id="形状结合" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M201,5167 L201,5172 L182,5175.167 L182,5221.833 L201,5225 L201,5230 L159,5230 L159,5225 L177,5222 L177,5175 L159,5172 L159,5167 L201,5167 Z" id="形状结合" fill-opacity="0.2" fill="#1874E6"></path>
+        </g>
+    </g>
+</svg>

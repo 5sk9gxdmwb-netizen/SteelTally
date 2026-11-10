@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>添加网格线</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-215.000000, -3611.000000)">
+            <path d="M228,3611 C229.104569,3611 230,3611.89543 230,3613 L230,3619 L229,3619 L229,3613 C229,3612.48716 228.61396,3612.06449 228.116621,3612.00673 L228,3612 L217,3612 C216.487164,3612 216.064493,3612.38604 216.006728,3612.88338 L216,3613 L216,3624 C216,3624.51284 216.38604,3624.93551 216.883379,3624.99327 L217,3625 L223,3625 L223,3626 L217,3626 C215.895431,3626 215,3625.10457 215,3624 L215,3613 C215,3611.89543 215.895431,3611 217,3611 L228,3611 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#D4D5D5" x="216" y="3616" width="13" height="1"></rect>
+            <rect id="矩形" fill="#D4D5D5" transform="translate(220.000000, 3618.500000) rotate(-270.000000) translate(-220.000000, -3618.500000) " x="213" y="3618" width="14" height="1"></rect>
+            <rect id="矩形" fill="#D4D5D5" transform="translate(224.500000, 3615.500000) rotate(-270.000000) translate(-224.500000, -3615.500000) " x="221" y="3615" width="7" height="1"></rect>
+            <rect id="矩形" fill="#D4D5D5" x="216" y="3620" width="7" height="1"></rect>
+            <g id="编组-29" transform="translate(223.000000, 3620.000000)" stroke="#3898F9" stroke-linecap="round">
+                <polyline id="直线-4" points="3.00295502 0 3.00295502 1.06451442 3.00295502 6"></polyline>
+                <polyline id="直线-4" points="0 3.00020784 4.7525461 3.00020784 6 3.00020784"></polyline>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>楼梯-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-190.000000, -441.000000)">
+            <polygon id="矩形" fill="#2F7AFC" points="206 462 214 458 214 461 206 465"></polygon>
+            <polygon id="矩形" fill="#B4D5FF" points="191 445 206 448 206 465 191 456.5"></polygon>
+            <polygon id="矩形备份-28" fill="#2F7AFC" points="202 457 210 453 210 456 202 460"></polygon>
+            <polygon id="矩形备份-29" fill="#2F7AFC" points="198 452 206 448 206 451 198 455"></polygon>
+            <polygon id="矩形备份-30" fill="#2F7AFC" points="194 447 202 443 202 446 194 450"></polygon>
+            <polygon id="路径-4" fill="#76B0FF" points="206 462 202 460 210 456 214 458"></polygon>
+            <polygon id="路径-4备份" fill="#76B0FF" points="202 457 198 455 206 451 210 453"></polygon>
+            <polygon id="路径-4备份-2" fill="#76B0FF" points="198 452 194 450 202 446 206 448"></polygon>
+            <polygon id="路径-4备份-3" fill="#76B0FF" points="194 447 191 445 199 441 202 443"></polygon>
+        </g>
+    </g>
+</svg>

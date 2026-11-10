@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>皮肤-赞-选中</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="其他补充" transform="translate(-816.000000, -144.000000)">
+            <g id="编组" transform="translate(4.000000, 32.000000)"></g>
+            <g id="编组" transform="translate(816.000000, 145.000000)" fill="#EA7575" fill-rule="nonzero">
+                <path d="M10.8723994,0 C9.5596394,0 8.32385575,0.610571734 7.49791955,1.6030205 C6.67198335,0.610571734 5.43619972,0 4.12343967,0 C1.79958391,0 0,1.82955772 0,4.19633226 C0,7.09600863 2.54854369,9.42179073 6.41192789,13.0075512 L7.5,14 L8.58807211,13.0075512 C12.4493759,9.42179073 15,7.09600863 15,4.19633226 C14.9979196,1.82955772 13.1983357,0 10.8723994,0 Z" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

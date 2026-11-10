@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>独立基础</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-57备份-3" transform="translate(-259.000000, -114.000000)"></g>
+        <g id="编组-2" transform="translate(1.000000, 1.500000)">
+            <path d="M12,13 L12.5,15.5 L1,16 L0.5,13.5 L12,13 Z" id="矩形" stroke="#3898F9"></path>
+            <path d="M0.988735916,12.9437483 L4.48786533,10.194219 M16.4843724,9 C17.0366571,9 17.4843724,9.44771525 17.4843724,10 L17.4843724,11.6190828 C17.4843724,11.9162753 17.3521841,12.19807 17.1236503,12.3880586 L12.3680503,15.8415645" id="形状" stroke="#3898F9" stroke-linecap="round"></path>
+            <line x1="16.7437391" y1="9" x2="11.5" y2="9" id="直线-10" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="12.4153933" y1="12.7607166" x2="16.931622" y2="9.41046486" id="直线-11" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="9.4153933" y1="10.7607166" x2="12.5" y2="8.06021308" id="直线-11" stroke="#3898F9" stroke-linecap="round"></line>
+            <rect id="矩形" stroke="#3898F9" x="4.5" y="3" width="5" height="8" rx="1"></rect>
+            <path d="M12.5,8.85301261 L12.5,1 C12.5,0.44771525 12.0522847,2.11038067e-14 11.5,2.13162821e-14 L8.39224533,2.13162821e-14 C8.14010014,2.20287342e-14 7.89726205,0.0952521054 7.71235946,0.266682057 L4.74911576,3.0140136 L4.74911576,3.0140136" id="直线-12" stroke="#3898F9" stroke-linecap="round"></path>
+            <line x1="9.4153933" y1="3" x2="12" y2="0.5" id="直线-13" stroke="#3898F9" stroke-linecap="square"></line>
+            <polygon id="路径-4" fill-opacity="0.2" fill="#3898F9" points="1.77723467 12.5 4.48786533 10.6225457 9.82251179 10.3742742 11.5 9.21181047 16.1994294 9.04349887 16.5070496 9.41046486 12.2127145 12.9437483"></polygon>
+            <polygon id="路径-5" fill-opacity="0.2" fill="#3898F9" points="12.6637781 12.9437483 17.2074562 9.04349887 17.4843724 12.003025 12.5 15.5427391"></polygon>
+            <rect id="矩形" fill-opacity="0.2" fill="#3898F9" x="1" y="13.5" width="11" height="2"></rect>
+        </g>
+    </g>
+</svg>

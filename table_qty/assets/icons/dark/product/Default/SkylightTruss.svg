@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>天窗架</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1296.000000, -3440.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M1303,3441 L1303,3441.734 L1302,3442.73 L1302,3442.706 L1297,3447.706 L1297,3454 L1296,3454 L1296,3442 C1296,3441.44772 1296.44772,3441 1297,3441 L1303,3441 Z M1301.292,3442 L1297,3442 L1297,3446.292 L1301.292,3442 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M1311,3441 L1311,3441.734 L1310,3442.73 L1310,3442.706 L1305,3447.706 L1305,3454 L1304,3454 L1304,3442 C1304,3441.44772 1304.44772,3441 1305,3441 L1311,3441 Z M1309.292,3442 L1305,3442 L1305,3446.292 L1309.292,3442 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero" transform="translate(1307.500000, 3447.500000) scale(-1, 1) translate(-1307.500000, -3447.500000) "></path>
+        </g>
+    </g>
+</svg>

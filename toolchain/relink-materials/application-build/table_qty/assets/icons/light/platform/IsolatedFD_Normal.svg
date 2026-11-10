@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>基础-灰</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-336.000000, -620.000000)">
+            <polygon id="矩形" fill="#BBC4D6" points="336 635 341.5 638 341.5 644 336 641"></polygon>
+            <polygon id="矩形备份-36" fill="#BBC4D6" points="348 635 353.5 638 353.5 644 348 641"></polygon>
+            <polygon id="矩形备份-38" fill="#BBC4D6" points="342 625 347.5 628 347.5 634 342 631"></polygon>
+            <polygon id="矩形" fill="#8E9CBB" transform="translate(344.250000, 639.500000) scale(-1, 1) translate(-344.250000, -639.500000) " points="341.5 635 347 638 347 644 341.5 641"></polygon>
+            <polygon id="矩形备份-37" fill="#8E9CBB" transform="translate(356.250000, 639.500000) scale(-1, 1) translate(-356.250000, -639.500000) " points="353.5 635 359 638 359 644 353.5 641"></polygon>
+            <polygon id="矩形备份-43" fill="#8E9CBB" transform="translate(350.250000, 629.500000) scale(-1, 1) translate(-350.250000, -629.500000) " points="347.5 625 353 628 353 634 347.5 631"></polygon>
+            <polygon id="路径-10" fill="#526487" points="336 635 341.5 632 347 635 341.5 638"></polygon>
+            <polygon id="路径-10备份" fill="#526487" points="348 635 353.5 632 359 635 353.5 638"></polygon>
+            <polygon id="路径-10备份-2" fill="#526487" points="342 625 347.5 622 353 625 347.5 628"></polygon>
+        </g>
+    </g>
+</svg>

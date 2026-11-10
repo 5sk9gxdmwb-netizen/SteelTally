@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直角三角形</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢板库图标" transform="translate(-487.000000, -33.000000)" fill="#1874E6">
+            <g id="编组-12" transform="translate(498.000000, 53.499363)">
+                <polygon id="路径-46备份" fill-opacity="0.2" points="0.5 21.0006366 42 21.0006366 0.5 0.500636575"></polygon>
+                <path d="M-5.68434189e-14,0.500636575 L-5.68434189e-14,21.0006366 C-5.68434189e-14,21.2767789 0.223857625,21.5006366 0.5,21.5006366 L42,21.5006366 C42.5289229,21.5006366 42.695664,20.7866013 42.2214438,20.552348 L0.721443762,0.0523479845 C0.389139716,-0.111802207 -5.68434189e-14,0.130000279 -5.68434189e-14,0.500636575 Z M1,1.30563658 L39.859,20.5006366 L1,20.5006366 L1,1.30563658 Z" id="路径-46备份" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

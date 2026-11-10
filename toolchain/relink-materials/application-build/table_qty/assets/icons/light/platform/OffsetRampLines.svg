@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>偏移边线</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补充" transform="translate(-208.000000, -1424.000000)">
+            <path d="M209,1428 L222,1428 L222,1427 L223,1427 L223,1436 L208,1436 L208,1427 L209,1427 L209,1428 Z M222,1428 L209,1428 L209,1435 L222,1435 L222,1428 Z" id="矩形" fill="#51596A" fill-rule="nonzero"></path>
+            <path d="M209,1427 L209,1428 L212,1428 L212,1427 L209,1427 Z M213,1427 L213,1428 L216,1428 L216,1427 L213,1427 Z M217,1427 L217,1428 L220,1428 L220,1427 L217,1427 Z M221,1427 L221,1428 L223,1428 L223,1427 L221,1427 Z" id="直线-5" fill="#1874E6" fill-rule="nonzero"></path>
+            <line x1="209.5" y1="1431.5" x2="221.5" y2="1431.5" id="直线-252" stroke="#1874E6" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

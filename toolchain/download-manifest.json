@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtbase-everywhere-src-6.8.3.zip",
+    "path": "E:\\SteelTallyToolchain\\official-20261110-094827\\qtbase-everywhere-src-6.8.3\\qtbase-everywhere-src-6.8.3.zip",
+    "curl_exit": 0,
+    "bytes": 74010483,
+    "sha256": "992bf7766e214a341ef793eb3665fb784787d2fd666955f5f507f4c6f1f770dd"
+  },
+  {
+    "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/qtsvg-everywhere-src-6.8.3.zip",
+    "path": "E:\\SteelTallyToolchain\\official-20261110-094827\\qtsvg-everywhere-src-6.8.3\\qtsvg-everywhere-src-6.8.3.zip",
+    "curl_exit": 0,
+    "bytes": 2651981,
+    "sha256": "90643c1ba05245abedc2bcd9d4f745568dc27a1b37dd3ba861fd19d8ac6a7c46"
+  },
+  {
+    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.8/cmake-3.31.8-windows-x86_64.zip",
+    "path": "E:\\SteelTallyToolchain\\official-20261110-094827\\cmake-3.31.8-windows-x86_64\\cmake-3.31.8-windows-x86_64.zip",
+    "curl_exit": 0,
+    "bytes": 46709267,
+    "sha256": "81aa9964dbabd71fe02e7ec50472fd3ad56138c49944515ece9001efbff8d719"
+  },
+  {
+    "url": "https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip",
+    "path": "E:\\SteelTallyToolchain\\official-20261110-094827\\ninja-win\\ninja-win.zip",
+    "curl_exit": 56
+  }
+]

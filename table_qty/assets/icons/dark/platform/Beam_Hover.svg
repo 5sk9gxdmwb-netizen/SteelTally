@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>梁-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-356.000000, -119.000000)">
+            <rect id="矩形" fill="#76B0FF" x="356" y="131" width="10" height="12"></rect>
+            <polygon id="矩形" fill="#B4D5FF" points="369 119 379 119 366 131 356 131"></polygon>
+            <polygon id="矩形" fill="#2F7AFC" points="366 131 379 119 379 131 366 143"></polygon>
+            <line x1="358.5" y1="131.5" x2="358.5" y2="142.5" id="直线-4" stroke="#B4D5FF" fill="#D8D8D8" stroke-linecap="square"></line>
+            <line x1="362.5" y1="131.5" x2="362.5" y2="142.5" id="直线-4备份" stroke="#B4D5FF" fill="#D8D8D8" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

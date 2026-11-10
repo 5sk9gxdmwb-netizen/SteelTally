@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>门窗洞-灰</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-374.000000, -322.000000)">
+            <polygon id="路径-29" fill="#B4D5FF" points="374 324 377 322 396 330 393 332"></polygon>
+            <polygon id="路径-33" fill="#2F7AFC" points="393 332 393 346 396 344 396 330"></polygon>
+            <polygon id="路径-42" fill="#2F7AFC" points="376 339 379 337 379 330 376 329"></polygon>
+            <polygon id="路径-43" fill="#2F7AFC" points="384 338 387 336 387 333 384 332"></polygon>
+            <polygon id="路径-44" fill="#B4D5FF" points="391 341 384 338 387 336 392 338"></polygon>
+            <path d="M374,324 L393,332 L393,346 L381,340.947 L381,331 L376,329 L376,338.842 L374,338 L374,324 Z M384,332 L384,338 L391,341 L391,335 L384,332 Z" id="形状结合" fill="#76B0FF"></path>
+        </g>
+    </g>
+</svg>

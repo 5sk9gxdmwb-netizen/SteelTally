@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>扇形</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.2">
+        <g id="钢板库图标" transform="translate(-487.000000, -369.000000)" fill="#1874E6" stroke="#1874E6">
+            <path d="M515.5,389.5 C521.781216,389.5 527.473766,392.072744 531.6238,396.241547 C535.676235,400.312309 538.25819,405.904648 538.483882,412.111851 L538.483882,412.111851 L516.087296,412.496431 L499.605199,396.014662 C503.734441,391.979602 509.333537,389.5 515.5,389.5 Z" id="形状结合"></path>
+        </g>
+    </g>
+</svg>

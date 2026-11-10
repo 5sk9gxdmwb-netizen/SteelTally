@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>基坑支护-灰</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-336.000000, -554.000000)">
+            <polygon id="矩形" fill="#8E9CBB" transform="translate(342.000000, 564.000000) scale(1, -1) translate(-342.000000, -564.000000) " points="336 558 348 565 348 570 336 563"></polygon>
+            <polygon id="矩形备份-35" fill="#BBC4D6" transform="translate(354.000000, 564.000000) scale(-1, -1) translate(-354.000000, -564.000000) " points="348 558 360 565 360 570 348 563"></polygon>
+            <polygon id="路径-5" fill="#526487" points="336 570 348 563 360 570 348 577"></polygon>
+            <polygon id="矩形备份-39" fill="#BBC4D6" points="344 565 346 566 346 570 344 569"></polygon>
+            <polygon id="矩形备份-41" fill="#BBC4D6" points="348 563 350 564 350 568 348 567"></polygon>
+            <polygon id="矩形备份-40" fill="#8E9CBB" transform="translate(347.000000, 567.500000) scale(1, -1) translate(-347.000000, -567.500000) " points="346 565 348 566 348 570 346 569"></polygon>
+            <polygon id="矩形备份-42" fill="#8E9CBB" transform="translate(351.000000, 565.500000) scale(1, -1) translate(-351.000000, -565.500000) " points="350 563 352 564 352 568 350 567"></polygon>
+            <polygon id="路径-6备份-2" fill="#FFFFFF" points="346 566 344 565 346 564 348 565"></polygon>
+            <polygon id="路径-6备份-3" fill="#FFFFFF" points="350 564 348 563 350 562 352 563"></polygon>
+            <polygon id="矩形" fill="#BBC4D6" points="336 565 348 572 348 577 336 570"></polygon>
+            <polygon id="矩形备份-35" fill="#8E9CBB" transform="translate(354.000000, 571.000000) scale(-1, 1) translate(-354.000000, -571.000000) " points="348 565 360 572 360 577 348 570"></polygon>
+        </g>
+    </g>
+</svg>

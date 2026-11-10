@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>选择块参照内图元</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1436.000000, -1546.000000)">
+            <path d="M1449,1546 C1450.10457,1546 1451,1546.89543 1451,1548 L1451,1554 L1450,1554 L1450,1548 C1450,1547.48716 1449.61396,1547.06449 1449.11662,1547.00673 L1449,1547 L1438,1547 C1437.48716,1547 1437.06449,1547.38604 1437.00673,1547.88338 L1437,1548 L1437,1559 C1437,1559.51284 1437.38604,1559.93551 1437.88338,1559.99327 L1438,1560 L1445,1560 L1445,1561 L1438,1561 C1436.89543,1561 1436,1560.10457 1436,1559 L1436,1548 C1436,1546.89543 1436.89543,1546 1438,1546 L1449,1546 Z" id="形状结合备份-2" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <rect id="矩形备份-143" fill="#D4D5D5" x="1437" y="1551" width="13" height="1"></rect>
+            <rect id="矩形备份-144" fill="#D4D5D5" transform="translate(1444.000000, 1553.500000) rotate(-270.000000) translate(-1444.000000, -1553.500000) " x="1437" y="1553" width="14" height="1"></rect>
+            <rect id="矩形备份-145" fill="#D4D5D5" x="1437" y="1555" width="7" height="1"></rect>
+            <path d="M1446.56593,1555.66158 L1446.77891,1559.51399 L1447.76709,1558.5258 L1449.51143,1558.30179 L1446.56593,1555.66158 Z" id="路径-59" stroke="#3898F9" fill="#3898F9"></path>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

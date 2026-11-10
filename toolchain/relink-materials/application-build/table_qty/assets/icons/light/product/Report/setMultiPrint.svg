@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>设置连续打印</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-784.000000, -5408.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <g id="设置连续打印" transform="translate(784.000000, 5408.000000)">
+                <path d="M13,0 C14.1045695,0 15,0.8954305 15,2 L15,5 C15,6.1045695 14.1045695,7 13,7 L11,7 L11,6 L13,6 C13.5128358,6 13.9355072,5.61395981 13.9932723,5.11662113 L14,5 L14,2 C14,1.48716416 13.6139598,1.06449284 13.1166211,1.00672773 L13,1 L2,1 C1.48716416,1 1.06449284,1.38604019 1.00672773,1.88337887 L1,2 L1,5 C1,5.51283584 1.38604019,5.93550716 1.88337887,5.99327227 L2,6 L4,6 L4,7 L2,7 C0.8954305,7 0,6.1045695 0,5 L0,2 C0,0.8954305 0.8954305,0 2,0 L13,0 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+                <path d="M12,3 L12,11.3333333 C12,12.2538079 11.1045695,13 10,13 L5,13 C3.8954305,13 3,12.2538079 3,11.3333333 L3,3 L12,3 Z M11,4 L4,4 L4,11.2 C4,11.6102687 4.38604019,11.9484057 4.88337887,11.9946178 L5,12 L10,12 C10.5128358,12 10.9355072,11.6911678 10.9932723,11.2932969 L11,11.2 L11,4 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+                <polygon id="直线-127" fill="#51596A" fill-rule="nonzero" points="13 3 13 4 2 4 2 3"></polygon>
+                <polygon id="直线-125" fill="#1874E6" fill-rule="nonzero" points="10 6 10 7 5 7 5 6"></polygon>
+                <polygon id="直线-125" fill="#1874E6" fill-rule="nonzero" points="8 9 8 10 5 10 5 9"></polygon>
+                <line x1="3.5" y1="14.5" x2="11.5" y2="14.5" id="直线-144" stroke="#1874E6" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

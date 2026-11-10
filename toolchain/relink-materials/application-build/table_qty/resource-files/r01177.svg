@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>查看工程量</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1168.000000, -2656.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <g id="查看工程量" transform="translate(1168.000000, 2656.000000)" fill="#D4D5D5">
+                <path d="M13,0 C14.1045695,0 15,0.8954305 15,2 L15,8 L14,8 L14,2 C14,1.48716416 13.6139598,1.06449284 13.1166211,1.00672773 L13,1 L2,1 C1.48716416,1 1.06449284,1.38604019 1.00672773,1.88337887 L1,2 L1,13 C1,13.5128358 1.38604019,13.9355072 1.88337887,13.9932723 L2,14 L8,14 L8,15 L2,15 C0.8954305,15 2.27373675e-13,14.1045695 2.27373675e-13,13 L2.27373675e-13,2 C2.27373675e-13,0.8954305 0.8954305,0 2,0 L13,0 Z" id="形状结合" fill-rule="nonzero"></path>
+                <rect id="矩形" x="1" y="5" width="13" height="1"></rect>
+                <rect id="矩形" transform="translate(5.500000, 7.500000) rotate(-270.000000) translate(-5.500000, -7.500000) " x="-1" y="7" width="13" height="1"></rect>
+                <rect id="矩形" transform="translate(9.500000, 4.500000) rotate(-270.000000) translate(-9.500000, -4.500000) " x="6" y="4" width="7" height="1"></rect>
+                <rect id="矩形" x="1" y="9" width="7" height="1"></rect>
+            </g>
+            <g id="编组-34" transform="translate(1177.000000, 2665.000000)">
+                <circle id="椭圆形" stroke="#3898F9" cx="3" cy="3" r="2.5"></circle>
+                <path d="M4.29289322,5 L5,4.29289322 L6.35355339,5.64644661 C6.54881554,5.84170876 6.54881554,6.15829124 6.35355339,6.35355339 C6.15829124,6.54881554 5.84170876,6.54881554 5.64644661,6.35355339 L4.29289322,5 L4.29289322,5 Z" id="直线-3" fill="#3898F9" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

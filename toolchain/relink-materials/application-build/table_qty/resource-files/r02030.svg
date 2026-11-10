@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>单项定位</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M6.5,1 C7.27969612,1 7.92044868,1.59488808 7.99313342,2.35553999 L8,2.5 L8,13 L7,13 L7,2.5 C7,2.25454011 6.82312484,2.05039163 6.58987563,2.00805567 L6.5,2 L1.5,2 C1.25454011,2 1.05039163,2.17687516 1.00805567,2.41012437 L1,2.5 L1,14.5 C1,14.7454599 1.17687516,14.9496084 1.41012437,14.9919443 L1.5,15 L8,15 L8,16 L1.5,16 C0.720303883,16 0.0795513218,15.4051119 0.00686657806,14.64446 L0,14.5 L0,2.5 C0,1.72030388 0.594888083,1.07955132 1.35553999,1.00686658 L1.5,1 L6.5,1 Z" id="路径-35" fill="#51596A" fill-rule="nonzero"></path>
+        <path d="M13.5,4 C14.2796961,4 14.9204487,4.59488808 14.9931334,5.35553999 L15,5.5 L15,9 L14,9 L14,5.5 C14,5.25454011 13.8231248,5.05039163 13.5898756,5.00805567 L13.5,5 L8,5 L8,4 L13.5,4 Z" id="路径-36" fill="#51596A" fill-rule="nonzero"></path>
+        <polygon id="直线-112" fill="#51596A" fill-rule="nonzero" points="6 4 6 5 2 5 2 4"></polygon>
+        <polygon id="直线-113" fill="#51596A" fill-rule="nonzero" points="6 7 6 8 2 8 2 7"></polygon>
+        <polygon id="直线-114" fill="#51596A" fill-rule="nonzero" points="6 10 6 11 2 11 2 10"></polygon>
+        <polygon id="直线-110" fill="#1874E6" fill-rule="nonzero" points="9.29289322 11 10 10.2928932 14.9497475 15.2426407 14.2426407 15.9497475"></polygon>
+        <polygon id="直线-111" fill="#1874E6" fill-rule="nonzero" points="14.2426407 10.2928932 14.9497475 11 10 15.9497475 9.29289322 15.2426407"></polygon>
+        <polygon id="直线-115" fill="#51596A" fill-rule="nonzero" points="13 7 13 8 9 8 9 7"></polygon>
+    </g>
+</svg>

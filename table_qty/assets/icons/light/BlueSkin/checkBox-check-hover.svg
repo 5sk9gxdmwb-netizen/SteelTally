@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>checkBox-check-hover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="市政-不需映射" transform="translate(-406.000000, -890.000000)">
+            <g id="不需映射-内容" transform="translate(-8.000000, 124.000000)">
+                <rect id="矩形备份-4" fill="#0D2033" x="415" y="767" width="14" height="14" rx="2"></rect>
+                <rect id="矩形备份-4" fill="#6395C7" x="416" y="768" width="12" height="12" rx="2"></rect>
+                <rect id="Rectangle" fill="#000000" opacity="0" x="417" y="769" width="10" height="10"></rect>
+                <path d="M426.745,770 C423.705,771.944959 421.5,774.400927 420.505,775.631518 L418.075,773.644844 L417,774.546929 L421.195,779 C421.915,777.070684 424.205,773.300695 427,770.62051 L426.745,770 L426.745,770 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+            <g id="不需映射-切片" transform="translate(67.000000, 124.000000)"></g>
+        </g>
+    </g>
+</svg>

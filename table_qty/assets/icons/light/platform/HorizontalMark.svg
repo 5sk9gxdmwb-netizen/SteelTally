@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>水平标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矢量图编辑器" transform="translate(-1117.000000, -52.000000)">
+            <g id="切片" transform="translate(57.000000, 49.000000)"></g>
+            <g id="长度标注-copy-2" transform="translate(1117.000000, 52.000000)" fill="#51596A">
+                <rect id="矩形复制" x="0" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-19" x="14" y="0" width="1" height="15"></rect>
+                <path d="M11,2.5 L14,4.52666667 L11,6.5 L11,4.999 L4,5 L4,6.5 L1,4.52666667 L4,2.5 L4,4 L11,3.999 L11,2.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

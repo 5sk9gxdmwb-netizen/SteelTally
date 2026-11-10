@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>测量弧长</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-68.000000, -3097.000000)">
+            <rect id="矩形" fill="#3898F9" x="68" y="3109" width="1" height="3"></rect>
+            <rect id="矩形备份-87" fill="#3898F9" x="70" y="3110" width="10" height="1"></rect>
+            <rect id="矩形备份-88" fill="#3898F9" x="71" y="3109" width="1" height="1"></rect>
+            <rect id="矩形备份-89" fill="#3898F9" x="80" y="3110" width="1" height="1"></rect>
+            <rect id="矩形备份-90" fill="#3898F9" x="71" y="3111" width="1" height="1"></rect>
+            <rect id="矩形备份-91" fill="#3898F9" x="79" y="3111" width="1" height="1"></rect>
+            <rect id="矩形备份-92" fill="#3898F9" x="79" y="3109" width="1" height="1"></rect>
+            <rect id="矩形备份-86" fill="#3898F9" x="82" y="3109" width="1" height="3"></rect>
+            <path d="M69,3106 C71.1542717,3101.22568 75.1542717,3098.89359 81,3099.00373" id="路径-2" stroke="#D4D5D5" transform="translate(75.000000, 3102.500000) scale(-1, 1) translate(-75.000000, -3102.500000) "></path>
+            <g id="编组-6备份" transform="translate(68.000000, 3098.000000)">
+                <circle id="椭圆形" fill="#3898F9" cx="1.5" cy="1.5" r="1.5"></circle>
+                <circle id="椭圆形" fill="#2E2F30" cx="1.5" cy="1.5" r="1"></circle>
+            </g>
+            <g id="编组-6备份" transform="translate(80.000000, 3105.000000)">
+                <circle id="椭圆形" fill="#3898F9" cx="1.5" cy="1.5" r="1.5"></circle>
+                <circle id="椭圆形" fill="#2E2F30" cx="1.5" cy="1.5" r="1"></circle>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

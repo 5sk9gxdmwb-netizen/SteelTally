@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>测量面积</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-482.000000, -5041.000000)">
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+            <g id="编组-19" transform="translate(482.000000, 5043.000000)">
+                <path d="M0,0.50045055 L0,7.50045055 C0,7.77659293 0.223857625,8.00045055 0.5,8.00045055 L14.5,8.00045055 C14.7761424,8.00045055 15,7.77659293 15,7.50045055 L15,5.73491169 C15,5.5263113 14.8704957,5.33963075 14.6751059,5.26657643 L0.67510591,0.0321152854 C0.348304943,-0.0900723551 0,0.151554159 0,0.50045055 Z M0.999528642,1.22055389 L13.9995286,6.08055389 L13.9995286,6.99955389 L0.999528642,6.99955389 L0.999528642,1.22055389 Z" id="路径-50" fill="#D4D5D5" fill-rule="nonzero"></path>
+                <g id="编组-26" transform="translate(0.000000, 9.000000)" fill="#3898F9">
+                    <rect id="矩形" x="0" y="0" width="1" height="3"></rect>
+                    <rect id="矩形备份-87" x="2" y="1" width="11" height="1"></rect>
+                    <rect id="矩形备份-88" x="3" y="0" width="1" height="3"></rect>
+                    <rect id="矩形备份-91" x="11" y="0" width="1" height="3"></rect>
+                    <rect id="矩形备份-86" x="14" y="0" width="1" height="3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

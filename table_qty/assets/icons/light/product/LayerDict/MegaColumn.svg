@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>巨型柱</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-228.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <polygon id="路径-7" fill="#D1E3FA" points="231.5 1032.99529 231.5 1043.5 234.5 1046.21233 234.5 1035.5"></polygon>
+            <polygon id="路径-7" fill="#D1E3FA" transform="translate(243.000000, 1039.603808) scale(-1, 1) translate(-243.000000, -1039.603808) " points="241.5 1032.99529 241.5 1043.5 244.5 1046.21233 244.5 1035.5"></polygon>
+            <line x1="241.5" y1="1035.5" x2="241.5" y2="1045.5" id="直线-128" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="231.5" y1="1032.5" x2="231.5" y2="1043.5" id="直线-126" stroke="#3898F9"></line>
+            <path d="M236.267949,1038.23205 L239.732051,1041.73205 L239.732051,1048.73205 L236.267949,1052.23205 M236.267949,1050.81005 L238.731949,1048.32005 L238.731949,1042.14305 L236.267949,1039.65305" id="形状" fill="#3898F9" fill-rule="nonzero" transform="translate(238.000000, 1045.232051) rotate(-270.000000) translate(-238.000000, -1045.232051) "></path>
+            <line x1="244.5" y1="1032.99529" x2="244.5" y2="1042.99885" id="直线-127" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="234.5" y1="1035.5" x2="234.5" y2="1046.21233" id="直线-129" stroke="#3898F9" stroke-linecap="round"></line>
+            <rect id="矩形" fill="#D1E3FA" x="235" y="1035" width="6" height="11"></rect>
+            <path d="M238,1026.21078 L240.964102,1029.2056 L240.964102,1035.7944 L238,1038.78922 L235.035898,1035.7944 L235.035898,1029.2056 L238,1026.21078 Z" id="多边形" stroke="#3898F9" transform="translate(238.000000, 1032.500000) rotate(-270.000000) translate(-238.000000, -1032.500000) "></path>
+            <line x1="234.718476" y1="1046.44602" x2="231.5" y2="1043.22488" id="直线-130" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="241.293748" y1="1046.43884" x2="244.5" y2="1043.22488" id="直线-131" stroke="#3898F9" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

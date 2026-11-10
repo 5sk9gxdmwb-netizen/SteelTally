@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>插入点</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-625.000000, -3421.000000)">
+            <path d="M630,3422 L627,3422 L627,3435 L630,3435 L630,3431 L631,3431 L631,3432 L638,3432 L638,3429 L633,3429 L633,3428 L638,3428 C638.552285,3428 639,3428.44772 639,3429 L639,3432 C639,3432.55228 638.552285,3433 638,3433 L631,3433 L631,3435 C631,3435.55228 630.552285,3436 630,3436 L627,3436 C626.447715,3436 626,3435.55228 626,3435 L626,3422 C626,3421.44772 626.447715,3421 627,3421 L630,3421 C630.552285,3421 631,3421.44772 631,3422 L631,3426 L630,3426 L630,3422 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <line x1="632.5" y1="3426.5" x2="628.5" y2="3430.5" id="直线-8" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="632.5" y1="3426.5" x2="628.5" y2="3430.5" id="直线-8" stroke="#3898F9" stroke-linecap="round" transform="translate(630.500000, 3428.500000) scale(-1, 1) translate(-630.500000, -3428.500000) "></line>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

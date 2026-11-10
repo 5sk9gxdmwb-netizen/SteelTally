@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>格构柱</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1552.000000, -3328.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M1564,3342 L1566,3342 L1566,3343 L1554,3343 L1554,3342 L1556,3342 L1556,3328 L1557,3328 L1557,3332 L1562,3332 C1563.10457,3332 1564,3332.89543 1564,3334 L1564,3342 Z M1563,3338.954 L1558.6,3342 L1563,3342 L1563,3338.954 Z M1557,3338 L1557,3341.891 L1562.621,3338 L1557,3338 Z M1562,3333 L1558.06,3333 L1563,3336.529 L1563,3334 C1563,3333.48716 1562.61396,3333.06449 1562.11662,3333.00673 L1562,3333 Z M1557,3337 L1561.94,3337 L1557,3333.471 L1557,3337 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

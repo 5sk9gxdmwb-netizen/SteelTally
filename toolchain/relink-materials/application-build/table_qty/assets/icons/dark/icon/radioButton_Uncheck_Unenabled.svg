@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>单选默认不可用</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-304.000000, -160.000000)">
+            <g id="切片" transform="translate(35.000000, 64.000000)"></g>
+            <rect id="矩形备份-13" fill="#4C4C4C" x="305" y="161" width="14" height="14" rx="7"></rect>
+            <path d="M312,161 C315.865993,161 319,164.134007 319,168 C319,171.865993 315.865993,175 312,175 C308.134007,175 305,171.865993 305,168 C305,164.134007 308.134007,161 312,161 Z M312,162 C308.686292,162 306,164.686292 306,168 C306,171.313708 308.686292,174 312,174 C315.313708,174 318,171.313708 318,168 C318,164.686292 315.313708,162 312,162 Z" id="矩形备份-13" fill="#5C5D5E" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>布置墙面檩条</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1296.000000, -1200.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <rect id="矩形" fill="#3898F9" x="1307" y="1205" width="1" height="1"></rect>
+            <rect id="矩形备份-134" fill="#3898F9" x="1307" y="1212" width="1" height="1"></rect>
+            <path d="M1299,1203 L1304,1203 L1304,1201 L1307,1201 L1307,1206 L1296,1206 L1296,1201 L1299,1201 L1299,1203 Z" id="形状结合" fill-opacity="0.2" fill="#3898F9"></path>
+            <path d="M1299,1210 L1304,1210 L1304,1208 L1307,1208 L1307,1213 L1296,1213 L1296,1208 L1299,1208 L1299,1210 Z" id="形状结合备份-51" fill-opacity="0.2" fill="#3898F9"></path>
+            <path d="M1299,1201 L1299,1203 L1304,1203 L1304,1201 L1307,1201 L1307,1206 L1296,1206 L1296,1201 L1299,1201 Z M1306,1202 L1305,1202 L1305,1204 L1298,1204 L1298,1202 L1297,1202 L1297,1205 L1306,1205 L1306,1202 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M1299,1208 L1299,1210 L1304,1210 L1304,1208 L1307,1208 L1307,1213 L1296,1213 L1296,1208 L1299,1208 Z M1306,1209 L1305,1209 L1305,1211 L1298,1211 L1298,1209 L1297,1209 L1297,1212 L1306,1212 L1306,1209 Z" id="形状结合备份-50" fill="#3898F9" fill-rule="nonzero"></path>
+            <rect id="矩形" stroke="#D4D5D5" x="1308.5" y="1200.5" width="2" height="14" rx="1"></rect>
+        </g>
+    </g>
+</svg>

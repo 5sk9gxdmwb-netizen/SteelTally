@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>复选选中可用</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-947.000000, -738.000000)">
+            <rect id="矩形备份-3" fill="#047BC9" x="948" y="739" width="14" height="14" rx="2"></rect>
+            <g id="对勾" transform="translate(950.000000, 741.000000)">
+                <g id="Group">
+                    <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="10" height="10"></rect>
+                    <path d="M9.745,0.685 C6.705,2.55 4.5,4.905 3.505,6.085 L1.075,4.18 L-8.8817842e-15,5.045 L4.195,9.315 C4.915,7.465 7.205,3.85 10,1.28 L9.745,0.685 L9.745,0.685 Z" id="Path" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

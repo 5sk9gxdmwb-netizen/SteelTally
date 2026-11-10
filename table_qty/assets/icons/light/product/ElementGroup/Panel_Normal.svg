@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>面板-黑</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="路径-12" fill="#616569" points="2 4 4 4 4 22 2 22"></polygon>
+        <polygon id="路径-13" fill="#D2D3D4" points="20.5 21 1 21 1 23 20.5 23"></polygon>
+        <polygon id="路径-5" fill="#A5A7A9" points="18 4 2 20 2 22 3 22 20 5 20 4"></polygon>
+        <path d="M22,2 L0,2 L2,0 L24,0 L24,22 L23.5,22 L22,24 L22,2 Z" id="形状结合" fill="#D2D3D4"></path>
+        <polygon id="路径-14" fill="#616569" points="3 22 5 21 20 6 20 5"></polygon>
+        <polygon id="路径-7" fill="#A5A7A9" points="11 14 15 18 13 20 9 16"></polygon>
+        <polygon id="路径-15" fill="#616569" points="3 13 4 13 13 4 11 4 2 13"></polygon>
+        <polygon id="路径-7" fill="#A5A7A9" points="11 5 14 8 12 10 9 7"></polygon>
+        <polygon id="路径-4" fill="#A5A7A9" points="9 4 2 11 2 14 12 4"></polygon>
+        <polygon id="路径-16" fill="#616569" points="15 21 20 16 20 15 13 22"></polygon>
+        <path d="M21,3 L1,3 L1,23 L21,23 L21,3 Z" id="路径-3" stroke="#A5A7A9" stroke-width="2"></path>
+        <polygon id="路径-27" fill="#616569" points="22 2 24 0 24 22 22 24"></polygon>
+        <polygon id="路径-6" fill="#A5A7A9" points="20 13 11 22 13 22 20 15"></polygon>
+    </g>
+</svg>

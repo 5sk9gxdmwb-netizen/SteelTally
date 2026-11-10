@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>热轧扁钢</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-505.000000, -4201.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M564,4230 C564.552285,4230 565,4230.44772 565,4231 L565,4235 C565,4235.55228 564.552285,4236 564,4236 L511,4236 C510.447715,4236 510,4235.55228 510,4235 L510,4231 C510,4230.44772 510.447715,4230 511,4230 L564,4230 Z M564,4231 L511,4231 L511,4235 L564,4235 L564,4231 Z" id="矩形" fill="#3898F9" fill-rule="nonzero" transform="translate(537.500000, 4233.000000) rotate(-45.000000) translate(-537.500000, -4233.000000) "></path>
+            <rect id="矩形" fill-opacity="0.2" fill="#3898F9" transform="translate(537.500000, 4233.000000) rotate(-45.000000) translate(-537.500000, -4233.000000) " x="510" y="4230" width="55" height="6" rx="1"></rect>
+        </g>
+    </g>
+</svg>

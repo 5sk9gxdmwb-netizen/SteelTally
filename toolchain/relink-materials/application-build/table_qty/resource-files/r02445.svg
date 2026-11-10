@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>缩小</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1168.000000, -5408.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <circle id="椭圆形" stroke="#51596A" cx="1175.5" cy="5415.5" r="6"></circle>
+            <line x1="1180" y1="5420" x2="1183" y2="5423" id="直线" stroke="#51596A" stroke-linecap="round"></line>
+            <rect id="矩形" fill="#1874E6" x="1173" y="5415" width="5" height="1" rx="0.5"></rect>
+        </g>
+    </g>
+</svg>

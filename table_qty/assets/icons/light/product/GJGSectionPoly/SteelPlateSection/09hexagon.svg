@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直角六边形</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢板库图标" transform="translate(-382.000000, -201.000000)" fill="#1874E6">
+            <g id="编组-3" transform="translate(395.000000, 215.000000)">
+                <path d="M0,35.9428571 L0,-3.90798505e-14 L23.2571429,-3.90798505e-14 L37,11.6814286 L37,24.7107143 L23.2571429,35.9428571 L0,35.9428571 Z" id="形状结合" fill-opacity="0.2"></path>
+                <path d="M23.125,-3.90798505e-14 L37,11.6814286 L37,24.7107143 L23.125,35.9428571 L0,35.9428571 L0,-3.90798505e-14 L23.125,-3.90798505e-14 Z M22.7542211,1.05714286 L1.05714286,1.05714286 L1.05714286,34.8857143 L22.7624835,34.8857143 L35.9428571,24.2214857 L35.9428571,12.1556571 L22.7542211,1.05714286 Z" id="形状结合" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

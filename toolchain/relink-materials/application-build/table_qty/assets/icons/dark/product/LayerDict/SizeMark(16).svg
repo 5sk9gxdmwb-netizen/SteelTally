@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>尺寸标注</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-99.000000, -913.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <g id="尺寸标注" transform="translate(100.000000, 914.000000)" fill-rule="nonzero">
+                <rect id="矩形复制" fill="#D4D5D5" x="0" y="0" width="1" height="16"></rect>
+                <rect id="矩形复制-19" fill="#D4D5D5" x="17" y="0" width="1" height="16"></rect>
+                <rect id="矩形复制-76" fill="#3898F9" transform="translate(8.000000, 7.500000) scale(-1, 1) rotate(90.000000) translate(-8.000000, -7.500000) " x="7.5" y="1.5" width="1" height="12"></rect>
+                <polygon id="路径" fill="#3898F9" points="4 9.5 1 7.52666667 4 5.5"></polygon>
+                <polygon id="路径" fill="#3898F9" transform="translate(15.500000, 7.500000) scale(-1, 1) translate(-15.500000, -7.500000) " points="17 9.5 14 7.52666667 17 5.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

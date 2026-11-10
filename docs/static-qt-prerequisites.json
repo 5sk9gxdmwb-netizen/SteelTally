@@ -1,0 +1,12 @@
+{
+  "qt_version": "6.8.3",
+  "installed_qt_static": false,
+  "evidence": [
+    "QT.global.disabled_features = static cross_compile pkg-config debug_and_release appstore-compliant simulator_and_device rpath force_asserts framework c++20 c++2a c++2b reduce_relocations wasm-simd128 wasm-exceptions zstd openssl-linked opensslv11",
+    "QT_CONFIG += shared no-pkg-config separate_debug_info reduce_exports openssl release"
+  ],
+  "qt_source_present": false,
+  "static_build_verified": false,
+  "official_documentation_fetch": "blocked by WebFetch domain safety verification",
+  "embedded_resource_count": 2619
+}

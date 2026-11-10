@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>钢板剪力墙</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-272.000000, -3440.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M284,3455 L284,3454 L285,3454 L285,3453 L274,3453 L274,3454 L275,3454 L275,3455 L272,3455 L272,3454 L273,3454 L273,3441 L272,3441 L272,3440 L275,3440 L275,3441 L274,3441 L274,3442 L285,3442 L285,3441 L284,3441 L284,3440 L287,3440 L287,3441 L286,3441 L286,3454 L287,3454 L287,3455 L284,3455 Z M285,3443 L274,3443 L274,3452 L285,3452 L285,3443 Z M284,3444 L284,3451 L275,3451 L275,3444 L284,3444 Z M283,3445 L276,3445 L276,3450 L283,3450 L283,3445 Z" id="形状结合" fill="#1874E6" fill-rule="nonzero"></path>
+            <rect id="矩形" fill-opacity="0.2" fill="#1874E6" x="276" y="3445" width="7" height="5"></rect>
+        </g>
+    </g>
+</svg>

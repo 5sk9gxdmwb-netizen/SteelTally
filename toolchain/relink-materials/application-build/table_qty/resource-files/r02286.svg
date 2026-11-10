@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>半圆</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.2">
+        <g id="钢板库图标" transform="translate(-277.000000, -369.000000)" fill="#1874E6" stroke="#1874E6">
+            <path d="M309,391.5 C314.323971,391.5 319.149618,393.633592 322.668527,397.092392 C326.081775,400.447337 328.265649,405.049082 328.482236,410.159926 L328.482236,410.159926 L289.506396,410.49562 C289.638026,405.311203 291.793124,400.629712 295.211418,397.211418 C298.740224,393.682612 303.615224,391.5 309,391.5 Z" id="形状结合"></path>
+        </g>
+    </g>
+</svg>

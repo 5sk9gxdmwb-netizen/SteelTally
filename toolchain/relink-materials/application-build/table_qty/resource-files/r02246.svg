@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>梁-灰</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-387.000000, -680.000000)">
+            <polygon id="路径-53" fill="#526487" points="406 688 406 683 393 695 393 701"></polygon>
+            <path d="M387,692 L397,692 L397,694 L393,695 L393,701 L397,702 L397,704 L387,704 C387,702.666667 387,702 387,702 C387,702 388.333333,701.666667 391,701 L391,695 L387,694 L387,692 Z" id="路径-47" fill="#8E9CBB"></path>
+            <polygon id="路径-48" fill="#526487" points="397 694 410 682 410 680 397 692"></polygon>
+            <polygon id="路径-48" fill="#526487" points="397 704 410 691 410 689 397 702"></polygon>
+            <polygon id="路径-52" fill="#BBC4D6" points="393 701 406 688 410 689 397 702"></polygon>
+            <polygon id="路径-54" fill="#BBC4D6" points="387 692 397 692 410 680 400 680"></polygon>
+        </g>
+    </g>
+</svg>

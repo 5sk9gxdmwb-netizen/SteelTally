@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>正交-激活</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态栏" transform="translate(-74.000000, -67.000000)">
+            <g id="内容" transform="translate(27.000000, 67.000000)" fill="#1874E6">
+                <path d="M48,2.00008556 L49,2.00008556 L49,14.0000856 C48.4477153,14.0000856 48,13.5523703 48,13.0000856 L48,2.00008556 L48,2.00008556 Z" id="矩形"></path>
+                <rect id="矩形备份-3" x="52" y="10.0000856" width="1" height="4"></rect>
+                <rect id="矩形备份" x="49" y="13.0000856" width="12" height="1"></rect>
+                <path d="M49,9.00008556 L52,9.00008556 C52.5522847,9.00008556 53,9.44780081 53,10.0000856 L53,10.0000856 L53,10.0000856 L49,10.0000856 L49,9.00008556 Z" id="矩形备份-2"></path>
+            </g>
+            <g id="切片" transform="translate(74.000000, 67.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>轴线-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="4" y1="8" x2="15.5" y2="14.5" id="直线-5" stroke="#2F7AFC" stroke-linecap="round" transform="translate(9.750000, 11.250000) scale(-1, 1) translate(-9.750000, -11.250000) "></line>
+        <polygon id="矩形" fill="#2F7AFC" points="0 12 12 19 12 20 0 13"></polygon>
+        <polygon id="矩形" fill="#2F7AFC" transform="translate(6.000000, 9.000000) scale(1, -1) translate(-6.000000, -9.000000) " points="0 5 12 12 12 13 0 6"></polygon>
+        <polygon id="矩形" fill="#2F7AFC" transform="translate(18.000000, 16.000000) scale(-1, 1) translate(-18.000000, -16.000000) " points="12 12 24 19 24 20 12 13"></polygon>
+        <line x1="4.5" y1="10" x2="16" y2="16.5" id="直线-5备份" stroke="#2F7AFC" stroke-linecap="round"></line>
+        <line x1="8" y1="10" x2="19.5" y2="16.5" id="直线-5备份" stroke="#2F7AFC" stroke-linecap="round" transform="translate(13.750000, 13.250000) scale(-1, 1) translate(-13.750000, -13.250000) "></line>
+        <polygon id="矩形" fill="#2F7AFC" transform="translate(18.000000, 9.000000) scale(-1, -1) translate(-18.000000, -9.000000) " points="12 5 24 12 24 13 12 6"></polygon>
+        <line x1="8.5" y1="8" x2="20" y2="14.5" id="直线-5" stroke="#2F7AFC" stroke-linecap="round"></line>
+        <polygon id="路径-49" fill="#B4D5FF" points="5 10 5 7 8 9 8 12"></polygon>
+        <polygon id="路径-50" fill="#2F7AFC" points="5 7 8 5 11 7 8 9"></polygon>
+        <polygon id="路径-51" fill="#76B0FF" points="11 7 11 10 8 12 8 9"></polygon>
+    </g>
+</svg>

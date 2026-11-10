@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>椭圆标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矢量图编辑器" transform="translate(-1667.000000, -52.000000)">
+            <g id="切片" transform="translate(57.000000, 49.000000)"></g>
+            <path d="M1674.5,62 C1678.1551,62 1681,59.8663261 1681,57.5 C1681,55.1336739 1678.1551,53 1674.5,53 C1670.8449,53 1668,55.1336739 1668,57.5 C1668,59.8663261 1670.8449,62 1674.5,62 Z M1674.5,63 C1670.35786,63 1667,60.5375661 1667,57.5 C1667,54.4624339 1670.35786,52 1674.5,52 C1678.64214,52 1682,54.4624339 1682,57.5 C1682,60.5375661 1678.64214,63 1674.5,63 Z" id="Oval" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#3898F9" x="1667" y="64" width="1" height="3"></rect>
+            <path d="M1678,64 L1680,65.5 L1678,67 L1678,66 L1671,66 L1671,67 L1669,65.5 L1671,64 L1671,65 L1678,65 L1678,64 Z" id="Combined-Shape" fill="#3898F9"></path>
+            <rect id="矩形备份-86" fill="#3898F9" x="1681" y="64" width="1" height="3"></rect>
+        </g>
+    </g>
+</svg>

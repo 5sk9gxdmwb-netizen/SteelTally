@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>选择构件类型-蓝色背景</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="其他补充" transform="translate(-1036.000000, -365.000000)">
+            <g id="编组" transform="translate(4.000000, 32.000000)"></g>
+            <path d="M1048.5,365 C1055.40356,365 1061,370.596441 1061,377.5 C1061,384.403559 1055.40356,390 1048.5,390 C1041.59644,390 1036,384.403559 1036,377.5 C1036,370.596441 1041.59644,365 1048.5,365 Z M1048.5,366 C1042.14873,366 1037,371.148725 1037,377.5 C1037,383.851275 1042.14873,389 1048.5,389 C1054.85127,389 1060,383.851275 1060,377.5 C1060,371.148725 1054.85127,366 1048.5,366 Z" id="形状结合备份-16" fill="#1874E6" fill-rule="nonzero"></path>
+            <circle id="椭圆形" fill="#1874E6" cx="1048.5" cy="377.5" r="12.5"></circle>
+        </g>
+    </g>
+</svg>

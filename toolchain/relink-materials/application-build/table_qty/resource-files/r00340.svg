@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>相等-点击</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-772.000000, -554.000000)">
+            <g id="编组-2备份-8" transform="translate(772.000000, 554.000000)">
+                <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M23,1 L1,1 L1,23 L23,23 L23,1 Z" id="形状结合" fill="#FF8040"></path>
+                <rect id="矩形备份" fill="#EBEBEB" x="1" y="1" width="22" height="22"></rect>
+            </g>
+            <path d="M776.5,569 C776.223858,569 776,568.776142 776,568.5 C776,568.223858 776.223858,568 776.5,568 L790.5,568 C790.776142,568 791,568.223858 791,568.5 C791,568.776142 790.776142,569 790.5,569 L776.5,569 Z" id="Combined-Shape" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M776.5,565 C776.223858,565 776,564.776142 776,564.5 C776,564.223858 776.223858,564 776.5,564 L790.5,564 C790.776142,564 791,564.223858 791,564.5 C791,564.776142 790.776142,565 790.5,565 L776.5,565 Z" id="Combined-Shape" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

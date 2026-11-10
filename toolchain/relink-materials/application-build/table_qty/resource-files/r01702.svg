@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>修改轴距</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-79.000000, -910.000000)">
+            <g id="修改轴距" transform="translate(79.000000, 910.000000)">
+                <path d="M14.6760107,4.33198893 L13.6680111,3.32398933 C13.2359831,2.89200356 12.5879974,2.89200356 12.1560257,3.32398933 L6.10799996,9.37201509 C6.03598592,9.44397287 6,9.51598691 6,9.62398687 L6,11.639972 C6,11.819986 6.14397182,12 6.36002798,12 L8.37601313,12 C8.48401309,12 8.55602713,11.9640141 8.62798491,11.892 L14.6760107,5.84397428 C15.1079964,5.41200257 15.1079964,4.72798878 14.6760107,4.33198893 Z M7.14181624,9.317817 L11.5569928,4.97266177 L13.061732,6.47266177 L8.65752716,10.8411375 L7.14181624,9.317817 Z M6.76547468,11.2709403 L6.76547468,9.76720421 L8.26547468,11.2709403 L6.76547468,11.2709403 Z M14,5.5 L13.4975469,6 L12,4.49926415 L12.5,4 C12.6358283,3.86413127 12.8641186,3.86413127 13,4 L14,5 C14.1358283,5.13592181 14.1358283,5.36413127 14,5.5 Z" id="Fill-1" fill="#1874E6"></path>
+                <rect id="矩形复制" fill="#51596A" transform="translate(7.500000, 14.500000) scale(-1, -1) rotate(-270.000000) translate(-7.500000, -14.500000) " x="7" y="7" width="1" height="15"></rect>
+                <rect id="矩形复制-19" fill="#51596A" transform="translate(7.500000, 0.500000) scale(-1, -1) rotate(-270.000000) translate(-7.500000, -0.500000) " x="7" y="-7" width="1" height="15"></rect>
+                <rect id="矩形复制-76" fill="#1874E6" transform="translate(2.500000, 7.500000) scale(1, -1) rotate(-540.000000) translate(-2.500000, -7.500000) " x="2" y="2" width="1" height="11"></rect>
+                <polygon id="路径" fill="#1874E6" transform="translate(2.500000, 12.500000) scale(-1, -1) rotate(-270.000000) translate(-2.500000, -12.500000) " points="4 14.5 1 12.5266667 4 10.5"></polygon>
+                <polygon id="路径" fill="#1874E6" transform="translate(2.500000, 2.500000) rotate(-270.000000) translate(-2.500000, -2.500000) " points="4 4.5 1 2.52666667 4 0.5"></polygon>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

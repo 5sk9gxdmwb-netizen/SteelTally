@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>轴线-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-190.000000, -170.000000)">
+            <rect id="矩形" fill="#B4D5FF" x="191" y="171" width="20" height="21"></rect>
+            <path d="M197.5,171.5 L197.5,193.5 M191.5,178.5 L210.5,178.5 M191.5,185.5 L211.5,185.5 M204.5,171.5 L204.5,193.5" id="形状结合" stroke="#FFFFFF" stroke-linecap="square"></path>
+            <line x1="190.5" y1="170.5" x2="190.5" y2="192.5" id="直线-12" stroke="#76B0FF" stroke-linecap="square"></line>
+            <line x1="212.5" y1="170.5" x2="191.5" y2="170.5" id="直线-13" stroke="#76B0FF" stroke-linecap="square"></line>
+            <line x1="211.5" y1="170.5" x2="211.5" y2="192.5" id="直线-14" stroke="#76B0FF" stroke-linecap="square"></line>
+            <line x1="212.5" y1="170.5" x2="212.5" y2="193.5" id="直线-14" stroke="#2F7AFC" stroke-linecap="square"></line>
+            <line x1="190.5" y1="192.5" x2="211.5" y2="192.5" id="直线-15" stroke="#76B0FF" stroke-linecap="square"></line>
+            <line x1="190.5" y1="193.5" x2="211.5" y2="193.5" id="直线-15" stroke="#2F7AFC" stroke-linecap="square"></line>
+        </g>
+    </g>
+</svg>

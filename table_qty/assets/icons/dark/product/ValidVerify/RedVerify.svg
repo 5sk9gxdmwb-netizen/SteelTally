@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>模型冲突-方块</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-144.000000, -5504.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <rect id="矩形" stroke="#DD3840" fill-opacity="0.6" fill="#DD3840" x="147.5" y="5507.5" width="9" height="9" rx="2"></rect>
+        </g>
+    </g>
+</svg>

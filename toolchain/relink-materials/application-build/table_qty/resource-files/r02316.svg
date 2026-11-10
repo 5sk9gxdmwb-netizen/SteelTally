@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>焊接截面-变截面箱型</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1145.000000, -4089.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <rect id="矩形" fill-opacity="0.2" fill="#1874E6" x="1156" y="4112" width="20" height="20"></rect>
+            <polygon id="矩形备份-64" fill-opacity="0.2" fill="#1874E6" points="1178 4112 1198 4114.5 1198 4129 1178 4132"></polygon>
+            <path d="M1178,4112 L1198,4114.5 L1198,4129 L1178,4132 L1178,4112 Z M1197,4126.069 L1179,4128.438 L1179,4130.839 L1197,4128.139 L1197,4126.069 Z M1179,4116.069 L1179,4127.43 L1197,4125.061 L1197,4118.438 L1179,4116.069 Z M1179,4113.133 L1179,4115.061 L1197,4117.43 L1197,4115.383 L1179,4113.133 Z" id="形状结合备份-23" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M1176,4112 L1176,4132 L1156,4132 L1156,4112 L1176,4112 Z M1175,4113 L1157,4113 L1157,4131 L1175,4131 L1175,4113 Z" id="矩形" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M1173,4115 L1173,4129 L1159,4129 L1159,4115 L1173,4115 Z M1172,4116 L1160,4116 L1160,4128 L1172,4128 L1172,4116 Z" id="矩形备份-69" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

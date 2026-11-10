@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>自动设定位点</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="直线-109" fill="#D4D5D5" fill-rule="nonzero" points="13 10 13 12 12 12 12 10"></polygon>
+        <path d="M7,1 L11.5053533,1 L16,5.56869843 L16,14.5 C16,15.2796961 15.4051119,15.9204487 14.64446,15.9931334 L14.5,16 L2.5,16 C1.72030388,16 1.07955132,15.4051119 1.00686658,14.64446 L1,14.5 L1,7 L2,7 L2,14.5 C2,14.7454599 2.17687516,14.9496084 2.41012437,14.9919443 L2.5,15 L14.5,15 C14.7454599,15 14.9496084,14.8231248 14.9919443,14.5898756 L15,14.5 L15,5.979 L11.087,2 L7,2 L7,1 Z" id="路径-33" fill="#D4D5D5" fill-rule="nonzero"></path>
+        <polygon id="路径-34" fill="#D4D5D5" fill-rule="nonzero" points="12 2 12 5 15.0270358 5 15.0270358 6 11 6 11 2"></polygon>
+        <polygon id="直线-107" fill="#D4D5D5" fill-rule="nonzero" points="13 12 13 13 10 13 10 12"></polygon>
+        <polygon id="直线-110" fill="#3898F9" fill-rule="nonzero" points="1.37867966 0.671572875 6.32842712 5.62132034 5.62132034 6.32842712 0.671572875 1.37867966"></polygon>
+        <polygon id="直线-111" fill="#3898F9" fill-rule="nonzero" points="5.62132034 0.671572875 6.32842712 1.37867966 1.37867966 6.32842712 0.671572875 5.62132034"></polygon>
+    </g>
+</svg>

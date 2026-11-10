@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>checkBox-check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="市政-不需映射" transform="translate(-406.000000, -801.000000)">
+            <g id="不需映射-内容" transform="translate(-8.000000, 124.000000)">
+                <rect id="矩形备份-3" fill="#163859" x="415" y="678" width="14" height="14" rx="2"></rect>
+                <rect id="矩形备份-3" fill="#6395C7" x="416" y="679" width="12" height="12" rx="2"></rect>
+                <g id="对勾" transform="translate(417.000000, 680.000000)">
+                    <g id="Group">
+                        <rect id="Rectangle" fill="#000000" opacity="0" x="0" y="0" width="10" height="10"></rect>
+                        <path d="M9.745,0.685 C6.705,2.55 4.5,4.905 3.505,6.085 L1.075,4.18 L-8.8817842e-15,5.045 L4.195,9.315 C4.915,7.465 7.205,3.85 10,1.28 L9.745,0.685 L9.745,0.685 Z" id="Path" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="不需映射-切片" transform="translate(67.000000, 124.000000)"></g>
+        </g>
+    </g>
+</svg>

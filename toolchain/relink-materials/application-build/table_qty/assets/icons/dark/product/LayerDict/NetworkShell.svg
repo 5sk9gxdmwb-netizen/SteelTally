@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>网壳</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1098.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="1106.5" y1="1029.5" x2="1116.5" y2="1039.5" id="直线-150" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="1100.5" y1="1030.5" x2="1115.5" y2="1045.5" id="直线-151" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="1099.5" y1="1036.5" x2="1109.5" y2="1046.5" id="直线-152" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="1099.5" y1="1039.5" x2="1109.5" y2="1029.5" id="直线-153" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="1100.5" y1="1045.5" x2="1115.5" y2="1030.5" id="直线-154" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="1106.5" y1="1046.5" x2="1116.5" y2="1036.5" id="直线-155" stroke="#3898F9" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

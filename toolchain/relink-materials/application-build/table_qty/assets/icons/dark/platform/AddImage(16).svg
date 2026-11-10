@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>添加图纸</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-72.000000, -1282.000000)">
+            <path d="M84,1291 L84,1294 L81,1294 L81,1293 L83,1293 L83,1291 L84,1291 Z M78,1285 L78,1286 L76,1286 L76,1288 L75,1288 L75,1285 L78,1285 Z" id="形状结合" fill="#D4D5D5"></path>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+            <path d="M82,1282 L87,1287 L87,1295 C87,1296.10457 86.1045695,1297 85,1297 L79,1297 L79,1296 L85,1296 C85.5128358,1296 85.9355072,1295.61396 85.9932723,1295.11662 L86,1295 L86,1287 L83,1287 C82.4477153,1287 82,1286.55228 82,1286 L82,1283 L74,1283 C73.4871642,1283 73.0644928,1283.38604 73.0067277,1283.88338 L73,1284 L73,1290 L72,1290 L72,1284 C72,1282.89543 72.8954305,1282 74,1282 L82,1282 Z M83,1284.415 L83,1286 L84.585,1286 L83,1284.415 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <g id="编组-45" transform="translate(72.531943, 1290.485879)" stroke="#3898F9" stroke-linecap="round">
+                <polyline id="直线-4" points="3.00295502 0 3.00295502 1.06451442 3.00295502 6"></polyline>
+                <polyline id="直线-4" points="0 3.00020784 4.7525461 3.00020784 6 3.00020784"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

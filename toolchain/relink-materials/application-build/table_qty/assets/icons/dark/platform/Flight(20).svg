@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>梯段</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-57备份-3" transform="translate(-262.000000, -219.000000)"></g>
+        <path d="M13.625881,1.5 L18.3317634,17.5 L1.66823662,17.5 L6.37411897,1.5 L13.625881,1.5 Z" id="矩形" stroke="#3898F9"></path>
+        <line x1="16.5" y1="13.5" x2="3.5" y2="13.5" id="直线-20" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="15.5" y1="9.5" x2="4.5" y2="9.5" id="直线-21" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="14.5965011" y1="5.5" x2="5.5" y2="5.5" id="直线-32" stroke="#3898F9" stroke-linecap="square"></line>
+        <path d="" id="路径-9" stroke="#979797"></path>
+        <polygon id="路径-10" fill-opacity="0.2" fill="#3898F9" points="3.03644208 13.5 16.981343 13.5 18.3914885 17.4955092 1.87929238 17.296284"></polygon>
+        <polygon id="路径-11" fill-opacity="0.2" fill="#3898F9" points="5.26813943 5.5 14.5965011 5.5 15.8967043 9.5 4.16418372 9.5"></polygon>
+    </g>
+</svg>

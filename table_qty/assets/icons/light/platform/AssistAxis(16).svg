@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>辅助轴线</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-71.000000, -3808.000000)">
+            <rect id="矩形复制" fill="#1874E6" x="74" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-19" fill="#1874E6" x="82" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-75" fill="#1874E6" transform="translate(78.500000, 3811.500000) rotate(-270.000000) translate(-78.500000, -3811.500000) " x="78" y="3804" width="1" height="15"></rect>
+            <rect id="矩形复制-75备份-4" fill="#1874E6" transform="translate(78.500000, 3815.500000) rotate(-270.000000) translate(-78.500000, -3815.500000) " x="78" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-75备份-5" fill="#1874E6" transform="translate(78.500000, 3819.500000) rotate(-270.000000) translate(-78.500000, -3819.500000) " x="78" y="3812" width="1" height="15"></rect>
+            <line x1="71.5" y1="3822.5" x2="85.5" y2="3808.5" id="直线-2复制-2" stroke="#1874E6" fill="#1874E6" stroke-linecap="round"></line>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

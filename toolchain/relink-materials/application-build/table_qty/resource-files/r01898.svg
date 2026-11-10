@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>基础-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-190.000000, -373.000000)">
+            <polygon id="矩形" fill="#B4D5FF" points="190 388 195.5 391 195.5 397 190 394"></polygon>
+            <polygon id="矩形备份-36" fill="#B4D5FF" points="202 388 207.5 391 207.5 397 202 394"></polygon>
+            <polygon id="矩形备份-38" fill="#B4D5FF" points="196 378 201.5 381 201.5 387 196 384"></polygon>
+            <polygon id="矩形" fill="#76B0FF" transform="translate(198.250000, 392.500000) scale(-1, 1) translate(-198.250000, -392.500000) " points="195.5 388 201 391 201 397 195.5 394"></polygon>
+            <polygon id="矩形备份-37" fill="#76B0FF" transform="translate(210.250000, 392.500000) scale(-1, 1) translate(-210.250000, -392.500000) " points="207.5 388 213 391 213 397 207.5 394"></polygon>
+            <polygon id="矩形备份-43" fill="#76B0FF" transform="translate(204.250000, 382.500000) scale(-1, 1) translate(-204.250000, -382.500000) " points="201.5 378 207 381 207 387 201.5 384"></polygon>
+            <polygon id="路径-10" fill="#2F7AFC" points="190 388 195.5 385 201 388 195.5 391"></polygon>
+            <polygon id="路径-10备份" fill="#2F7AFC" points="202 388 207.5 385 213 388 207.5 391"></polygon>
+            <polygon id="路径-10备份-2" fill="#2F7AFC" points="196 378 201.5 375 207 378 201.5 381"></polygon>
+        </g>
+    </g>
+</svg>

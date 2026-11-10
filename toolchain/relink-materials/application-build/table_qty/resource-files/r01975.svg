@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title> 对象追踪-激活</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态栏" transform="translate(-216.000000, -180.000000)">
+            <g id="内容" transform="translate(27.000000, 67.000000)">
+                <polyline id="路径" stroke="#51596A" stroke-linecap="round" stroke-linejoin="round" points="204 127.000086 190 127.000086 201.2 116.000086"></polyline>
+                <circle id="椭圆形" fill="#1874E6" cx="195.5" cy="121.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="195.5" cy="121.500086" r="1"></circle>
+            </g>
+            <g id="切片" transform="translate(74.000000, 67.000000)"></g>
+        </g>
+    </g>
+</svg>

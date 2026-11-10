@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>创建水平工作平面</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-485.000000, -2284.000000)">
+            <path d="M498,2284 C499.104569,2284 500,2284.89543 500,2286 L500,2297 C500,2298.10457 499.104569,2299 498,2299 L487,2299 C485.895431,2299 485,2298.10457 485,2297 L485,2286 C485,2284.89543 485.895431,2284 487,2284 L498,2284 Z M498,2285 L487,2285 C486.487164,2285 486.064493,2285.38604 486.006728,2285.88338 L486,2286 L486,2297 C486,2297.51284 486.38604,2297.93551 486.883379,2297.99327 L487,2298 L498,2298 C498.512836,2298 498.935507,2297.61396 498.993272,2297.11662 L499,2297 L499,2286 C499,2285.48716 498.61396,2285.06449 498.116621,2285.00673 L498,2285 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#51596A" x="486" y="2289" width="13" height="1"></rect>
+            <rect id="矩形" fill="#51596A" transform="translate(490.500000, 2291.500000) rotate(-270.000000) translate(-490.500000, -2291.500000) " x="484" y="2291" width="13" height="1"></rect>
+            <rect id="矩形" fill="#51596A" transform="translate(494.500000, 2291.500000) rotate(-270.000000) translate(-494.500000, -2291.500000) " x="488" y="2291" width="13" height="1"></rect>
+            <rect id="矩形" fill="#51596A" x="486" y="2293" width="13" height="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

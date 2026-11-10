@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>状态栏</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-212.000000, -2435.000000)">
+            <path d="M225,2435 C226.104569,2435 227,2435.89543 227,2437 L227,2448 C227,2449.10457 226.104569,2450 225,2450 L214,2450 C212.895431,2450 212,2449.10457 212,2448 L212,2437 C212,2435.89543 212.895431,2435 214,2435 L225,2435 Z M225,2436 L214,2436 C213.487164,2436 213.064493,2436.38604 213.006728,2436.88338 L213,2437 L213,2448 C213,2448.51284 213.38604,2448.93551 213.883379,2448.99327 L214,2449 L225,2449 C225.512836,2449 225.935507,2448.61396 225.993272,2448.11662 L226,2448 L226,2437 C226,2436.48716 225.61396,2436.06449 225.116621,2436.00673 L225,2436 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#1874E6" x="213" y="2446" width="13" height="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

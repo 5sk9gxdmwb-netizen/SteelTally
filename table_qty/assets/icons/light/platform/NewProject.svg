@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>新建</title>
+    <g id="最近文件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="最近文件下载资源" transform="translate(-892.000000, -1998.000000)">
+            <g id="新建" transform="translate(892.000000, 1998.000000)">
+                <g id="编组-7" transform="translate(2.000000, 0.000000)">
+                    <path d="M7,0 L7,4 C7,4.55228475 7.44771525,5 8,5 L8,5 L12,5 L12,5 L12,15 C12,15.5522847 11.5522847,16 11,16 L1,16 C0.44771525,16 6.76353751e-17,15.5522847 0,15 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 L7,0 Z" id="形状结合" fill="#7FB9F6"></path>
+                    <path d="M8,0 L12,4 L9,4 C8.44771525,4 8,3.55228475 8,3 L8,0 L8,0 Z" id="矩形" fill="#3A8AF1"></path>
+                </g>
+                <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

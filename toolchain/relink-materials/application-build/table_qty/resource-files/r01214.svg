@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>零件切割</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-400.000000, -752.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <g id="零件切割" transform="translate(400.000000, 753.000000)" fill-rule="nonzero">
+                <path d="M13,0 C14.1,0 15,0.9 15,2 L15,11 C15,12.1 14.1,13 13,13 L9,13 L9,12 L13,12 C13.5,12 13.9,11.6 14,11.1 L14,11 L14,2 C14,1.5 13.6,1.1 13.1,1 L13,1 L9,1 L9,0 L13,0 Z M6,1 L2,1 C1.5,1 1.1,1.4 1,1.9 L1,2 L1,11 C1,11.5 1.4,11.9 1.9,12 L2,12 L6,12 L6,13 L2,13 C0.9,13 0,12.1 0,11 L0,2 C0,0.9 0.9,0 2,0 L6,0 L6,1 Z" id="形状结合" fill="#D4D5D5"></path>
+                <g id="编组-50" transform="translate(7.000000, 0.000000)" fill="#3898F9">
+                    <rect id="矩形" x="0" y="0" width="1" height="1"></rect>
+                    <rect id="矩形备份-359" x="0" y="2" width="1" height="1"></rect>
+                    <rect id="矩形备份-364" x="0" y="4" width="1" height="1"></rect>
+                    <rect id="矩形_1_" x="0" y="6" width="1" height="1"></rect>
+                    <rect id="矩形备份-359_1_" x="0" y="8" width="1" height="1"></rect>
+                    <rect id="矩形_2_" x="0" y="10" width="1" height="1"></rect>
+                    <rect id="矩形备份-359_2_" x="0" y="12" width="1" height="1"></rect>
+                    <rect id="矩形备份-364_1_" x="0" y="4" width="1" height="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

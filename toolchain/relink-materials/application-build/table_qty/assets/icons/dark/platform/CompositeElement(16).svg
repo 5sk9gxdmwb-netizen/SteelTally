@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>复合构件</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1042.000000, -630.000000)">
+            <path d="M1053,632 C1054.10457,632 1055,632.895431 1055,634 L1055,636 L1054,636 L1054,634 C1054,633.487164 1053.61396,633.064493 1053.11662,633.006728 L1053,633 L1045,633 C1044.48716,633 1044.06449,633.38604 1044.00673,633.883379 L1044,634 L1044,641 C1044,641.512836 1044.38604,641.935507 1044.88338,641.993272 L1045,642 L1047,642 L1047,643 L1045,643 C1043.89543,643 1043,642.104569 1043,641 L1043,634 C1043,632.895431 1043.89543,632 1045,632 L1053,632 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <g id="编组-79" transform="translate(1042.000000, 637.000000)" stroke="#3898F9">
+                <rect id="矩形复制-51" fill="#2E2F30" x="0.5" y="4.5" width="2" height="2"></rect>
+                <circle id="椭圆形" cx="10.9461047" cy="4.00548166" r="3.5"></circle>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

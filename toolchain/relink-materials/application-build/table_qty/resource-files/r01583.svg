@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>柱-划过</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-202.000000, -120.000000)">
+            <polygon id="矩形" fill="#76B0FF" points="205 138 214 142 214 144 205 140"></polygon>
+            <polygon id="矩形备份-142" fill="#2F7AFC" transform="translate(218.500000, 141.000000) scale(-1, 1) translate(-218.500000, -141.000000) " points="214 138 223 142 223 144 214 140"></polygon>
+            <polygon id="路径-11" fill="#B4D5FF" points="205 138 214 134 223 138 214 142"></polygon>
+            <polygon id="矩形" fill="#76B0FF" points="209 122 214 124 214 140 209 138"></polygon>
+            <polygon id="矩形备份-57" fill="#2F7AFC" transform="translate(216.500000, 131.000000) scale(-1, 1) translate(-216.500000, -131.000000) " points="214 122 219 124 219 140 214 138"></polygon>
+            <polygon id="路径-12" fill="#B4D5FF" points="209 122 214 124 219 122 214 120"></polygon>
+        </g>
+    </g>
+</svg>

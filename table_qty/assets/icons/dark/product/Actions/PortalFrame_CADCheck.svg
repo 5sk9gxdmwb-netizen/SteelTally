@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>校核反查列表</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-703.000000, -1212.000000)">
+            <g id="钢结构" transform="translate(69.000000, 77.192388)"></g>
+            <g id="对号" transform="translate(712.000000, 1220.000000)" fill="#3898F9" fill-rule="nonzero">
+                <path d="M2.75,7 C2.75,7 3.8,4.97520661 4.95,3.23966942 C5.85,1.85123967 7,0.694214876 7,0.694214876 L6.75,0 C6.75,0 5.4,0.925619835 4.3,2.14049586 C3.2,3.3553719 2.34999999,4.74380165 2.34999999,4.74380165 L0.7,3.12396694 L0,3.87603306 L2.75,7 Z" id="路径"></path>
+            </g>
+            <path d="M706,1214 L706,1217 L703,1217 L703,1214 L706,1214 Z M705,1215 L704,1215 L704,1216 L705,1216 L705,1215 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <path d="M706,1219 L706,1222 L703,1222 L703,1219 L706,1219 Z M705,1220 L704,1220 L704,1221 L705,1221 L705,1220 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <path d="M706,1224 L706,1227 L703,1227 L703,1224 L706,1224 Z M705,1225 L704,1225 L704,1226 L705,1226 L705,1225 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <polygon id="直线-191" fill="#D4D5D5" fill-rule="nonzero" points="718 1215 718 1216 707 1216 707 1215"></polygon>
+            <polygon id="直线-173" fill="#D4D5D5" fill-rule="nonzero" points="713 1220 713 1221 707 1221 707 1220"></polygon>
+            <polygon id="直线-174" fill="#D4D5D5" fill-rule="nonzero" points="710 1225 710 1226 707 1226 707 1225"></polygon>
+        </g>
+    </g>
+</svg>

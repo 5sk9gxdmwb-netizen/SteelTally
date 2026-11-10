@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>轴网</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-99.000000, -78.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <g id="轴网" transform="translate(99.000000, 79.000000)" fill="#3898F9">
+                <rect id="矩形复制-31" fill-rule="nonzero" x="3" y="0" width="1" height="18"></rect>
+                <rect id="矩形复制-32" fill-rule="nonzero" x="15" y="0" width="1" height="18"></rect>
+                <rect id="矩形复制-32" fill-rule="nonzero" x="9" y="0" width="1" height="18"></rect>
+                <rect id="矩形" x="0" y="3" width="19" height="1"></rect>
+                <rect id="矩形备份-2" x="0" y="8" width="19" height="1"></rect>
+                <rect id="矩形备份" x="0" y="14" width="19" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>抗剪键</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-528.000000, -3680.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M542,3683 C542.552285,3683 543,3683.44772 543,3684 L543,3685 C543,3685.55228 542.552285,3686 542,3686 L529,3686 C528.447715,3686 528,3685.55228 528,3685 L528,3684 C528,3683.44772 528.447715,3683 529,3683 L542,3683 Z M542,3684 L529,3684 L529,3685 L542,3685 L542,3684 Z" id="矩形" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M540,3685 L540,3692 C540,3692.55228 539.552285,3693 539,3693 L532,3693 C531.447715,3693 531,3692.55228 531,3692 L531,3685 L540,3685 Z M539,3686 L532,3686 L532,3692 L539,3692 L539,3686 Z" id="矩形" fill="#3898F9" fill-rule="nonzero"></path>
+            <polygon id="直线-99" fill="#3898F9" fill-rule="nonzero" points="534 3686 534 3693 533 3693 533 3686"></polygon>
+            <polygon id="直线-99备份" fill="#3898F9" fill-rule="nonzero" points="538 3686 538 3693 537 3693 537 3686"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>顺轨桁架</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-608.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="609.5" y1="1032.5" x2="626.5" y2="1032.5" id="直线-142" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="609.5" y1="1042.5" x2="626.5" y2="1042.5" id="直线-143" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="611.5" y1="1032.5" x2="618" y2="1042.5" id="直线-144" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="624.5" y1="1032.5" x2="617.5" y2="1042.5" id="直线-145" stroke="#3898F9" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

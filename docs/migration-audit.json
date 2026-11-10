@@ -1,0 +1,9 @@
+{
+  "copied_files": 2655,
+  "original_files_changed": [],
+  "destination_modified_after_copy": [
+    "build-native.ps1"
+  ],
+  "native_exe_exists": true,
+  "buildconfig": "#define GJG_SOURCE_ASSETS \"E:/表格算量/table_qty/assets\"\n"
+}

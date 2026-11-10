@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>楼梯</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="土建构件图标" transform="translate(-96.000000, -1488.000000)">
+            <g id="编组-82" transform="translate(96.000000, 1488.000000)" fill="#1874E6" fill-rule="nonzero">
+                <polygon id="直线-116" points="1 9 1 13 0 13 0 9"></polygon>
+                <polygon id="直线-117" points="4 9 4 10 1 10 1 9"></polygon>
+                <polygon id="直线-118" points="4 6 4 10 3 10 3 6"></polygon>
+                <polygon id="直线-117" points="7 6 7 7 3 7 3 6"></polygon>
+                <polygon id="直线-117" points="10 3 10 4 6 4 6 3"></polygon>
+                <polygon id="直线-118" points="7 3 7 7 6 7 6 3"></polygon>
+                <polygon id="直线-117" points="13 0 13 1 10 1 10 0"></polygon>
+                <polygon id="直线-118" points="10 0 10 4 9 4 9 0"></polygon>
+                <polygon id="形状结合" points="13 13 1 13 1 12 12 12 12 0 13 0"></polygon>
+            </g>
+            <path d="M106,1492 L106,1489 L108,1489 L108,1500 L97,1500 L97,1498 L100,1498 L100,1495 L103,1495 L103,1492 L106,1492 Z" id="形状结合" fill-opacity="0.2" fill="#1874E6"></path>
+            <g id="楼梯-切片" transform="translate(96.000000, 1488.000000)"></g>
+        </g>
+    </g>
+</svg>

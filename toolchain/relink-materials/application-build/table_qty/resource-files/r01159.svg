@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>指定轴线创建工作平面</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1035.000000, -2284.000000)">
+            <path d="M1048,2284 C1049.10457,2284 1050,2284.89543 1050,2286 L1050,2297 C1050,2298.10457 1049.10457,2299 1048,2299 L1037,2299 C1035.89543,2299 1035,2298.10457 1035,2297 L1035,2286 C1035,2284.89543 1035.89543,2284 1037,2284 L1048,2284 Z M1048,2285 L1037,2285 C1036.48716,2285 1036.06449,2285.38604 1036.00673,2285.88338 L1036,2286 L1036,2297 C1036,2297.51284 1036.38604,2297.93551 1036.88338,2297.99327 L1037,2298 L1048,2298 C1048.51284,2298 1048.93551,2297.61396 1048.99327,2297.11662 L1049,2297 L1049,2286 C1049,2285.48716 1048.61396,2285.06449 1048.11662,2285.00673 L1048,2285 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#D4D5D5" transform="translate(1040.500000, 2286.500000) rotate(-270.000000) translate(-1040.500000, -2286.500000) " x="1039" y="2286" width="3" height="1"></rect>
+            <rect id="矩形备份-189" fill="#D4D5D5" transform="translate(1040.500000, 2294.500000) rotate(-270.000000) translate(-1040.500000, -2294.500000) " x="1037" y="2294" width="7" height="1"></rect>
+            <rect id="矩形备份-190" fill="#D4D5D5" transform="translate(1044.500000, 2294.500000) rotate(-270.000000) translate(-1044.500000, -2294.500000) " x="1041" y="2294" width="7" height="1"></rect>
+            <rect id="矩形" fill="#D4D5D5" transform="translate(1044.500000, 2286.500000) rotate(-270.000000) translate(-1044.500000, -2286.500000) " x="1043" y="2286" width="3" height="1"></rect>
+            <rect id="矩形" fill="#D4D5D5" x="1036" y="2293" width="13" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1036" y="2289" width="1" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1038" y="2289" width="1" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1040" y="2289" width="1" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1042" y="2289" width="1" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1044" y="2289" width="1" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1046" y="2289" width="1" height="1"></rect>
+            <rect id="矩形" fill="#3898F9" x="1048" y="2289" width="1" height="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

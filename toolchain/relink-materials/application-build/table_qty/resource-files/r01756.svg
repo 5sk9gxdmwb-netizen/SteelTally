@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>旋转</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="安装" transform="translate(-528.000000, -304.000000)">
+            <g id="编组-54" transform="translate(107.000000, 80.000000)"></g>
+            <g id="旋转" transform="translate(529.000000, 304.000000)">
+                <path d="M8.37127451,2.27339644 C7.77868195,2.09555583 7.15050011,2 6.5,2 C2.91014913,2 0,4.91014913 0,8.5 C0,12.0898509 2.91014913,15 6.5,15 C10.0898509,15 13,12.0898509 13,8.5 C13,6.70416696 12.2717268,5.07843124 11.0944094,3.90202192" id="路径" stroke="#51596A"></path>
+                <polygon id="路径" fill="#1874E6" transform="translate(8.500000, 2.000000) scale(-1, 1) translate(-8.500000, -2.000000) " points="10 4 7 2.02666667 10 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>对齐到面</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-144.000000, -752.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <rect id="Rectangle" stroke="#51596A" fill-rule="nonzero" x="146.5" y="752.5" width="3" height="14" rx="1"></rect>
+            <path d="M150.4,759.747407 L150.4,763.8 L152.426297,761.098271 L150.4,759.747407 Z" id="Path-5" stroke="#1874E6" stroke-width="0.8" fill="#E5F1FF" fill-rule="nonzero"></path>
+            <path d="M150.707012,758.870416 L152.874529,760.315427 L156.855853,753.83816 L154.844076,753.078526 L150.707012,758.870416 Z" id="Path-6" stroke="#51596A" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

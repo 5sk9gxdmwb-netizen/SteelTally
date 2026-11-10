@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>钢板剪力墙</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-357.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="359.5" y1="1045.5" x2="359.5" y2="1030.5" id="直线-132" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="374.5" y1="1045.5" x2="374.5" y2="1030.5" id="直线-133" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="358.5" y1="1029.5" x2="360.5" y2="1029.5" id="直线-134" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="373.5" y1="1029.5" x2="375.5" y2="1029.5" id="直线-135" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="358.5" y1="1046.5" x2="360.5" y2="1046.5" id="直线-136" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="373.5" y1="1046.5" x2="375.5" y2="1046.5" id="直线-137" stroke="#3898F9" stroke-linecap="square"></line>
+            <rect id="矩形" stroke="#3898F9" x="359.5" y="1031.5" width="15" height="13"></rect>
+            <rect id="矩形" stroke="#3898F9" x="361.5" y="1033.5" width="11" height="9"></rect>
+        </g>
+    </g>
+</svg>

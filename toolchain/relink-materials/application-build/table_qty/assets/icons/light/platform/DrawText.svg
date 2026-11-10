@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>文字</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-64.000000, -5312.000000)">
+            <path d="M75,5316 L74,5316 L74,5314 L70,5314 L70,5325 L71,5325 L71,5326 L68,5326 L68,5325 L69,5325 L69,5314 L65,5314 L65,5316 L64,5316 L64,5313 L75,5313 L75,5316 Z" id="形状结合" fill="#51596A"></path>
+            <path d="M79,5321 L78,5321 L78,5320 L76,5320 L76,5325 L77,5325 L77,5326 L74,5326 L74,5325 L75,5325 L75,5320 L73,5320 L73,5321 L72,5321 L72,5319 L79,5319 L79,5321 Z" id="形状结合" fill="#1874E6"></path>
+        </g>
+    </g>
+</svg>

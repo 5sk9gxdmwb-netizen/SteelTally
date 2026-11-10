@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>拟合点样条</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1443.000000, -770.000000)">
+            <g id="样条" transform="translate(1446.000000, 774.000000)" stroke="#1874E6" stroke-linecap="round">
+                <path d="M0,9 C3.76589246,9.15313824 6.0992258,8.15313824 7,6" id="路径-12"></path>
+                <path d="M7,6 C3.15779629,3.48831047 3.82446295,1.48831047 9,-5.32907052e-15" id="路径-13"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

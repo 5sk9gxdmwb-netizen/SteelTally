@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>中点</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态栏" transform="translate(-909.000000, -298.000000)">
+            <g id="内容" transform="translate(27.000000, 67.000000)">
+                <path d="M882.146447,231.146532 C882.320013,230.972966 882.589437,230.953681 882.784306,231.088677 L882.853553,231.146532 L896.853553,245.146532 C897.048816,245.341794 897.048816,245.658377 896.853553,245.853639 C896.679987,246.027205 896.410563,246.04649 896.215694,245.911494 L896.146447,245.853639 L882.146447,231.853639 C881.951184,231.658377 881.951184,231.341794 882.146447,231.146532 Z" id="直线" fill="#51596A" fill-rule="nonzero" transform="translate(889.500000, 238.500086) scale(-1, 1) translate(-889.500000, -238.500086) "></path>
+                <circle id="椭圆形" fill="#1874E6" cx="889.5" cy="238.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="889.5" cy="238.500086" r="1"></circle>
+            </g>
+            <g id="切片" transform="translate(74.000000, 67.000000)"></g>
+        </g>
+    </g>
+</svg>

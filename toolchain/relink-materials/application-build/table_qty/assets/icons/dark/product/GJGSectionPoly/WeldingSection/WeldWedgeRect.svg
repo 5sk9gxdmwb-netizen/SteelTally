@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>截面2黑皮肤</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.2">
+        <g id="画板" transform="translate(-111.000000, -330.000000)" fill="#1874E6">
+            <rect id="矩形" x="125" y="360" width="12" height="12"></rect>
+            <polygon id="路径-14" stroke="#3797F9" points="143.5 360.688374 143.5 375.5 161.5 375.5 161.5 367.01527"></polygon>
+            <path d="M143.5,356.49625 L161.491701,363.04451 L161.491701,366.913093 L143.5,360.644724 L143.5,356.49625 Z" id="矩形" stroke="#3797F9"></path>
+            <line x1="143.5" y1="371.5" x2="160.5" y2="371.5" id="直线-49" stroke="#3797F9" stroke-linecap="square"></line>
+            <path d="M140.5,356.5 L140.5,375.5 L121.5,375.5 L121.5,356.5 L140.5,356.5 Z M137.5,359.5 L124.5,359.5 L124.5,372.5 L137.5,372.5 L137.5,359.5 Z" id="形状结合" stroke="#3797F9"></path>
+        </g>
+    </g>
+</svg>

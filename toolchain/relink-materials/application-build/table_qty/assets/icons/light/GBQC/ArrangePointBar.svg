@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>布置点筋</title>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-24.000000, -103.000000)">
+            <rect id="矩形" stroke="#51596A" x="24.5" y="103.5" width="14" height="14" rx="2"></rect>
+            <circle id="椭圆形" stroke="#1874E6" cx="27.5" cy="106.5" r="1"></circle>
+            <circle id="椭圆形备份" stroke="#1874E6" cx="27.5" cy="114.5" r="1"></circle>
+            <circle id="椭圆形备份-3" stroke="#1874E6" cx="35.5" cy="114.5" r="1"></circle>
+            <circle id="椭圆形备份-4" stroke="#1874E6" cx="35.5" cy="106.5" r="1"></circle>
+        </g>
+    </g>
+</svg>

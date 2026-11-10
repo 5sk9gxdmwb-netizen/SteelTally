@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>女儿墙柱</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-867.000000, -433.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <path d="M881,436 C881.552285,436 882,436.447715 882,437 L882,451 C882,451.552285 881.552285,452 881,452 L877,452 C876.447715,452 876,451.552285 876,451 L876,437 C876,436.447715 876.447715,436 877,436 L881,436 Z M881,437 L877,437 L877,451 L881,451 L881,437 Z" id="矩形" fill="#3898F9" fill-rule="nonzero"></path>
+            <polygon id="直线-74" fill="#3898F9" fill-rule="nonzero" points="876 442 876 443 871 443 871 442"></polygon>
+            <polygon id="直线-75" fill="#3898F9" fill-rule="nonzero" points="872 434 872 442 871 442 871 434"></polygon>
+            <polygon id="直线-76" fill="#3898F9" fill-rule="nonzero" points="875 434 875 435 871 435 871 434"></polygon>
+            <polygon id="直线-77" fill="#3898F9" fill-rule="nonzero" points="875 434 875 440 874 440 874 434"></polygon>
+            <polygon id="直线-78" fill="#3898F9" fill-rule="nonzero" points="876 439 876 440 874 440 874 439"></polygon>
+        </g>
+    </g>
+</svg>

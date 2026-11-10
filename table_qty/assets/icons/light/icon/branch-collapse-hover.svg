@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>branch-collapse-hover</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件" transform="translate(-1329.000000, -426.000000)">
+            <g id="切片" transform="translate(74.000000, 75.000000)"></g>
+            <rect id="矩形" stroke="#51596A" fill="#D9D9D9" x="1329.5" y="426.5" width="12" height="12" rx="2"></rect>
+            <path d="M1335.5,430 C1335.77614,430 1336,430.223858 1336,430.5 L1336,432 L1337.5,432 C1337.77614,432 1338,432.223858 1338,432.5 C1338,432.776142 1337.77614,433 1337.5,433 L1336,433 L1336,434.5 C1336,434.776142 1335.77614,435 1335.5,435 C1335.22386,435 1335,434.776142 1335,434.5 L1335,432.999 L1333.5,433 C1333.22386,433 1333,432.776142 1333,432.5 C1333,432.223858 1333.22386,432 1333.5,432 L1335,431.999 L1335,430.5 C1335,430.223858 1335.22386,430 1335.5,430 Z" id="形状结合" fill="#51596A"></path>
+        </g>
+    </g>
+</svg>

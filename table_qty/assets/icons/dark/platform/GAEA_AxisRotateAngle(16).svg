@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>转角辅轴</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1043.000000, -472.000000)">
+            <g id="转角辅轴" transform="translate(1043.000000, 473.000000)">
+                <path d="M5.91376327,13.7652809 C7.54802524,9.09861422 10.2146919,6.76528089 13.9137633,6.76528089" id="路径-2复制" stroke="#D4D5D5"></path>
+                <line x1="13.5" y1="3.76869035" x2="7.99662714" y2="14.1343452" id="直线-2复制-3" stroke="#3898F9" transform="translate(10.996627, 8.634345) scale(1, -1) translate(-10.996627, -8.634345) "></line>
+                <line x1="13.5" y1="13.5" x2="3.99662714" y2="7.13434518" id="直线-2复制-3" stroke="#3898F9" stroke-linejoin="round"></line>
+                <polygon id="矩形复制-57" fill="#D4D5D5" points="12.9966271 1.13434518 13.9966271 1.13434518 13.9966271 14 13 14"></polygon>
+                <polygon id="矩形复制-58" fill="#D4D5D5" transform="translate(7.456767, 13.500000) rotate(-270.000000) translate(-7.456767, -13.500000) " points="6.9567675 6.96014035 7.9567675 6.96014035 7.9567675 20.0398596 7.05861701 19.7247939"></polygon>
+                <path d="M1.50538333,13.8423299 C3.82704239,5.20446783 7.99336741,0.885536775 14.0043584,0.885536775" id="路径-2复制" stroke="#D4D5D5"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

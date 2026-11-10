@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>组合构件-黑</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="路径-46" fill="#616569" points="-1.38777878e-16 14 10 24 10 22 -1.38777878e-16 12"></polygon>
+        <polygon id="路径-47" fill="#A5A7A9" points="10 22 20 22 20 24 10 24"></polygon>
+        <polygon id="路径-48" fill="#D2D3D4" points="0 12 10 22 20 22 10 12"></polygon>
+        <polygon id="路径-50" fill="#616569" points="4 7 4 12 14 22 14 17"></polygon>
+        <polygon id="路径-47" fill="#A5A7A9" points="10 15 20 15 20 17 10 17"></polygon>
+        <polygon id="路径-49" fill="#A5A7A9" points="14 17 14 22 16 22 16 17"></polygon>
+        <polygon id="路径-46" fill="#616569" points="0 4.91666667 0 7 10 17 10 15 0 5"></polygon>
+        <polygon id="路径-48" fill="#D2D3D4" points="0 5 10 15 20 15 10 5"></polygon>
+        <polygon id="路径-52" fill="#A5A7A9" points="10 10 10 12 20 12 20 10"></polygon>
+        <polygon id="路径-61" fill="#A5A7A9" points="22 10 22 24 24 24 24 10"></polygon>
+        <polygon id="路径-62" fill="#D8D8D8" points="24 10 12 1 10 1 22 10"></polygon>
+        <path d="M19,13 L21,13 L21,10 L9,1 L10,1 L22,10 L22,24 L21,23 L21,22 L17,18 L21,18 L21,15 L19,13 Z" id="形状结合" fill="#616569"></path>
+        <polygon id="路径-46" fill="#616569" points="-1.38777878e-16 14 10 24 10 22 -1.38777878e-16 12"></polygon>
+        <polygon id="路径-47" fill="#A5A7A9" points="10 22 20 22 20 24 10 24"></polygon>
+        <polygon id="路径-48" fill="#D2D3D4" points="0 12 10 22 20 22 10 12"></polygon>
+        <polygon id="路径-50" fill="#616569" points="4 7 4 12 14 22 14 17"></polygon>
+        <polygon id="路径-47" fill="#A5A7A9" points="10 15 20 15 20 17 10 17"></polygon>
+        <polygon id="路径-49" fill="#A5A7A9" points="14 17 14 22 16 22 16 17"></polygon>
+        <polygon id="路径-46" fill="#616569" points="0 4.91666667 0 7 10 17 10 15 0 5"></polygon>
+        <polygon id="路径-48" fill="#D2D3D4" points="0 5 10 15 20 15 10 5"></polygon>
+        <polygon id="路径-52" fill="#A5A7A9" points="10 10 10 12 20 12 20 10"></polygon>
+        <polygon id="路径-61" fill="#A5A7A9" points="22 10 22 24 24 24 24 10"></polygon>
+        <polygon id="路径-62" fill="#D8D8D8" points="24 10 12 1 10 1 22 10"></polygon>
+        <polygon id="路径-51" fill="#D8D8D8" points="0 1 8 1 20 10 10 10"></polygon>
+        <polygon id="路径-53" fill="#616569" points="0 1 0 3 10 12 10 10"></polygon>
+        <path d="M19,13 L21,13 L21,10 L9,1 L10,1 L22,10 L22,24 L21,23 L21,22 L17,18 L21,18 L21,15 L19,13 Z" id="形状结合" fill="#616569"></path>
+    </g>
+</svg>

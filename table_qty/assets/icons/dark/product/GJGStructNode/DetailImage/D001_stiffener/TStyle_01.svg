@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TStyle_01</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1295.000000, -4900.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M1365,4903 L1365,4908 L1347,4908 L1347,4966 L1342,4966 L1342,4908 L1323,4908 L1323,4903 L1365,4903 Z" id="形状结合" fill-opacity="0.2" fill="#3898F9"></path>
+            <polygon id="直线-123备份-8" fill="#CBA358" fill-rule="nonzero" points="1324.02439 4908 1344 4966 1342.97561 4966 1323 4908"></polygon>
+            <polygon id="矩形备份-107" fill-opacity="0.2" fill="#FDC200" points="1324 4908 1342 4908 1342 4939 1342 4962"></polygon>
+            <polygon id="矩形备份-108" fill-opacity="0.2" fill="#FDC200" points="1347 4908 1364 4908 1347 4965 1347 4939"></polygon>
+            <polygon id="形状结合备份-40" fill="#CBA358" fill-rule="nonzero" points="1365 4908 1347 4966 1346 4966 1364 4908"></polygon>
+            <path d="M1365,4903 L1365,4908 L1347,4908 L1347,4966 L1342,4966 L1342,4908 L1323,4908 L1323,4903 L1365,4903 Z M1364,4904 L1324,4904 L1324,4907 L1343,4907 L1343,4965 L1346,4965 L1346,4907 L1364,4907 L1364,4904 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>轴网反向</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-350.000000, -3421.000000)">
+            <rect id="矩形复制-31" fill="#51596A" x="352" y="3421" width="1" height="15"></rect>
+            <rect id="矩形复制-33" fill="#51596A" transform="translate(353.500000, 3423.500000) rotate(-270.000000) translate(-353.500000, -3423.500000) " x="353" y="3420" width="1" height="7"></rect>
+            <rect id="矩形复制-36" fill="#51596A" transform="translate(353.500000, 3428.500000) rotate(-270.000000) translate(-353.500000, -3428.500000) " x="353" y="3425" width="1" height="7"></rect>
+            <rect id="矩形复制-35" fill="#51596A" transform="translate(353.500000, 3433.500000) rotate(-270.000000) translate(-353.500000, -3433.500000) " x="353" y="3430" width="1" height="7"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+            <path d="M362.362437,3423.08856 L362.478162,3423.17847 L365.325504,3425.62046 L364.674496,3426.37954 L361.999713,3424.08508 L362,3433.3125 C362,3433.6922 361.776142,3434 361.5,3434 C361.25454,3434 361.050392,3433.7568 361.008056,3433.43608 L361,3433.3125 L360.999713,3424.08808 L358.325287,3426.37972 L357.674713,3425.62028 L360.525788,3423.17791 C361.050202,3422.72868 361.807231,3422.69893 362.362437,3423.08856 Z" id="形状结合" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

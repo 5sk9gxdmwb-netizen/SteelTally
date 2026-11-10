@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>两点创建工作平面</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="装饰GDQ" transform="translate(-696.000000, -2758.000000)">
+            <path d="M709,2758 C710.104569,2758 711,2758.89543 711,2760 L711,2771 C711,2772.10457 710.104569,2773 709,2773 L698,2773 C696.895431,2773 696,2772.10457 696,2771 L696,2760 C696,2758.89543 696.895431,2758 698,2758 L709,2758 Z M709,2759 L698,2759 C697.487164,2759 697.064493,2759.38604 697.006728,2759.88338 L697,2760 L697,2771 C697,2771.51284 697.38604,2771.93551 697.883379,2771.99327 L698,2772 L709,2772 C709.512836,2772 709.935507,2771.61396 709.993272,2771.11662 L710,2771 L710,2760 C710,2759.48716 709.61396,2759.06449 709.116621,2759.00673 L709,2759 Z" id="形状结合-copy-8" fill="#51596A" fill-rule="nonzero"></path>
+            <rect id="矩形-copy-190" fill="#51596A" x="697" y="2763" width="2" height="1"></rect>
+            <rect id="矩形备份-162-copy" fill="#51596A" x="708" y="2763" width="2" height="1"></rect>
+            <rect id="矩形-copy-191" fill="#51596A" x="697" y="2767" width="13" height="1"></rect>
+            <rect id="矩形-copy-192" fill="#1874E6" x="701" y="2762" width="1" height="3"></rect>
+            <rect id="矩形备份-163-copy" fill="#51596A" x="701" y="2766" width="1" height="6"></rect>
+            <rect id="矩形备份-164-copy" fill="#51596A" x="701" y="2759" width="1" height="2"></rect>
+            <rect id="矩形备份-163-copy-2" fill="#51596A" x="705" y="2766" width="1" height="6"></rect>
+            <rect id="矩形备份-164-copy-2" fill="#51596A" x="705" y="2759" width="1" height="2"></rect>
+            <rect id="矩形-copy-193" fill="#1874E6" transform="translate(701.500000, 2763.500000) scale(1, -1) rotate(-90.000000) translate(-701.500000, -2763.500000) " x="701" y="2762" width="1" height="3"></rect>
+            <rect id="矩形-copy-194" fill="#1874E6" x="705" y="2762" width="1" height="3"></rect>
+            <rect id="矩形-copy-195" fill="#1874E6" transform="translate(705.500000, 2763.500000) scale(1, -1) rotate(-90.000000) translate(-705.500000, -2763.500000) " x="705" y="2762" width="1" height="3"></rect>
+        </g>
+    </g>
+</svg>

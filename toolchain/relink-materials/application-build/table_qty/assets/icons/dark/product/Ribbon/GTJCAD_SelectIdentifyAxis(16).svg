@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>选择识别</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="安装" transform="translate(-1424.000000, -976.000000)">
+            <g id="编组-54" transform="translate(107.000000, 80.000000)"></g>
+            <polygon id="Path-9备份" fill="#3898F9" fill-rule="nonzero" points="1434 984 1434 990.022191 1434 991 1436 989.044382 1439 989.044382"></polygon>
+            <path d="M1438,980 L1437,980 L1437,977 L1425,977 L1425,989 L1429,989 L1429,990 L1424,990 L1424,976 L1438,976 L1438,980 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <path d="M1438,985 L1437,985 L1437,981 L1429,981 L1429,989 L1433,989 L1433,990 L1428,990 L1428,980 L1438,980 L1438,985 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

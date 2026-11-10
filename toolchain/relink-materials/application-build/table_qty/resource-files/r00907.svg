@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>主构件-黑</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-3" transform="translate(0.000000, 0.500000)"></g>
+        <g id="编组-3" transform="translate(0.000000, 0.500000)"></g>
+        <g id="编组-3" transform="translate(0.000000, 0.500000)"></g>
+        <polygon id="路径-47" fill="#A5A7A9" points="12 21 24 21 24 24 12 24"></polygon>
+        <polygon id="路径-48" fill="#D2D3D4" points="0 9 12 21 24 21 12 9"></polygon>
+        <polygon id="路径-50" fill="#616569" points="5 4 5 10 17 21 17 15"></polygon>
+        <polygon id="路径-46" fill="#616569" points="0 10 0 12 12 24 12 21 0 9"></polygon>
+        <polygon id="路径-47" fill="#A5A7A9" points="12 12 24 12 24 15 12 15"></polygon>
+        <polygon id="路径-49" fill="#A5A7A9" points="17 15 17 21 19 21 19 15"></polygon>
+        <polygon id="路径-46" fill="#616569" points="0 4 12 15 12 12 0 1"></polygon>
+        <polygon id="路径-48" fill="#D2D3D4" points="0 1 12 12 24 12 12 1"></polygon>
+    </g>
+</svg>

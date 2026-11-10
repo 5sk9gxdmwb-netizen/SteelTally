@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>异形体</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-57备份-3" transform="translate(-8.000000, -219.000000)"></g>
+        <path d="M9.85995919,11.5978266 L17.4523133,14.2008256 L10.178397,18.3460843 L2.50895753,14.9992395 L9.85995919,11.5978266 Z" id="矩形" stroke="#3898F9"></path>
+        <line x1="4.5" y1="4.5" x2="1.50060212" y2="14.4994638" id="直线-16" stroke="#D4D5D5" stroke-linecap="round"></line>
+        <line x1="9.5" y1="11.5" x2="9.5" y2="6.5" id="直线-18" stroke="#D4D5D5" stroke-linecap="round"></line>
+        <line x1="18.489631" y1="14.502778" x2="15.5" y2="4.5" id="直线-19" stroke="#D4D5D5" stroke-linecap="round"></line>
+        <path d="M9.5,6.5 C12.2614237,6.5 15.3944768,5.29160832 15.3944768,3.91089645 C15.3944768,2.53018457 12.2614237,1.5 9.5,1.5 C6.73857625,1.5 4.5,2.61928813 4.5,4 C4.5,5.38071187 6.73857625,6.5 9.5,6.5 Z" id="椭圆形" fill-opacity="0.2" fill="#3898F9"></path>
+        <polygon id="路径-30" fill-opacity="0.2" fill="#3898F9" fill-rule="nonzero" points="10 18.2892151 17.8811187 14.75 9.94723842 11.8714651 2.01630102 14.2611629"></polygon>
+        <line x1="10" y1="18.4702046" x2="12.5" y2="6.5" id="直线-17" stroke="#D4D5D5" stroke-linecap="round"></line>
+        <ellipse id="椭圆形" stroke="#3898F9" cx="10" cy="4" rx="5.5" ry="2.5"></ellipse>
+    </g>
+</svg>

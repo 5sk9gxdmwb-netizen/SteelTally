@@ -1,0 +1,126 @@
+{
+  "work": "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215",
+  "prefix": "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\install",
+  "cmake": "E:\\SteelTallyToolchain\\official-20261110-094827\\cmake-3.31.8-windows-x86_64\\extracted\\cmake-3.31.8-windows-x86_64\\bin\\cmake.exe",
+  "ninja": "C:\\Qt\\Tools\\mingw1310_64\\bin\\mingw32-make.exe",
+  "steps": [
+    {
+      "name": "configure-base",
+      "args": [
+        "-S",
+        "E:\\SteelTallyToolchain\\official-20261110-094827\\qtbase-everywhere-src-6.8.3\\extracted\\qtbase-everywhere-src-6.8.3",
+        "-B",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\base-build",
+        "-G",
+        "MinGW Makefiles",
+        "-DCMAKE_MAKE_PROGRAM=C:\\Qt\\Tools\\mingw1310_64\\bin\\mingw32-make.exe",
+        "-DCMAKE_C_COMPILER=C:\\Qt\\Tools\\mingw1310_64\\bin/gcc.exe",
+        "-DCMAKE_CXX_COMPILER=C:\\Qt\\Tools\\mingw1310_64\\bin/g++.exe",
+        "-DCMAKE_INSTALL_PREFIX=E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\install",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_SHARED_LIBS=OFF",
+        "-DFEATURE_static_runtime=ON",
+        "-DQT_BUILD_TESTS=OFF",
+        "-DQT_BUILD_EXAMPLES=OFF",
+        "-DBUILD_WITH_PCH=OFF",
+        "-DFEATURE_opengl=OFF",
+        "-DFEATURE_vulkan=OFF",
+        "-DFEATURE_sql=OFF",
+        "-DFEATURE_testlib=OFF",
+        "-DFEATURE_dbus=OFF",
+        "-DFEATURE_icu=OFF",
+        "-DFEATURE_openssl=OFF"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "build-base",
+      "args": [
+        "--build",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\base-build",
+        "--parallel",
+        "4"
+      ],
+      "exit_code": 2
+    },
+    {
+      "name": "reconfigure-no-dynamicgl",
+      "args": [
+        "-S",
+        "E:\\SteelTallyToolchain\\official-20261110-094827\\qtbase-everywhere-src-6.8.3\\extracted\\qtbase-everywhere-src-6.8.3",
+        "-B",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\base-build",
+        "-DFEATURE_dynamicgl=OFF",
+        "-DINPUT_opengl=no"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "rebuild-base",
+      "args": [
+        "--build",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\base-build",
+        "--parallel",
+        "4"
+      ],
+      "exit_code": 2
+    },
+    {
+      "name": "rebuild-base-serial",
+      "args": [
+        "--build",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\base-build",
+        "--parallel",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "install-base",
+      "args": [
+        "--install",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\base-build"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "configure-svg",
+      "args": [
+        "-S",
+        "E:\\SteelTallyToolchain\\official-20261110-094827\\qtsvg-everywhere-src-6.8.3\\extracted\\qtsvg-everywhere-src-6.8.3",
+        "-B",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\svg-build",
+        "-G",
+        "MinGW Makefiles",
+        "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe",
+        "-DCMAKE_PREFIX_PATH=E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\install",
+        "-DCMAKE_INSTALL_PREFIX=E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\install",
+        "-DCMAKE_BUILD_TYPE=Release",
+        "-DBUILD_SHARED_LIBS=OFF",
+        "-DQT_BUILD_TESTS=OFF",
+        "-DQT_BUILD_EXAMPLES=OFF",
+        "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+        "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "build-svg",
+      "args": [
+        "--build",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\svg-build",
+        "--parallel",
+        "1"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "install-svg",
+      "args": [
+        "--install",
+        "E:\\SteelTallyToolchain\\static-6.8.3-20261110-101215\\svg-build"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

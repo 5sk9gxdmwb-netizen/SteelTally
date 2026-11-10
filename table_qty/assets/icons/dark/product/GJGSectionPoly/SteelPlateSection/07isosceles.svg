@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>等腰三角形</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢板库图标" transform="translate(-172.000000, -201.000000)" fill="#1874E6">
+            <g id="编组-14" transform="translate(186.000000, 212.999337)">
+                <path d="M-1.42108547e-14,0.500662951 L-1.42108547e-14,39.500663 C-1.42108547e-14,39.870105 0.386860094,40.1119622 0.718984712,39.9501579 L39.7189847,20.9501579 C40.0894107,20.7696939 40.0948048,20.2437781 39.7281583,20.0557542 L0.728158324,0.0557542192 C0.395434713,-0.114873274 -1.42108547e-14,0.126739506 -1.42108547e-14,0.500662951 Z M1,1.31866295 L38.382,20.488663 L1,38.700663 L1,1.31866295 Z" id="路径-48" fill-rule="nonzero"></path>
+                <polygon id="路径-48" fill-opacity="0.2" points="0.5 0.500662951 0.5 39.500663 39.5 20.500663"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

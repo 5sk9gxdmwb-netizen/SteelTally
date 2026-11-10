@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>识别坡度线-黑</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补充" transform="translate(-560.000000, -1584.000000)">
+            <g id="编组-6" transform="translate(561.000000, 1585.000000)">
+                <polygon id="直线-2" fill="#D4D5D5" fill-rule="nonzero" points="3.39744529 7.04251123 4.31317755 7.44430026 2.46271765 11.6617519 1.5469854 11.2599628"></polygon>
+                <circle id="椭圆形" stroke="#D4D5D5" cx="1.5" cy="12.5" r="1"></circle>
+                <polygon id="直线-3" fill="#D4D5D5" fill-rule="nonzero" points="9.20166016 1.79406738 9.70327147 2.7109214 4.99617504 6.24277779 4.29290356 5.53185639"></polygon>
+                <circle id="椭圆形" stroke="#D4D5D5" cx="4.5" cy="6.5" r="1"></circle>
+                <circle id="椭圆形" stroke="#D4D5D5" cx="10.5" cy="1.5" r="1"></circle>
+            </g>
+            <g id="编组-2" transform="translate(568.000000, 1592.000000)">
+                <circle id="椭圆形" stroke="#1874E6" cx="3" cy="3" r="2.5"></circle>
+                <path d="M4.64644661,4.64644661 C4.84170876,4.45118446 5.15829124,4.45118446 5.35355339,4.64644661 L6.35355339,5.64644661 C6.54881554,5.84170876 6.54881554,6.15829124 6.35355339,6.35355339 C6.17998704,6.52711974 5.91056264,6.54640489 5.7156945,6.41140884 L5.64644661,6.35355339 L4.64644661,5.35355339 C4.45118446,5.15829124 4.45118446,4.84170876 4.64644661,4.64644661 Z" id="直线-3" fill="#3998F9" fill-rule="nonzero"></path>
+                <circle id="椭圆形" stroke="#3998F9" cx="3" cy="3" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

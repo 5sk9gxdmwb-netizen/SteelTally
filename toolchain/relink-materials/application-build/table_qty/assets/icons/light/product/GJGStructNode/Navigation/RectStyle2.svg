@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>RectStyle_02</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-713.000000, -4900.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M783,4903 L783,4966 L741,4966 L741,4903 L783,4903 Z M782,4904 L742,4904 L742,4965 L782,4965 L782,4904 Z" id="矩形备份-99" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M783,4903 L783,4966 L741,4966 L741,4903 L783,4903 Z M779,4907 L745,4907 L745,4962 L779,4962 L779,4907 Z" id="形状结合" fill-opacity="0.2" fill="#1874E6"></path>
+            <path d="M779,4907 L779,4962 L745,4962 L745,4907 L779,4907 Z M773,4928 L751,4928 L751,4942 L773,4942 L773,4928 Z" id="形状结合" fill-opacity="0.2" fill="#FDC200"></path>
+            <path d="M773,4928 L773,4942 L751,4942 L751,4928 L773,4928 Z M772,4929 L752,4929 L752,4941 L772,4941 L772,4929 Z" id="矩形" fill="#CBA358" fill-rule="nonzero"></path>
+            <path d="M779,4907 L779,4962 L745,4962 L745,4907 L779,4907 Z M778,4908 L746,4908 L746,4961 L778,4961 L778,4908 Z" id="矩形备份-102" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

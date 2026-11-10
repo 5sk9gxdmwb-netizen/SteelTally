@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>指定创建工作平面</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补充" transform="translate(-688.000000, -768.000000)">
+            <path d="M701,768 C702.104569,768 703,768.895431 703,770 L703,781 C703,782.104569 702.104569,783 701,783 L690,783 C688.895431,783 688,782.104569 688,781 L688,770 C688,768.895431 688.895431,768 690,768 L701,768 Z M701,769 L690,769 C689.487164,769 689.064493,769.38604 689.006728,769.883379 L689,770 L689,781 C689,781.512836 689.38604,781.935507 689.883379,781.993272 L690,782 L701,782 C701.512836,782 701.935507,781.61396 701.993272,781.116621 L702,781 L702,770 C702,769.487164 701.61396,769.064493 701.116621,769.006728 L701,769 Z" id="形状结合-copy-7" fill="#51596A" fill-rule="nonzero"></path>
+            <rect id="矩形-copy-186" fill="#51596A" x="689" y="773" width="4" height="1"></rect>
+            <rect id="矩形-copy-187" fill="#51596A" x="698" y="773" width="4" height="1"></rect>
+            <rect id="矩形-copy-188" fill="#51596A" x="689" y="777" width="4" height="1"></rect>
+            <rect id="矩形-copy-189" fill="#51596A" x="698" y="777" width="4" height="1"></rect>
+            <rect id="矩形-copy-204" fill="#1874E6" transform="translate(693.500000, 775.500000) rotate(-270.000000) translate(-693.500000, -775.500000) " x="688" y="775" width="11" height="1"></rect>
+            <rect id="矩形-copy-205" fill="#1874E6" transform="translate(695.500000, 770.500000) rotate(-180.000000) translate(-695.500000, -770.500000) " x="693" y="770" width="5" height="1"></rect>
+            <rect id="矩形-copy-206" fill="#1874E6" transform="translate(695.500000, 780.500000) rotate(-180.000000) translate(-695.500000, -780.500000) " x="693" y="780" width="5" height="1"></rect>
+            <rect id="矩形-copy-207" fill="#1874E6" transform="translate(697.500000, 775.500000) rotate(-270.000000) translate(-697.500000, -775.500000) " x="692" y="775" width="11" height="1"></rect>
+        </g>
+    </g>
+</svg>

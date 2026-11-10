@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>弧长标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-492.000000, -630.000000)">
+            <g id="弧长标注" transform="translate(492.000000, 630.000000)">
+                <polygon id="矩形复制-34" fill="#51596A" transform="translate(1.500340, 14.128954) rotate(-270.000000) translate(-1.500340, -14.128954) " points="1.00033966 13.128954 2.00033966 13.128954 2.00033966 15.128954 1.00033966 15.128954"></polygon>
+                <polygon id="矩形复制-34" fill="#51596A" transform="translate(5.500340, 14.128954) rotate(-270.000000) translate(-5.500340, -14.128954) " points="5.00033966 13.128954 6.00033966 13.128954 6.00033966 15.128954 5.00033966 15.128954"></polygon>
+                <polygon id="矩形复制-34" fill="#51596A" transform="translate(9.500340, 14.128954) rotate(-270.000000) translate(-9.500340, -14.128954) " points="9.00033966 13.128954 10.0003397 13.128954 10.0003397 15.128954 9.00033966 15.128954"></polygon>
+                <polygon id="矩形复制-34" fill="#51596A" transform="translate(13.500340, 14.128954) rotate(-270.000000) translate(-13.500340, -14.128954) " points="13.0003397 13.128954 14.0003397 13.128954 14.0003397 15.128954 13.0003397 15.128954"></polygon>
+                <g id="编组" transform="translate(0.000000, -0.000000)" stroke="#51596A">
+                    <line x1="2.11752022" y1="12" x2="0.617520218" y2="13.5531594" id="直线-2复制-2" transform="translate(1.500000, 13.000000) scale(-1, -1) translate(-1.500000, -13.000000) "></line>
+                    <line x1="5.11752022" y1="9" x2="3.61752022" y2="10.5531594" id="直线-2复制-2" transform="translate(4.500000, 10.000000) scale(-1, -1) translate(-4.500000, -10.000000) "></line>
+                    <line x1="8.11752022" y1="6" x2="6.61752022" y2="7.55315938" id="直线-2复制-2" transform="translate(7.500000, 7.000000) scale(-1, -1) translate(-7.500000, -7.000000) "></line>
+                    <line x1="11.1175202" y1="3" x2="9.61752022" y2="4.55315938" id="直线-2复制-2" transform="translate(10.500000, 4.000000) scale(-1, -1) translate(-10.500000, -4.000000) "></line>
+                    <line x1="14.1175202" y1="0" x2="12.6175202" y2="1.55315938" id="直线-2复制-2" transform="translate(13.500000, 1.000000) scale(-1, -1) translate(-13.500000, -1.000000) "></line>
+                </g>
+                <g id="编组-2" transform="translate(8.500340, 7.628954)">
+                    <polygon id="路径" fill="#1874E6" transform="translate(2.500000, 5.250000) rotate(-90.000000) translate(-2.500000, -5.250000) " points="3.25 6.25 1.75 5.26333333 3.25 4.25"></polygon>
+                    <polygon id="路径复制" fill="#1874E6" transform="translate(1.000000, 1.000000) scale(-1, 1) translate(-1.000000, -1.000000) " points="0 0.645756611 2 -2.84217094e-14 1.39209784 2"></polygon>
+                    <polyline id="路径-3" stroke="#1874E6" points="1.32209039 1.28574466 2.5 2.5 2.5 4.5"></polyline>
+                </g>
+                <path d="M6.06032994,14.128954 C7.65281917,11.7534508 7.17686911,10.3990326 4.63247978,10.0656992" id="路径-4" stroke="#51596A"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

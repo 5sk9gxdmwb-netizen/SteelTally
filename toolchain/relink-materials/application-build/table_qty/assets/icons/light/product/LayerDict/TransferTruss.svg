@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>转换桁架</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-497.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="498.5" y1="1033.5" x2="515.5" y2="1033.5" id="直线-138" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="498.5" y1="1039.5" x2="515.5" y2="1039.5" id="直线-139" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="498.5" y1="1033.5" x2="504.5" y2="1039.5" id="直线-140" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="502.5" y1="1039.5" x2="508.5" y2="1033.5" id="直线-141" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="505.5" y1="1033.5" x2="511.5" y2="1039.5" id="直线-140" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="509.5" y1="1039.5" x2="515.5" y2="1033.5" id="直线-141" stroke="#3898F9" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>铺贴CAD图</title>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-24.000000, -63.000000)" fill-rule="nonzero" id="插入CAD">
+            <g transform="translate(23.000000, 63.000000)">
+                <rect id="矩形复制" fill="#51596A" x="3" y="6" width="1" height="9"></rect>
+                <rect id="矩形复制-19" fill="#51596A" x="13" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-30" fill="#51596A" transform="translate(8.500000, 12.500000) rotate(90.000000) translate(-8.500000, -12.500000) " x="8" y="5" width="1" height="15"></rect>
+                <rect id="矩形复制-75" fill="#51596A" transform="translate(11.500000, 2.500000) rotate(90.000000) translate(-11.500000, -2.500000) " x="11" y="-2" width="1" height="9"></rect>
+                <g id="编组-9" fill="#1874E6">
+                    <rect id="矩形" x="3.85355339" y="0" width="1" height="4"></rect>
+                    <polygon id="直线-35" points="1.70710678 0.146446609 4.70710678 3.14644661 4 3.85355339 1 0.853553391"></polygon>
+                    <rect id="矩形" transform="translate(2.853553, 3.500000) scale(-1, 1) rotate(90.000000) translate(-2.853553, -3.500000) " x="2.353553" y="1.50000039" width="1" height="4"></rect>
+                </g>
+                <g id="编组-9" transform="translate(6.000000, 6.000000)" fill="#1874E6">
+                    <rect id="矩形" x="3.85355339" y="0" width="1" height="4"></rect>
+                    <polygon id="直线-35" points="1.70710678 0.146446609 4.70710678 3.14644661 4 3.85355339 1 0.853553391"></polygon>
+                    <rect id="矩形" transform="translate(2.853553, 3.500000) scale(-1, 1) rotate(90.000000) translate(-2.853553, -3.500000) " x="2.353553" y="1.50000039" width="1" height="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

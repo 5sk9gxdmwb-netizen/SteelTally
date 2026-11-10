@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>拉伸标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-630.000000, -630.000000)">
+            <g id="拉伸标注" transform="translate(630.000000, 630.000000)">
+                <path d="M13,0 C14.1045695,0 15,0.8954305 15,2 L15,9 C15,10.1045695 14.1045695,11 13,11 L6,11 C4.8954305,11 4,10.1045695 4,9 L4,2 C4,0.8954305 4.8954305,0 6,0 L13,0 Z M13,1 L6,1 C5.48716416,1 5.06449284,1.38604019 5.00672773,1.88337887 L5,2 L5,9 C5,9.51283584 5.38604019,9.93550716 5.88337887,9.99327227 L6,10 L13,10 C13.5128358,10 13.9355072,9.61395981 13.9932723,9.11662113 L14,9 L14,2 C14,1.48716416 13.6139598,1.06449284 13.1166211,1.00672773 L13,1 Z M1,2 L1,9 L0,9 L0,2 L1,2 Z M13,2 L13,9 L12,9 L12,2 L13,2 Z" id="形状结合" fill="#D4D5D5"></path>
+                <rect id="矩形复制-76" fill="#3898F9" transform="translate(6.500000, 4.500000) scale(-1, 1) rotate(-270.000000) translate(-6.500000, -4.500000) " x="6" y="0" width="1" height="9"></rect>
+                <polygon id="路径" fill="#3898F9" points="3 6 1 4.52666667 3 3"></polygon>
+                <polygon id="路径" fill="#3898F9" transform="translate(11.000000, 4.500000) scale(-1, 1) translate(-11.000000, -4.500000) " points="12 6 10 4.52666667 12 3"></polygon>
+                <rect id="矩形复制-76" fill="#3898F9" transform="translate(9.000000, 13.500000) scale(-1, 1) rotate(-270.000000) translate(-9.000000, -13.500000) " x="8.5" y="8.5" width="1" height="10"></rect>
+                <polygon id="路径" fill="#3898F9" transform="translate(13.500000, 13.500000) scale(-1, 1) translate(-13.500000, -13.500000) " points="15 15.5 12 13.5266667 15 11.5"></polygon>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

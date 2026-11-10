@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>极轴-不可用</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态栏" transform="translate(-909.000000, -180.000000)">
+            <g id="内容" transform="translate(27.000000, 67.000000)">
+                <path d="M889,114.000086 C892.865993,114.000086 896,117.134092 896,121.000086 C896,124.866079 892.865993,128.000086 889,128.000086 C885.134007,128.000086 882,124.866079 882,121.000086 C882,117.134092 885.134007,114.000086 889,114.000086 Z M889,115.000086 C885.686292,115.000086 883,117.686377 883,121.000086 C883,124.313794 885.686292,127.000086 889,127.000086 C892.313708,127.000086 895,124.313794 895,121.000086 C895,117.686377 892.313708,115.000086 889,115.000086 Z" id="椭圆形" fill="#858585" fill-rule="nonzero"></path>
+                <polyline id="路径" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" points="896.507477 121.489132 888.507477 121.489132 894.907477 115.489132"></polyline>
+            </g>
+            <g id="切片" transform="translate(74.000000, 67.000000)"></g>
+        </g>
+    </g>
+</svg>

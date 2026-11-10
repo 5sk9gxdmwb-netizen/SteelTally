@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>插入图纸</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1185.000000, -5041.000000)">
+            <rect id="矩形复制" fill="#D4D5D5" x="1187" y="5047" width="1" height="9"></rect>
+            <rect id="矩形复制-19" fill="#D4D5D5" x="1197" y="5041" width="1" height="15"></rect>
+            <rect id="矩形复制-30" fill="#D4D5D5" transform="translate(1192.500000, 5053.500000) rotate(-270.000000) translate(-1192.500000, -5053.500000) " x="1192" y="5046" width="1" height="15"></rect>
+            <rect id="矩形复制-75" fill="#D4D5D5" transform="translate(1195.500000, 5043.500000) rotate(-270.000000) translate(-1195.500000, -5043.500000) " x="1195" y="5039" width="1" height="9"></rect>
+            <g id="编组-9" transform="translate(1184.000000, 5041.000000)" fill="#3898F9">
+                <rect id="矩形" x="3.85355339" y="0" width="1" height="4"></rect>
+                <polygon id="直线-35" fill-rule="nonzero" points="1.70710678 0.146446609 4.70710678 3.14644661 4 3.85355339 1 0.853553391"></polygon>
+                <rect id="矩形" transform="translate(2.853553, 3.500000) scale(1, -1) rotate(-90.000000) translate(-2.853553, -3.500000) " x="2.35355339" y="1.5" width="1" height="4"></rect>
+            </g>
+            <g id="编组-9" transform="translate(1190.000000, 5047.000000)" fill="#3898F9">
+                <rect id="矩形" x="3.85355339" y="0" width="1" height="4"></rect>
+                <polygon id="直线-35" fill-rule="nonzero" points="1.70710678 0.146446609 4.70710678 3.14644661 4 3.85355339 1 0.853553391"></polygon>
+                <rect id="矩形" transform="translate(2.853553, 3.500000) scale(1, -1) rotate(-90.000000) translate(-2.853553, -3.500000) " x="2.35355339" y="1.5" width="1" height="4"></rect>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

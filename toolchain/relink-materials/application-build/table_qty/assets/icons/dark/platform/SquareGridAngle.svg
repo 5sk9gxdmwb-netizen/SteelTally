@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>倾斜方向</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-83.000000, -839.000000)" fill="#3898F9">
+            <path d="M94.5659291,849.661579 L94.7789069,853.513986 L95.7670883,852.525805 L97.5114317,852.301792 L94.5659291,849.661579 Z" id="路径-59" stroke="#3898F9"></path>
+            <rect id="矩形" transform="translate(87.639594, 846.534617) scale(-1, 1) rotate(22.000000) translate(-87.639594, -846.534617) " x="87.1395936" y="842.034617" width="1" height="9"></rect>
+            <polygon id="路径-63" fill-rule="nonzero" transform="translate(89.099126, 850.135683) rotate(68.000000) translate(-89.099126, -850.135683) " points="87.5778749 847.949094 88.357037 847.322271 90.6203779 850.135683 88.357037 852.949094 87.5778749 852.322271 89.3366629 850.135683"></polygon>
+        </g>
+    </g>
+</svg>

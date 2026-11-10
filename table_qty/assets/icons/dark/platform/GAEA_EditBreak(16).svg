@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>打断</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-79.000000, -770.000000)">
+            <g id="编组-74" transform="translate(79.000000, 771.736174)">
+                <rect id="矩形" stroke="#D4D5D5" x="0.5" y="6.76382634" width="6" height="6" rx="1"></rect>
+                <rect id="矩形复制-4" stroke="#D4D5D5" x="8.5" y="6.76382634" width="6" height="6" rx="1"></rect>
+                <path d="M2.77050027,1.0030088e-13 L3.47406006,0.710636069 L1.915,2.272 L4,2.27258675 L4,3.27258675 L1.871,3.272 L3.37957764,4.91339486 L2.67003904,5.61806144 L-4.29070644e-14,2.76959735 L2.77050027,1.0030088e-13 Z" id="形状结合" fill="#3898F9"></path>
+                <path d="M13.7705003,2.7548163e-13 L14.4740601,0.710636069 L12.915,2.272 L15,2.27258675 L15,3.27258675 L12.871,3.272 L14.3795776,4.91339486 L13.670039,5.61806144 L11,2.76959735 L13.7705003,2.7548163e-13 Z" id="形状结合" fill="#3898F9" transform="translate(13.000000, 2.809031) scale(-1, 1) translate(-13.000000, -2.809031) "></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

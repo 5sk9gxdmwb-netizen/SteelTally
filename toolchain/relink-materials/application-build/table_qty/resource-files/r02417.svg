@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>窗框</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1123.000000, -292.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <polygon id="直线-44" fill="#D4D5D5" fill-rule="nonzero" points="1140 305 1140 306 1125 306 1125 305"></polygon>
+            <polygon id="直线-45" fill="#D4D5D5" fill-rule="nonzero" points="1133 294 1133 311 1132 311 1132 294"></polygon>
+            <polygon id="矩形" fill="#D4D5D5" fill-rule="nonzero" points="1129 304 1129 305 1128 305 1128 304"></polygon>
+            <polygon id="矩形" fill="#D4D5D5" fill-rule="nonzero" points="1137 304 1137 305 1136 305 1136 304"></polygon>
+            <path d="M1139,293 C1140.10457,293 1141,293.895431 1141,295 L1141,309 C1141,310.104569 1140.10457,311 1139,311 L1126,311 C1124.89543,311 1124,310.104569 1124,309 L1124,295 C1124,293.895431 1124.89543,293 1126,293 L1139,293 Z M1139,294 L1126,294 C1125.48716,294 1125.06449,294.38604 1125.00673,294.883379 L1125,295 L1125,309 C1125,309.512836 1125.38604,309.935507 1125.88338,309.993272 L1126,310 L1139,310 C1139.51284,310 1139.93551,309.61396 1139.99327,309.116621 L1140,309 L1140,295 C1140,294.487164 1139.61396,294.064493 1139.11662,294.006728 L1139,294 Z" id="矩形" fill="#3898F9" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>圆形辅轴</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1312.000000, -472.000000)">
+            <g id="圆形辅轴" transform="translate(1312.000000, 472.000000)">
+                <rect id="矩形复制-6" stroke="#3898F9" x="0.5" y="0.5" width="14" height="14" rx="7"></rect>
+                <path d="M7.5,4 C9.43299662,4 11,5.56700338 11,7.5 C11,7.67008985 10.9878671,7.8373459 10.9644196,8.00094991 L9.94990271,8.00043449 C9.98275399,7.83874484 10,7.67138643 10,7.5 C10,6.11928813 8.88071187,5 7.5,5 C6.11928813,5 5,6.11928813 5,7.5 C5,8.88071187 6.11928813,10 7.5,10 C7.67138643,10 7.83874484,9.98275399 8.00043449,9.94990271 L8.00094991,10.9644196 C7.8373459,10.9878671 7.67008985,11 7.5,11 C5.56700338,11 4,9.43299662 4,7.5 C4,5.56700338 5.56700338,4 7.5,4 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+                <polygon id="矩形复制-59" fill="#3898F9" points="8 8 9 8 9 14.6168577 8 15"></polygon>
+                <polygon id="矩形复制-59" fill="#3898F9" transform="translate(11.500000, 8.500000) rotate(-90.000000) translate(-11.500000, -8.500000) " points="11 6 12 5 12 12 11 11.2888801"></polygon>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>计算器</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-765.000000, -5041.000000)">
+            <rect id="矩形备份-425" stroke="#D4D5D5" x="765.5" y="5041.5" width="14" height="14" rx="2"></rect>
+            <rect id="矩形" fill="#D4D5D5" x="773" y="5045" width="4" height="1" rx="0.5"></rect>
+            <rect id="矩形备份-427" fill="#D4D5D5" x="773" y="5049" width="4" height="1" rx="0.5"></rect>
+            <rect id="矩形备份-428" fill="#D4D5D5" x="773" y="5051" width="4" height="1" rx="0.5"></rect>
+            <rect id="矩形备份-426" fill="#3898F9" x="768" y="5045" width="4" height="1" rx="0.5"></rect>
+            <rect id="矩形备份-429" fill="#D4D5D5" transform="translate(770.000000, 5051.000000) rotate(-315.000000) translate(-770.000000, -5051.000000) " x="768" y="5050.5" width="4" height="1" rx="0.5"></rect>
+            <rect id="矩形备份-426" fill="#3898F9" transform="translate(770.000000, 5045.500000) scale(1, -1) rotate(-90.000000) translate(-770.000000, -5045.500000) " x="768" y="5045" width="4" height="1" rx="0.5"></rect>
+            <rect id="矩形备份-430" fill="#D4D5D5" transform="translate(770.000000, 5051.000000) scale(1, -1) rotate(-135.000000) translate(-770.000000, -5051.000000) " x="768" y="5050.5" width="4" height="1" rx="0.5"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

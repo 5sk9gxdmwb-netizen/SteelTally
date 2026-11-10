@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>分解CAD块</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-212.000000, -1412.000000)">
+            <path d="M214.7705,1413.73617 L215.47406,1414.44681 L213.915,1416.00817 L216,1416.00876 L216,1417.00876 L213.871,1417.00817 L215.379578,1418.64957 L214.670039,1419.35424 L212,1416.50577 L214.7705,1413.73617 Z" id="形状结合" fill="#3898F9"></path>
+            <path d="M225.7705,1413.73617 L226.47406,1414.44681 L224.915,1416.00817 L227,1416.00876 L227,1417.00876 L224.871,1417.00817 L226.379578,1418.64957 L225.670039,1419.35424 L223,1416.50577 L225.7705,1413.73617 Z" id="形状结合" fill="#3898F9" transform="translate(225.000000, 1416.545204) scale(-1, 1) translate(-225.000000, -1416.545204) "></path>
+            <rect id="矩形" stroke="#D4D5D5" x="212.5" y="1420.5" width="14" height="6" rx="1"></rect>
+            <rect id="矩形" fill="#D4D5D5" x="217" y="1421" width="1" height="5"></rect>
+            <rect id="矩形备份-71" fill="#D4D5D5" x="221" y="1421" width="1" height="5"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

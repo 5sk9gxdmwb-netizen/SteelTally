@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>板-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-190.000000, -339.000000)">
+            <polygon id="矩形" fill="#2F7AFC" points="205 359 214 350 214 353 205 362"></polygon>
+            <rect id="矩形" fill="#76B0FF" x="191" y="359" width="14" height="3"></rect>
+            <polygon id="矩形" fill="#B4D5FF" points="200 350 214 350 205 359 191 359"></polygon>
+            <polygon id="矩形" fill="#2F7AFC" points="205 355 214 346 214 349 205 358"></polygon>
+            <rect id="矩形" fill="#76B0FF" x="191" y="355" width="14" height="3"></rect>
+            <polygon id="矩形" fill="#B4D5FF" points="200 346 214 346 205 355 191 355"></polygon>
+            <polygon id="矩形" fill="#2F7AFC" points="205 351 214 342 214 345 205 354"></polygon>
+            <rect id="矩形" fill="#76B0FF" x="191" y="351" width="14" height="3"></rect>
+            <polygon id="矩形" fill="#B4D5FF" points="200 342 214 342 205 351 191 351"></polygon>
+        </g>
+    </g>
+</svg>

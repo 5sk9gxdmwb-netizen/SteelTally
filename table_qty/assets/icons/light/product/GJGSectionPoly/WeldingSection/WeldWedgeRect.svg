@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>截面2白皮肤</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-111.000000, -253.000000)">
+            <polygon id="路径-14" stroke="#1873E6" fill="#D1E3FA" points="143.5 276.688374 143.5 295.5 161.5 295.5 161.5 283.01527"></polygon>
+            <path d="M143.5,276.496585 L161.408113,283.023363 L161.408113,286.932028 L143.5,280.645607 L143.5,276.496585 Z" id="矩形" stroke="#1873E6" fill="#D1E3FA"></path>
+            <line x1="143.5" y1="291.5" x2="160.5" y2="291.5" id="直线-49" stroke="#1874E6" stroke-linecap="square"></line>
+            <rect id="矩形" stroke="#1873E6" fill="#D1E3FA" x="121.5" y="276.5" width="19" height="19"></rect>
+            <rect id="矩形" stroke="#1873E6" fill="#D1E3FA" x="124.5" y="279.5" width="13" height="13"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>识别辅轴</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="最大花瓣" transform="translate(-1170.000000, -1687.000000)">
+            <g id="编组-33" transform="translate(1170.000000, 1687.000000)">
+                <rect id="矩形复制备份" fill="#D4D5D5" x="2" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-19备份" fill="#D4D5D5" x="12" y="0" width="1" height="8"></rect>
+                <rect id="矩形复制-19备份-2" fill="#D4D5D5" x="7" y="0" width="1" height="15"></rect>
+                <g id="编组-34" transform="translate(8.500000, 8.500000)">
+                    <polygon id="路径-23" fill-opacity="0.2" fill="#3898F9" points="5.5 3.31890099 5 1.43118663 3.7442029 0.71964202 1.83990512 0.71964202 0.5 2.39042205 0.860518913 4.5 2.79036674 5.5 4.5 5"></polygon>
+                    <circle id="椭圆形" stroke="#3898F9" cx="3" cy="3" r="2.5"></circle>
+                    <path d="M4.64644661,4.64644661 C4.84170876,4.45118446 5.15829124,4.45118446 5.35355339,4.64644661 L6.35355339,5.64644661 C6.54881554,5.84170876 6.54881554,6.15829124 6.35355339,6.35355339 C6.17998704,6.52711974 5.91056264,6.54640489 5.7156945,6.41140884 L5.64644661,6.35355339 L4.64644661,5.35355339 C4.45118446,5.15829124 4.45118446,4.84170876 4.64644661,4.64644661 Z" id="直线-3" fill="#3898F9" fill-rule="nonzero"></path>
+                </g>
+                <rect id="矩形复制-75备份" fill="#D4D5D5" transform="translate(7.500000, 2.500000) rotate(-270.000000) translate(-7.500000, -2.500000) " x="7" y="-5" width="1" height="15"></rect>
+                <rect id="矩形复制-75备份-2" fill="#D4D5D5" transform="translate(7.500000, 7.500000) rotate(-270.000000) translate(-7.500000, -7.500000) " x="7" y="0" width="1" height="15"></rect>
+                <rect id="矩形复制-75备份-2" fill="#D4D5D5" transform="translate(4.000000, 13.000000) rotate(-270.000000) translate(-4.000000, -13.000000) " x="3.5" y="9.5" width="1" height="7"></rect>
+            </g>
+            <g id="切片-0" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

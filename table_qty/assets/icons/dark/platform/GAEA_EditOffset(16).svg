@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>偏移</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-769.000000, -770.000000)">
+            <g id="偏移" transform="translate(769.000000, 772.000000)" fill-rule="nonzero">
+                <path d="M15,9 L15,10 L14,10 L14,9 L15,9 Z M14,3 L15,3 L15,4 L14,4 L14,3 Z M15,12 L15,13 L6,13 C2.6862915,13 0,10.3137085 0,7 L0,6 C0,2.6862915 2.6862915,0 6,0 L15,0 L15,1 L6,1 C3.23857625,1 1,3.23857625 1,6 L1,7 C1,9.76142375 3.23857625,12 6,12 L15,12 Z" id="形状结合" fill="#3898F9"></path>
+                <path d="M6.5,4 C5.11928813,4 4,5.11928813 4,6.5 C4,7.88071187 5.11928813,9 6.5,9 L15,9 L15,10 L6.5,10 C4.56700338,10 3,8.43299662 3,6.5 C3,4.56700338 4.56700338,3 6.5,3 L15,3 L15,4 L6.5,4 Z" id="形状结合" fill="#D4D5D5"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>旋转</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1042.000000, -770.000000)">
+            <path d="M1051.37127,772.273396 C1050.77868,772.095556 1050.1505,772 1049.5,772 C1045.91015,772 1043,774.910149 1043,778.5 C1043,782.089851 1045.91015,785 1049.5,785 C1053.08985,785 1056,782.089851 1056,778.5 C1056,776.704167 1055.27173,775.078431 1054.09441,773.902022" id="路径" stroke="#D4D5D5"></path>
+            <polygon id="路径" fill="#3898F9" transform="translate(1051.500000, 772.000000) scale(-1, 1) translate(-1051.500000, -772.000000) " points="1053 774 1050 772.026667 1053 770"></polygon>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

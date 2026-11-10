@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>HStyle_03</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1295.000000, -4768.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M1365,4771 L1365,4776 L1347,4776 L1347,4829 L1365,4829 L1365,4834 L1323,4834 L1323,4829 L1342,4829 L1342,4776 L1323,4776 L1323,4771 L1365,4771 Z M1364,4772 L1324,4772 L1324,4775 L1343,4775 L1343,4830 L1324,4830 L1324,4833 L1364,4833 L1364,4830 L1346,4830 L1346,4775 L1364,4775 L1364,4772 Z" id="形状结合备份-32" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M1365,4771 L1365,4776 L1347,4776 L1347,4829 L1365,4829 L1365,4834 L1323,4834 L1323,4829 L1342,4829 L1342,4776 L1323,4776 L1323,4771 L1365,4771 Z" id="形状结合备份-33" fill-opacity="0.2" fill="#3898F9"></path>
+            <polygon id="直线-123备份-4" fill="#CBA358" fill-rule="nonzero" points="1324 4776 1328 4807 1327 4807 1323 4776"></polygon>
+            <polygon id="矩形备份-95" fill-opacity="0.2" fill="#FDC200" points="1324 4776 1342 4776 1342 4807 1328 4807"></polygon>
+            <polygon id="矩形备份-96" fill-opacity="0.2" fill="#FDC200" points="1347 4776 1364 4776 1360 4807 1347 4807"></polygon>
+            <polygon id="直线-124备份-2" fill="#CBA358" fill-rule="nonzero" points="1342 4806 1342 4807 1328 4807 1328 4806"></polygon>
+            <path d="M1347,4807 L1347,4806 L1360.129,4806 L1364,4776 L1365,4776 L1361,4807 L1347,4807 Z" id="形状结合" fill="#CBA358" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

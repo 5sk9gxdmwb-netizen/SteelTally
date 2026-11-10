@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>单选选中可用</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-432.000000, -160.000000)">
+            <g id="切片" transform="translate(35.000000, 64.000000)"></g>
+            <rect id="矩形备份-14" fill="#474747" x="433" y="161" width="14" height="14" rx="7"></rect>
+            <path d="M440,161 C443.865993,161 447,164.134007 447,168 C447,171.865993 443.865993,175 440,175 C436.134007,175 433,171.865993 433,168 C433,164.134007 436.134007,161 440,161 Z M440,162 C436.686292,162 434,164.686292 434,168 C434,171.313708 436.686292,174 440,174 C443.313708,174 446,171.313708 446,168 C446,164.686292 443.313708,162 440,162 Z" id="矩形备份-14" fill="#047BC9" fill-rule="nonzero"></path>
+            <rect id="矩形备份-14" fill="#047BC9" x="437" y="165" width="6" height="6" rx="3"></rect>
+        </g>
+    </g>
+</svg>

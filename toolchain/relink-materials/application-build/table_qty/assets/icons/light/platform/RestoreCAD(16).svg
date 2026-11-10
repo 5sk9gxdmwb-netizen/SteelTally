@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>还原CAD</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-623.000000, -1412.000000)">
+            <rect id="矩形复制备份" fill="#51596A" x="625" y="1412" width="1" height="15"></rect>
+            <path d="M636,1423 L636,1427 L635,1427 L635,1423 L636,1423 Z M635,1412 L636,1412 L636,1416 L635,1416 L635,1412 Z" id="形状结合" fill="#51596A"></path>
+            <rect id="矩形复制-30备份" fill="#51596A" transform="translate(630.500000, 1424.500000) rotate(-270.000000) translate(-630.500000, -1424.500000) " x="630" y="1417" width="1" height="15"></rect>
+            <rect id="矩形复制-75备份" fill="#51596A" transform="translate(630.500000, 1414.500000) rotate(-270.000000) translate(-630.500000, -1414.500000) " x="630" y="1407" width="1" height="15"></rect>
+            <g id="恢复备份" transform="translate(634.000000, 1420.000000) scale(-1, 1) rotate(-270.000000) translate(-634.000000, -1420.000000) translate(631.000000, 1416.000000)" fill="#1874E6" fill-rule="nonzero">
+                <path d="M3.16536049,3.99358614 L3.18860618,6.21961 L6,3.14530587 L3.12367642,3.97903932e-13 L3.1463777,2.17417384 C2.22576392,2.04463864 1.2755563,2.40710579 0.644768988,3.23251634 C-0.351118528,4.53565251 -0.173699325,6.49923618 1.0410552,7.61831375 C1.2037648,7.76819131 1.37682864,7.89533395 1.5569494,8 C0.828269257,7.10900186 0.776713735,5.75971065 1.48220982,4.8365646 C1.91298964,4.27288657 2.53528195,3.98679038 3.16536049,3.99358614 L3.16536049,3.99358614 Z" id="路径"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

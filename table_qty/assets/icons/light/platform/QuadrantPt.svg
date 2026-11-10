@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>象限点</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态栏" transform="translate(-1329.000000, -298.000000)">
+            <g id="内容" transform="translate(27.000000, 67.000000)">
+                <polygon id="直线-3" fill="#51596A" fill-rule="nonzero" points="1309.5 231.792979 1310.20711 232.500086 1303.5 239.207192 1302.79289 238.500086"></polygon>
+                <polygon id="直线-4" fill="#51596A" fill-rule="nonzero" points="1308.79289 232.500086 1309.5 231.792979 1316.20711 238.500086 1315.5 239.207192"></polygon>
+                <polygon id="直线-3" fill="#51596A" fill-rule="nonzero" transform="translate(1306.500000, 241.500086) scale(1, -1) translate(-1306.500000, -241.500086) " points="1309.5 237.792979 1310.20711 238.500086 1303.5 245.207192 1302.79289 244.500086"></polygon>
+                <polygon id="直线-4" fill="#51596A" fill-rule="nonzero" transform="translate(1312.500000, 241.500086) scale(1, -1) translate(-1312.500000, -241.500086) " points="1308.79289 238.500086 1309.5 237.792979 1316.20711 244.500086 1315.5 245.207192"></polygon>
+                <circle id="椭圆形" fill="#1874E6" cx="1309.5" cy="232.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="1309.5" cy="232.500086" r="1"></circle>
+                <circle id="椭圆形" fill="#1874E6" cx="1309.5" cy="244.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="1309.5" cy="244.500086" r="1"></circle>
+                <circle id="椭圆形" fill="#1874E6" cx="1303.5" cy="238.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="1303.5" cy="238.500086" r="1"></circle>
+                <circle id="椭圆形" fill="#1874E6" cx="1315.5" cy="238.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="1315.5" cy="238.500086" r="1"></circle>
+            </g>
+            <g id="切片" transform="translate(74.000000, 67.000000)"></g>
+        </g>
+    </g>
+</svg>

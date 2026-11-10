@@ -1,0 +1,403 @@
+{
+  "version": "GJG2026 UI 1.0.0.8000",
+  "projectCopy": "C:/Users/Administrator/Desktop/SteelTally/04_运行证据/v1.0-gjg-verified-20261109/gjg-workcopy/GJG2026-目录核对副本.GJG",
+  "catalogs": {
+    "钢梁": {
+      "prefix": "GL",
+      "fireLimit": "2.0h",
+      "groups": [
+        {
+          "name": "梁身",
+          "parts": [
+            "梁身型钢",
+            "梁身钢板",
+            "梁身加劲肋",
+            "梁身隔板"
+          ]
+        },
+        {
+          "name": "梁端",
+          "parts": [
+            "螺栓连接板",
+            "加强板",
+            "加劲板",
+            "焊接衬板"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "次梁连接板",
+            "支撑连接板",
+            "系杆连接板",
+            "檩条托板",
+            "檩条加劲板",
+            "隅撑连接板",
+            "梁柱连接板",
+            "梁梁连接板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓",
+            "栓钉",
+            "钢筋连接器",
+            "预埋锚栓",
+            "预埋钢板"
+          ]
+        }
+      ],
+      "partCount": 21,
+      "source": "live UI",
+      "screenshot": "钢梁-原版目录.png",
+      "uia": "钢梁-目录-UIA.txt"
+    },
+    "吊车梁": {
+      "prefix": "DCL",
+      "fireLimit": "2.0h",
+      "groups": [
+        {
+          "name": "梁身",
+          "parts": [
+            "梁身型钢",
+            "梁身钢板",
+            "梁身横向加劲肋",
+            "梁身纵向加劲肋"
+          ]
+        },
+        {
+          "name": "梁端",
+          "parts": [
+            "端头封板"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "吊车梁连接夹板",
+            "底座弹簧板",
+            "弹簧垫板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓",
+            "预埋锚栓",
+            "预埋钢板"
+          ]
+        }
+      ],
+      "partCount": 11,
+      "source": "live UI",
+      "screenshot": "吊车梁-原版目录.png",
+      "uia": "吊车梁-目录-UIA.txt"
+    },
+    "系杆": {
+      "prefix": "XG",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "系杆",
+          "parts": [
+            "系杆型钢"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "端头封板",
+            "连接板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓"
+          ]
+        }
+      ],
+      "partCount": 4,
+      "source": "live UI",
+      "screenshot": "系杆-原版目录.png",
+      "uia": "系杆-目录-UIA.txt"
+    },
+    "檩条": {
+      "prefix": "LT",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "檩条杆件",
+          "parts": [
+            "檩条型钢"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "与柱檩条托板",
+            "与柱檩条加劲板",
+            "与梁檩条托板",
+            "与梁檩条加劲板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓"
+          ]
+        }
+      ],
+      "partCount": 6,
+      "source": "live UI",
+      "screenshot": "檩条-原版目录.png",
+      "uia": "檩条-目录-UIA.txt"
+    },
+    "隅撑": {
+      "prefix": "YC",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "隅撑杆",
+          "parts": [
+            "隅撑杆"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "与梁连接板",
+            "与柱连接板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓"
+          ]
+        }
+      ],
+      "partCount": 4,
+      "source": "live UI",
+      "screenshot": "隅撑-原版目录.png",
+      "uia": "隅撑-目录-UIA.txt"
+    },
+    "拉条": {
+      "prefix": "T",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "拉条圆钢",
+          "parts": [
+            "拉条圆钢"
+          ]
+        },
+        {
+          "name": "拉条套管",
+          "parts": [
+            "拉条套管"
+          ]
+        },
+        {
+          "name": "其他",
+          "parts": [
+            "螺栓",
+            "花篮螺栓"
+          ]
+        }
+      ],
+      "partCount": 4,
+      "source": "live UI",
+      "screenshot": "拉条-原版目录.png",
+      "uia": "拉条-目录-UIA.txt"
+    },
+    "柱间支撑": {
+      "prefix": "ZJZC",
+      "fireLimit": "3.0h",
+      "groups": [
+        {
+          "name": "支撑杆",
+          "parts": [
+            "柱间支撑型钢1",
+            "柱间支撑型钢2",
+            "端头封板"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "与柱连接板",
+            "支撑内连接板"
+          ]
+        },
+        {
+          "name": "其他",
+          "parts": [
+            "螺栓",
+            "花篮螺栓"
+          ]
+        }
+      ],
+      "partCount": 7,
+      "source": "live UI",
+      "screenshot": "柱间支撑-原版目录.png",
+      "uia": "柱间支撑-目录-UIA.txt"
+    },
+    "水平支撑": {
+      "prefix": "SPZC",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "支撑杆",
+          "parts": [
+            "水平支撑型钢1",
+            "水平支撑型钢2",
+            "端头封板"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "与梁连接板",
+            "支撑内连接板"
+          ]
+        },
+        {
+          "name": "其他",
+          "parts": [
+            "螺栓",
+            "花篮螺栓"
+          ]
+        }
+      ],
+      "partCount": 7,
+      "source": "live UI",
+      "screenshot": "水平支撑-原版目录.png",
+      "uia": "水平支撑-目录-UIA.txt"
+    },
+    "马道": {
+      "prefix": "MD",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "马道",
+          "parts": [
+            "马道底板",
+            "马道栏杆",
+            "横梁",
+            "走道板",
+            "马道加劲板"
+          ]
+        },
+        {
+          "name": "马道支座",
+          "parts": [
+            "支座托板",
+            "支座平板",
+            "支座加劲板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓",
+            "预埋锚栓"
+          ]
+        }
+      ],
+      "partCount": 10,
+      "source": "live UI",
+      "screenshot": "马道-原版目录.png",
+      "uia": "马道-目录-UIA.txt"
+    },
+    "支座": {
+      "prefix": "ZZ",
+      "fireLimit": "1.5h",
+      "groups": [
+        {
+          "name": "支座",
+          "parts": [
+            "球形支座",
+            "盆式橡胶支座",
+            "板式支座",
+            "活铰支座",
+            "滑动支座"
+          ]
+        }
+      ],
+      "partCount": 5,
+      "source": "live UI",
+      "screenshot": "支座-原版目录.png",
+      "uia": "支座-目录-UIA.txt"
+    },
+    "钢柱": {
+      "prefix": "GZ",
+      "fireLimit": "3.0h",
+      "groups": [
+        {
+          "name": "柱身",
+          "parts": [
+            "柱身型钢",
+            "柱身钢板",
+            "柱身加劲肋",
+            "柱身隔板",
+            "环形肋板",
+            "纵向肋板"
+          ]
+        },
+        {
+          "name": "牛腿",
+          "parts": [
+            "牛腿上翼缘板",
+            "牛腿腹板",
+            "牛腿下翼缘板",
+            "牛腿加劲肋",
+            "牛腿加强板"
+          ]
+        },
+        {
+          "name": "柱顶",
+          "parts": [
+            "柱顶盖板",
+            "柱顶加劲肋"
+          ]
+        },
+        {
+          "name": "柱脚",
+          "parts": [
+            "柱脚底板",
+            "柱脚加劲肋",
+            "地脚锚栓盖板",
+            "柱脚托座板",
+            "抗剪键"
+          ]
+        },
+        {
+          "name": "连接",
+          "parts": [
+            "支撑连接板",
+            "系杆连接板",
+            "檩条托板",
+            "檩条加劲板",
+            "隅撑连接板",
+            "柱梁连接板"
+          ]
+        },
+        {
+          "name": "其它",
+          "parts": [
+            "螺栓",
+            "栓钉",
+            "钢筋连接器",
+            "地脚锚栓"
+          ]
+        }
+      ],
+      "partCount": 28,
+      "source": "live UI",
+      "screenshot": "钢柱-原版目录.png",
+      "uia": "钢柱-目录-UIA.txt"
+    }
+  }
+}

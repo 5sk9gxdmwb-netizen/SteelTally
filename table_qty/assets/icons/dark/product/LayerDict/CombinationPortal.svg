@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>组合门架</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1123.000000, -433.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <path d="M1133,433.989865 L1133.006,434.000865 L1142,439 L1142,451 L1139,451 L1139,440.763865 L1132.993,437.424865 L1127,440.761865 L1127,451 L1124,451 L1124,439 L1133,433.989865 Z M1132.993,435.137 L1125,439.587 L1125,450 L1126,450 L1126,440.17411 L1132.99258,436.280528 L1140,440.175614 L1140,450 L1141,450 L1141,439.588 L1132.993,435.137 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

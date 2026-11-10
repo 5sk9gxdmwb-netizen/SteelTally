@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>自适应</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-144.000000, -5312.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <g id="编组-8" transform="translate(144.000000, 5312.000000)" fill="#51596A" fill-rule="nonzero">
+                <path d="M4,0 L4,1 L1,1 L1,4 L0,4 L0,0 L4,0 Z" id="形状结合"></path>
+                <path d="M15,0 L15,1 L12,1 L12,4 L11,4 L11,0 L15,0 Z" id="形状结合" transform="translate(13.000000, 2.000000) scale(-1, 1) translate(-13.000000, -2.000000) "></path>
+                <path d="M4,11 L4,12 L1,12 L1,15 L0,15 L0,11 L4,11 Z" id="形状结合" transform="translate(2.000000, 13.000000) scale(1, -1) translate(-2.000000, -13.000000) "></path>
+                <path d="M15,11 L15,12 L12,12 L12,15 L11,15 L11,11 L15,11 Z" id="形状结合" transform="translate(13.000000, 13.000000) scale(-1, -1) translate(-13.000000, -13.000000) "></path>
+            </g>
+            <path d="M153,5316 C154.104569,5316 155,5316.89543 155,5318 L155,5321 C155,5322.10457 154.104569,5323 153,5323 L150,5323 C148.895431,5323 148,5322.10457 148,5321 L148,5318 C148,5316.89543 148.895431,5316 150,5316 L153,5316 Z M153,5317 L150,5317 C149.487164,5317 149.064493,5317.38604 149.006728,5317.88338 L149,5318 L149,5321 C149,5321.51284 149.38604,5321.93551 149.883379,5321.99327 L150,5322 L153,5322 C153.512836,5322 153.935507,5321.61396 153.993272,5321.11662 L154,5321 L154,5318 C154,5317.48716 153.61396,5317.06449 153.116621,5317.00673 L153,5317 Z" id="矩形" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

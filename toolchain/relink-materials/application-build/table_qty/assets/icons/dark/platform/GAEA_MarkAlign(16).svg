@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>对齐标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="装饰GDQ-补充" transform="translate(-421.000000, -411.000000)">
+            <g id="对齐标注" transform="translate(421.000000, 411.000000)">
+                <path d="M10.8917802,4.98533401 L4.99736982,11.7242667" id="直线-2复制-2" stroke="#3898F9" transform="translate(7.944575, 8.354800) scale(1, -1) rotate(4.000000) translate(-7.944575, -8.354800) "></path>
+                <path d="M4.09781773,1 L1,4.92282059" id="直线-2复制-2" stroke="#D4D5D5" transform="translate(2.548909, 2.961410) scale(-1, -1) rotate(7.000000) translate(-2.548909, -2.961410) "></path>
+                <polygon id="路径" fill="#3898F9" transform="translate(4.438059, 4.853214) scale(-1, 1) translate(-4.438059, -4.853214) " points="2.93805875 4.32184847 5.93805875 3.35321356 5.02620551 6.35321356"></polygon>
+                <path d="M14.8385676,11.7822912 L11.8318207,15.7078881" id="直线-2复制-2" stroke="#D4D5D5" transform="translate(13.335194, 13.745090) scale(-1, -1) rotate(7.000000) translate(-13.335194, -13.745090) "></path>
+                <polygon id="路径" fill="#3898F9" transform="translate(11.438059, 11.853214) scale(-1, 1) rotate(-180.000000) translate(-11.438059, -11.853214) " points="9.93805875 11.3218485 12.9380588 10.3532136 12.0262055 13.3532136"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

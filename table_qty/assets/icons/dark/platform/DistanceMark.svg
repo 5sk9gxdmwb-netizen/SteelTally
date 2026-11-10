@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>距离标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矢量图编辑器" transform="translate(-980.000000, -52.000000)">
+            <g id="切片" transform="translate(57.000000, 49.000000)"></g>
+            <g id="Group-33" transform="translate(980.000000, 52.000000)">
+                <g id="长度标注-copy" transform="translate(3.000000, 0.000000)">
+                    <rect id="矩形复制" fill="#D4D5D5" x="0" y="0" width="1" height="15"></rect>
+                    <rect id="矩形复制-19" fill="#D4D5D5" x="9" y="0" width="1" height="15"></rect>
+                    <rect id="矩形复制-76" fill="#3898F9" transform="translate(4.500000, 7.500000) scale(-1, 1) rotate(-270.000000) translate(-4.500000, -7.500000) " x="4" y="3" width="1" height="9"></rect>
+                </g>
+                <path d="M5.04166924,2.30016779 C5.15203352,2.0470387 5.44670312,1.93130496 5.69983221,2.04166924 C5.9529613,2.15203352 6.06869504,2.44670312 5.95833076,2.69983221 L1.59833076,12.6998322 C1.48796648,12.9529613 1.19329688,13.068695 0.940167788,12.9583308 C0.687038698,12.8479665 0.571304955,12.5532969 0.681669238,12.3001678 L5.04166924,2.30016779 Z" id="Line-12" fill="#3898F9" fill-rule="nonzero"></path>
+                <path d="M14.0416692,2.30016779 C14.1520335,2.0470387 14.4467031,1.93130496 14.6998322,2.04166924 C14.9529613,2.15203352 15.068695,2.44670312 14.9583308,2.69983221 L10.5983308,12.6998322 C10.4879665,12.9529613 10.1932969,13.068695 9.94016779,12.9583308 C9.6870387,12.8479665 9.57130496,12.5532969 9.68166924,12.3001678 L14.0416692,2.30016779 Z" id="Line-12-Copy" fill="#3898F9" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

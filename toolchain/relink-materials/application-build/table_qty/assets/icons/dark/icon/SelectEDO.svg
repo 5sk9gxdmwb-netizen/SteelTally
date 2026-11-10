@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>十字</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="安装" transform="translate(-912.000000, -4697.000000)">
+            <g id="编组-54" transform="translate(107.000000, 80.000000)"></g>
+            <path d="M924,4697 L924,4706 L933,4706 L933,4709 L924,4709 L924,4718 L921,4718 L921,4709 L912,4709 L912,4706 L921,4706 L921,4697 L924,4697 Z" id="形状结合" fill="#FFFFFF"></path>
+            <path d="M924,4697 L924,4706 L933,4706 L933,4709 L924,4709 L924,4718 L921,4718 L921,4709 L912,4709 L912,4706 L921,4706 L921,4697 L924,4697 Z M923,4698 L922,4698 L922,4707 L912.999,4707 L912.999,4708 L922,4708 L922,4717 L923,4717 L923,4708 L931.999,4708 L931.999,4707 L923,4707 L923,4698 Z" id="形状结合" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

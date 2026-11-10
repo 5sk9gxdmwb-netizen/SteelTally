@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Ustyle_01</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1489.000000, -4900.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <rect id="矩形" fill-opacity="0.2" fill="#FDC200" x="1522" y="4908" width="36" height="53"></rect>
+            <polygon id="直线-126" fill="#CBA358" fill-rule="nonzero" points="1559 4907 1559 4962 1558 4962 1558 4907"></polygon>
+            <path d="M1561,4903 L1561,4905 C1561,4906.65685 1559.65685,4908 1558,4908 L1522,4908 L1522,4961 L1558,4961 C1559.65685,4961 1561,4962.34315 1561,4964 L1561,4966 L1517,4966 L1517,4903 L1561,4903 Z M1560,4904 L1518,4904 L1518,4965 L1560,4965 L1560,4964 C1560,4962.94564 1559.18412,4962.08183 1558.14926,4962.00549 L1558,4962 L1521,4962 L1521,4907 L1558,4907 C1559.05436,4907 1559.91817,4906.18412 1559.99451,4905.14926 L1560,4905 L1560,4904 Z" id="形状结合" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M1517,4966 L1517,4903 L1561,4903 L1561,4905 C1561,4906.65685 1559.65685,4908 1558,4908 L1522,4908 L1522,4961 L1558,4961 C1559.65685,4961 1561,4962.34315 1561,4964 L1561,4966 L1517,4966 Z" id="形状结合" fill-opacity="0.5" fill="#3898F9"></path>
+        </g>
+    </g>
+</svg>

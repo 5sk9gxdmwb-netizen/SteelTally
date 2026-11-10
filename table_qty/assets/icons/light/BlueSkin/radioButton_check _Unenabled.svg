@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>radioButton_check _Unenabled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="市政-不需映射" transform="translate(-866.000000, -1004.000000)">
+            <g id="不需映射-内容" transform="translate(-8.000000, 124.000000)">
+                <rect id="矩形备份-11" fill="#748DA6" x="875" y="881" width="14" height="14" rx="7"></rect>
+                <path d="M882,881 C885.865993,881 889,884.134007 889,888 C889,891.865993 885.865993,895 882,895 C878.134007,895 875,891.865993 875,888 C875,884.134007 878.134007,881 882,881 Z M882,882 C878.686292,882 876,884.686292 876,888 C876,891.313708 878.686292,894 882,894 C885.313708,894 888,891.313708 888,888 C888,884.686292 885.313708,882 882,882 Z" id="矩形备份-11" fill="#163859" fill-rule="nonzero"></path>
+                <rect id="矩形备份-18" fill="#36414D" x="879" y="885" width="6" height="6" rx="3"></rect>
+            </g>
+            <g id="不需映射-切片" transform="translate(67.000000, 124.000000)"></g>
+        </g>
+    </g>
+</svg>

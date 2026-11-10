@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>自动识别轴网</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢筋土建" transform="translate(-304.000000, -128.000000)">
+            <rect id="矩形复制-31" fill="#3898F9" x="306" y="128" width="1" height="15"></rect>
+            <path d="M311,140.999 L304,141 L304,140 L311,139.999 L311,140.999 Z M316,131 L312,131 L312,135 L311,135 L311,135.999 L304,136 L304,135 L311,134.999 L311,130.999 L304,131 L304,130 L311,129.999 L311,128 L312,128 L312,130 L316,130 L316,128 L317,128 L317,130 L319,130 L319,131 L317,131 L317,135 L316,135 L316,131 Z" id="形状结合" fill="#3898F9"></path>
+            <g id="编组-2" transform="translate(312.000000, 136.000000)">
+                <circle id="椭圆形" stroke="#3898F9" cx="3" cy="3" r="2.5"></circle>
+                <path d="M4.64644661,4.64644661 C4.84170876,4.45118446 5.15829124,4.45118446 5.35355339,4.64644661 L6.35355339,5.64644661 C6.54881554,5.84170876 6.54881554,6.15829124 6.35355339,6.35355339 C6.17998704,6.52711974 5.91056264,6.54640489 5.7156945,6.41140884 L5.64644661,6.35355339 L4.64644661,5.35355339 C4.45118446,5.15829124 4.45118446,4.84170876 4.64644661,4.64644661 Z" id="直线-3" fill="#3898F9" fill-rule="nonzero"></path>
+                <circle id="椭圆形" stroke="#3898F9" cx="3" cy="3" r="2.5"></circle>
+            </g>
+            <g filter="url(#filter-1)" id="识别轴网切片">
+                <g transform="translate(112.000000, 128.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

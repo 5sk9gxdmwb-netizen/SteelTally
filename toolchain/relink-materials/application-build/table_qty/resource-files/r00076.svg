@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>工程-激活</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="通用对话框" transform="translate(-256.000000, -32.000000)">
+            <g id="编组" transform="translate(17.000000, 3.000000)"></g>
+            <path d="M264,33 C265.104569,33 266,33.8954305 266,35 L266,36 L268,36 C269.104569,36 270,36.8954305 270,38 L270,46 L269,46 L269,38 C269,37.4871642 268.61396,37.0644928 268.116621,37.0067277 L268,37 L266,37 L266,46 L265,46 L265,35 C265,34.4871642 264.61396,34.0644928 264.116621,34.0067277 L264,34 L260,34 C259.487164,34 259.064493,34.3860402 259.006728,34.8833789 L259,35 L259,46 L258,46 L258,35 C258,33.8954305 258.895431,33 260,33 L264,33 Z M264,42 L264,43 L260,43 L260,42 L264,42 Z M264,39 L264,40 L260,40 L260,39 L264,39 Z M264,36 L264,37 L260,37 L260,36 L264,36 Z" id="形状结合" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <polygon id="路径" fill="#FFFFFF" fill-rule="nonzero" points="271 46 271 47 257 47 257 46"></polygon>
+        </g>
+    </g>
+</svg>

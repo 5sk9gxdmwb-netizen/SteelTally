@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>创建工作平面</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="补充" transform="translate(-208.000000, -768.000000)" fill="#51596A">
+            <path d="M221,768 C222.104569,768 223,768.895431 223,770 L223,781 C223,782.104569 222.104569,783 221,783 L210,783 C208.895431,783 208,782.104569 208,781 L208,770 C208,768.895431 208.895431,768 210,768 L221,768 Z M221,769 L210,769 C209.487164,769 209.064493,769.38604 209.006728,769.883379 L209,770 L209,781 C209,781.512836 209.38604,781.935507 209.883379,781.993272 L210,782 L221,782 C221.512836,782 221.935507,781.61396 221.993272,781.116621 L222,781 L222,770 C222,769.487164 221.61396,769.064493 221.116621,769.006728 L221,769 Z" id="形状结合-copy-5" fill-rule="nonzero"></path>
+            <rect id="矩形-copy-179" x="209" y="773" width="13" height="1"></rect>
+            <rect id="矩形-copy-180" transform="translate(213.500000, 775.500000) rotate(-270.000000) translate(-213.500000, -775.500000) " x="207" y="775" width="13" height="1"></rect>
+            <rect id="矩形-copy-181" transform="translate(217.500000, 775.500000) rotate(-270.000000) translate(-217.500000, -775.500000) " x="211" y="775" width="13" height="1"></rect>
+            <rect id="矩形-copy-182" x="209" y="777" width="13" height="1"></rect>
+        </g>
+    </g>
+</svg>

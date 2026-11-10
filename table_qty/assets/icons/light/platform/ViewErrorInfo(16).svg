@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>查看错误信息</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1434.000000, -2997.000000)">
+            <g id="定义" transform="translate(1434.000000, 2997.000000)">
+                <path d="M13,0 C14.1045695,0 15,0.8954305 15,2 L15,7 L14,7 L14,2 C14,1.44771525 13.5522847,1 13,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,13 C1,13.5522847 1.44771525,14 2,14 L10,14 L10,15 L2,15 C0.8954305,15 0,14.1045695 0,13 L0,2 C0,0.8954305 0.8954305,0 2,0 L13,0 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+                <line x1="3.5" y1="4.5" x2="4.5" y2="4.5" id="直线复制-20" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="3.5" y1="7.5" x2="4.5" y2="7.5" id="直线复制-23" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="3.5" y1="10.5" x2="4.5" y2="10.5" id="直线复制-24" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="6.5" y1="7.5" x2="10.5" y2="7.5" id="直线复制-25" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="6.36363636" y1="4.5" x2="12.5" y2="4.5" id="直线复制-28" stroke="#51596A" stroke-linecap="square"></line>
+            </g>
+            <rect id="矩形" fill="#1874E6" x="1447" y="3011" width="1" height="1"></rect>
+            <line x1="1447.5" y1="3005.5" x2="1447.5" y2="3009.5" id="直线-6" stroke="#1874E6" stroke-linecap="round"></line>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>横轨桁架</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-738.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="739.5" y1="1032.5" x2="756.5" y2="1032.5" id="直线-142" stroke="#3898F9" stroke-linecap="square" transform="translate(748.000000, 1032.500000) scale(1, -1) translate(-748.000000, -1032.500000) "></line>
+            <line x1="739.5" y1="1042.5" x2="756.5" y2="1042.5" id="直线-143" stroke="#3898F9" stroke-linecap="square" transform="translate(748.000000, 1042.500000) scale(1, -1) translate(-748.000000, -1042.500000) "></line>
+            <line x1="741.5" y1="1032.5" x2="748" y2="1042.5" id="直线-144" stroke="#3898F9" stroke-linecap="round" transform="translate(744.750000, 1037.500000) scale(1, -1) translate(-744.750000, -1037.500000) "></line>
+            <line x1="754.5" y1="1032.5" x2="748" y2="1042.5" id="直线-145" stroke="#3898F9" stroke-linecap="round" transform="translate(751.250000, 1037.500000) scale(1, -1) translate(-751.250000, -1037.500000) "></line>
+        </g>
+    </g>
+</svg>

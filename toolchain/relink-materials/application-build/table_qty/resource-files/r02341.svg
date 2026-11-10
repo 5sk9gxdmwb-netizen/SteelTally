@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>WeldVariableRect_01</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-1489.000000, -5032.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M1540,5046 L1581,5053.5 L1581,5081.5 L1540,5089 L1540,5046 Z M1541,5047.199 L1541,5087.8 L1580,5080.666 L1580,5054.333 L1541,5047.199 Z" id="矩形" fill="#1874E6" fill-rule="nonzero"></path>
+            <polygon id="矩形" fill-opacity="0.2" fill="#1874E6" points="1540 5046 1581 5053.5 1581 5081.5 1540 5089"></polygon>
+            <path d="M1538,5046 L1538,5089 L1495,5089 L1495,5046 L1538,5046 Z M1537,5047 L1496,5047 L1496,5088 L1537,5088 L1537,5047 Z" id="矩形" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M1538,5046 L1538,5089 L1495,5089 L1495,5046 L1538,5046 Z M1534,5050 L1499,5050 L1499,5085 L1534,5085 L1534,5050 Z" id="形状结合" fill-opacity="0.2" fill="#1874E6"></path>
+            <path d="M1534,5050 L1534,5085 L1499,5085 L1499,5050 L1534,5050 Z M1533,5051 L1500,5051 L1500,5084 L1533,5084 L1533,5051 Z" id="矩形" fill="#CBA358" fill-rule="nonzero"></path>
+            <rect id="矩形" fill-opacity="0.2" fill="#FDC200" x="1499" y="5050" width="35" height="35"></rect>
+            <polygon id="直线-132" fill="#1874E6" fill-rule="nonzero" points="1541 5050.01928 1541.18804 5049 1581 5056.98072 1580.81196 5058"></polygon>
+            <polygon id="直线-132" fill="#1874E6" fill-rule="nonzero" transform="translate(1561.000000, 5081.500000) scale(1, -1) translate(-1561.000000, -5081.500000) " points="1541 5078.01928 1541.18804 5077 1581 5084.98072 1580.81196 5086"></polygon>
+        </g>
+    </g>
+</svg>

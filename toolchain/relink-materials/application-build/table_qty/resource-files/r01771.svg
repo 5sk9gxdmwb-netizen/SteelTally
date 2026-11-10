@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>角度标注</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-355.000000, -630.000000)">
+            <g id="角度标注" transform="translate(355.000000, 631.000000)">
+                <polygon id="矩形复制-30" fill="#51596A" transform="translate(8.111132, 13.675629) rotate(-270.000000) translate(-8.111132, -13.675629) " points="7.61113179 6.17562946 8.61113179 6.17562946 8.61113179 21.1756295 7.61113179 21.1756295"></polygon>
+                <line x1="13.1175202" y1="0" x2="1" y2="13.5531594" id="直线-2复制-2" stroke="#51596A" transform="translate(7.058760, 6.776580) scale(-1, -1) translate(-7.058760, -6.776580) "></line>
+                <polygon id="路径" fill="#1874E6" transform="translate(10.611132, 11.925629) rotate(-90.000000) translate(-10.611132, -11.925629) " points="11.3611318 12.9256295 9.86113179 11.9389628 11.3611318 10.9256295"></polygon>
+                <polygon id="路径复制" fill="#1874E6" transform="translate(9.111132, 7.675629) scale(-1, 1) translate(-9.111132, -7.675629) " points="8.11113179 7.32138607 10.1111318 6.67562946 9.50322962 8.67562946"></polygon>
+                <polyline id="路径-3" stroke="#1874E6" points="9.43322218 7.96137412 10.6111318 9.17562946 10.6111318 11.1756295"></polyline>
+                <path d="M6.61113179,13.5531594 C7.91149852,11.1549176 7.28948723,9.78913002 4.7450979,9.45579669" id="路径-4" stroke="#51596A"></path>
+                <path d="M6.61113179,13.5531594 C7.91149852,11.1549176 7.28948723,9.78913002 4.7450979,9.45579669" id="路径-4" stroke="#51596A"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

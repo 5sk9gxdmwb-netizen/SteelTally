@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>显隐填充纹理</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-896.000000, -1546.000000)">
+            <rect id="矩形复制备份" fill="#51596A" x="898" y="1546" width="1" height="15"></rect>
+            <rect id="矩形复制-19备份" fill="#51596A" x="908" y="1546" width="1" height="15"></rect>
+            <rect id="矩形复制-30备份" fill="#51596A" transform="translate(903.500000, 1558.500000) rotate(-270.000000) translate(-903.500000, -1558.500000) " x="903" y="1551" width="1" height="15"></rect>
+            <rect id="矩形复制-75备份" fill="#51596A" transform="translate(903.500000, 1548.500000) rotate(-270.000000) translate(-903.500000, -1548.500000) " x="903" y="1541" width="1" height="15"></rect>
+            <line x1="910.5" y1="1553.5" x2="902.5" y2="1561.5" id="直线-26" stroke="#1874E6"></line>
+            <rect id="矩形备份-104" fill="#1874E6" x="900" y="1550" width="1" height="1"></rect>
+            <rect id="矩形备份-120" fill="#1874E6" x="902" y="1550" width="1" height="1"></rect>
+            <rect id="矩形备份-121" fill="#1874E6" x="901" y="1551" width="1" height="1"></rect>
+            <rect id="矩形备份-122" fill="#1874E6" x="900" y="1552" width="1" height="1"></rect>
+            <rect id="矩形备份-123" fill="#1874E6" x="900" y="1554" width="1" height="1"></rect>
+            <rect id="矩形备份-124" fill="#1874E6" x="901" y="1553" width="1" height="1"></rect>
+            <rect id="矩形备份-125" fill="#1874E6" x="902" y="1552" width="1" height="1"></rect>
+            <rect id="矩形备份-126" fill="#1874E6" x="903" y="1551" width="1" height="1"></rect>
+            <rect id="矩形备份-127" fill="#1874E6" x="904" y="1550" width="1" height="1"></rect>
+            <rect id="矩形备份-128" fill="#1874E6" x="906" y="1550" width="1" height="1"></rect>
+            <rect id="矩形备份-129" fill="#1874E6" x="905" y="1551" width="1" height="1"></rect>
+            <rect id="矩形备份-130" fill="#1874E6" x="904" y="1552" width="1" height="1"></rect>
+            <rect id="矩形备份-131" fill="#1874E6" x="903" y="1553" width="1" height="1"></rect>
+            <rect id="矩形备份-132" fill="#1874E6" x="902" y="1554" width="1" height="1"></rect>
+            <rect id="矩形备份-133" fill="#1874E6" x="901" y="1555" width="1" height="1"></rect>
+            <rect id="矩形备份-134" fill="#1874E6" x="900" y="1556" width="1" height="1"></rect>
+            <rect id="矩形备份-135" fill="#1874E6" x="902" y="1556" width="1" height="1"></rect>
+            <rect id="矩形备份-136" fill="#1874E6" x="903" y="1555" width="1" height="1"></rect>
+            <rect id="矩形备份-137" fill="#1874E6" x="904" y="1554" width="1" height="1"></rect>
+            <rect id="矩形备份-138" fill="#1874E6" x="905" y="1553" width="1" height="1"></rect>
+            <rect id="矩形备份-139" fill="#1874E6" x="906" y="1552" width="1" height="1"></rect>
+            <rect id="矩形备份-140" fill="#1874E6" x="906" y="1554" width="1" height="1"></rect>
+            <rect id="矩形备份-141" fill="#1874E6" x="905" y="1555" width="1" height="1"></rect>
+            <rect id="矩形备份-142" fill="#1874E6" x="904" y="1556" width="1" height="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

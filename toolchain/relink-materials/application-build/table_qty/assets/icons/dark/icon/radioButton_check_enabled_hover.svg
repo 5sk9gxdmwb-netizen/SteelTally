@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>单选选中可用划过</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-560.000000, -160.000000)">
+            <g id="切片" transform="translate(35.000000, 64.000000)"></g>
+            <rect id="矩形备份-15" fill="#474747" x="561" y="161" width="14" height="14" rx="7"></rect>
+            <path d="M568,161 C571.865993,161 575,164.134007 575,168 C575,171.865993 571.865993,175 568,175 C564.134007,175 561,171.865993 561,168 C561,164.134007 564.134007,161 568,161 Z M568,162 C564.686292,162 562,164.686292 562,168 C562,171.313708 564.686292,174 568,174 C571.313708,174 574,171.313708 574,168 C574,164.686292 571.313708,162 568,162 Z" id="矩形备份-15" fill="#0487DE" fill-rule="nonzero"></path>
+            <rect id="矩形备份-17" fill="#0487DE" x="565" y="165" width="6" height="6" rx="3"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>次构件-蓝</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="路径-54备份" fill="#B4D5FF" points="0 4 13 17 16 17 17 18 9 18 0 9"></polygon>
+        <polygon id="路径-55备份" fill="#76B0FF" points="17 18 17 20 9 20 9 18"></polygon>
+        <polygon id="路径-56备份" fill="#2F7AFC" points="0 9 9 18 9 20 0 11"></polygon>
+        <path d="M15,21 L18,21 L18,18 L17,17 L19,17 L23,22 L16,22 L15,21 Z" id="形状结合备份" fill="#B4D5FF"></path>
+        <polygon id="路径-58备份" fill="#76B0FF" points="23 22 23 24 16 24 16 22"></polygon>
+        <polygon id="路径-60备份" fill="#2F7AFC" points="16 22 15 21 13 21 16 24"></polygon>
+        <polygon id="路径-51备份" fill="#B4D5FF" points="0 1 9 1 22 14 13 14"></polygon>
+        <polygon id="路径-52备份" fill="#76B0FF" points="13 14 13 16 22 16 22 14"></polygon>
+        <polygon id="路径-53备份" fill="#2F7AFC" points="0 1 0 3 13 16 13 14"></polygon>
+    </g>
+</svg>

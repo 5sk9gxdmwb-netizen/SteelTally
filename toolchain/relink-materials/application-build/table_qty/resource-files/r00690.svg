@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>折线选择-未激活</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态栏" transform="translate(-492.000000, -298.000000)">
+            <g id="内容" transform="translate(27.000000, 67.000000)">
+                <polygon id="路径-9" fill="#D4D5D5" points="479.143674 232.957912 478.856326 232.000086 468.625329 235.069385 466 244.478999 467 244.779888 469.374671 235.888613"></polygon>
+                <circle id="椭圆形" fill="#D4D5D5" cx="469.5" cy="235.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="469.5" cy="235.500086" r="1"></circle>
+                <circle id="椭圆形" fill="#D4D5D5" cx="466.5" cy="243.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="466.5" cy="243.500086" r="1"></circle>
+                <circle id="椭圆形" fill="#D4D5D5" cx="479.5" cy="232.500086" r="1.5"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" cx="479.5" cy="232.500086" r="1"></circle>
+                <path d="M476.565929,239.661664 L476.778907,243.514072 L477.767088,242.52589 L479.511432,242.301877 L476.565929,239.661664 Z" id="路径-59" stroke="#D4D5D5" fill="#D4D5D5"></path>
+            </g>
+            <g id="切片" transform="translate(74.000000, 67.000000)"></g>
+        </g>
+    </g>
+</svg>

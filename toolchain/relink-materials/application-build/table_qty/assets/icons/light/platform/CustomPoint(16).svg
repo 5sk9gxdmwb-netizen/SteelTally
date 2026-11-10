@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>自定义点</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-928.000000, -5216.000000)">
+            <g id="点" transform="translate(928.000000, 5216.000000)">
+                <path d="M8,11 L8,15 L7,15 L7,11 L8,11 Z M4,7 L4,8 L0,8 L0,7 L4,7 Z M15,7 L15,8 L11,8 L11,7 L15,7 Z M8,0 L8,4 L7,4 L7,0 L8,0 Z" id="形状结合" fill="#51596A"></path>
+                <circle id="椭圆形" fill="#1874E6" cx="7.5" cy="7.5" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

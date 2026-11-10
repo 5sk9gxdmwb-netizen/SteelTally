@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>RectStyle_01</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-519.000000, -4900.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M590,4903 L590,4966 L548,4966 L548,4903 L590,4903 Z M589,4904 L549,4904 L549,4965 L589,4965 L589,4904 Z" id="矩形" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M590,4903 L590,4966 L548,4966 L548,4903 L590,4903 Z M586,4907 L552,4907 L552,4962 L586,4962 L586,4907 Z" id="形状结合" fill-opacity="0.2" fill="#1874E6"></path>
+            <rect id="矩形" fill-opacity="0.2" fill="#FDC200" x="552" y="4907" width="34" height="55"></rect>
+            <path d="M586,4907 L586,4962 L552,4962 L552,4907 L586,4907 Z M585,4908 L553,4908 L553,4961 L585,4961 L585,4908 Z" id="矩形" fill="#1874E6" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

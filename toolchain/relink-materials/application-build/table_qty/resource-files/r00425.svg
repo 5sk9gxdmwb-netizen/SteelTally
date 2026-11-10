@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>合并</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1042.000000, -910.000000)">
+            <rect id="矩形" stroke="#D4D5D5" x="1042.5" y="918.5" width="6" height="6" rx="1"></rect>
+            <rect id="矩形复制-4" stroke="#D4D5D5" x="1050.5" y="918.5" width="6" height="6" rx="1"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+            <path d="M1045.7705,911 L1046.47406,911.710636 L1044.915,913.272 L1047,913.272587 L1047,914.272587 L1044.871,914.272 L1046.37958,915.913395 L1045.67004,916.618061 L1043,913.769597 L1045.7705,911 Z" id="形状结合" fill="#3898F9" transform="translate(1045.000000, 913.809031) scale(-1, 1) translate(-1045.000000, -913.809031) "></path>
+            <path d="M1054.7705,911 L1055.47406,911.710636 L1053.915,913.272 L1056,913.272587 L1056,914.272587 L1053.871,914.272 L1055.37958,915.913395 L1054.67004,916.618061 L1052,913.769597 L1054.7705,911 Z" id="形状结合" fill="#3898F9"></path>
+        </g>
+    </g>
+</svg>

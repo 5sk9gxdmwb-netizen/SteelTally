@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>焊接球</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1421.000000, -178.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <circle id="椭圆形" stroke="#3898F9" cx="1431" cy="188" r="8.5"></circle>
+            <path d="M1422.59977,187.015467 C1425.47528,187.733127 1427.9031,188 1431,188 C1434.06518,188 1436.59295,187.832222 1439.44117,187.129626" id="路径" stroke="#3898F9" stroke-linecap="round"></path>
+            <path d="M1422.59977,189.015467 C1425.47528,189.733127 1427.86983,190.286725 1430.96672,190.286725 C1434.0319,190.286725 1436.48545,189.879235 1439.33367,189.176639" id="路径" stroke="#3898F9" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

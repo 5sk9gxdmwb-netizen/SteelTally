@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>识别线</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="装饰GDQ" transform="translate(-696.000000, -999.000000)">
+            <g id="Group-10" transform="translate(696.000000, 999.000000)">
+                <path d="M15,7 L14,7 L14,2 C14,1.44771525 13.5522847,1 13,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,13 C1,13.5522847 1.44771525,14 2,14 L8,14 L8,15 L2,15 C0.8954305,15 0,14.1045695 0,13 L0,2 C0,0.8954305 0.8954305,0 2,0 L13,0 C14.1045695,0 15,0.8954305 15,2 L15,7 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+                <g id="直线" transform="translate(2.000000, 2.000000)">
+                    <path d="M7.80555556,1.19444444 L1.19444444,7.80555556" id="直线-2" stroke="#51596A" stroke-linecap="square" transform="translate(4.500000, 4.500000) scale(-1, -1) translate(-4.500000, -4.500000) "></path>
+                    <rect id="矩形复制-7" fill="#1874E6" x="7" y="0" width="2" height="2" rx="1"></rect>
+                    <rect id="矩形复制-14" fill="#1874E6" x="0" y="7" width="2" height="2" rx="1"></rect>
+                </g>
+            </g>
+            <g id="编组-34" transform="translate(704.000000, 1007.000000)">
+                <polygon id="路径-23" fill="#E5F1FF" points="5.5 3.31890099 5 1.43118663 3.7442029 0.71964202 1.83990512 0.71964202 0.5 2.39042205 0.860518913 4.5 2.79036674 5.5 4.5 5"></polygon>
+                <circle id="椭圆形" stroke="#1874E6" cx="3" cy="3" r="2.5"></circle>
+                <path d="M5,5 C5.34706092,5.34706092 5.57530692,5.57530692 5.68473802,5.68473802 C5.89491267,5.89491267 6,6 6,6" id="直线-3" stroke="#1874E6" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

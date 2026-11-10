@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>辅助轴线</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="土建构件图标" transform="translate(-192.000000, -128.000000)">
+            <rect id="矩形复制" fill="#1874E6" x="195" y="128" width="1" height="15"></rect>
+            <rect id="矩形复制-19" fill="#1874E6" x="204" y="128" width="1" height="15"></rect>
+            <rect id="矩形复制-30" fill="#1874E6" transform="translate(199.500000, 141.000000) rotate(-270.000000) translate(-199.500000, -141.000000) " x="199" y="134" width="1" height="14"></rect>
+            <rect id="矩形复制-75" fill="#1874E6" transform="translate(199.500000, 131.000000) rotate(-270.000000) translate(-199.500000, -131.000000) " x="199" y="124" width="1" height="14"></rect>
+            <rect id="矩形复制-75" fill="#1874E6" transform="translate(199.500000, 136.000000) rotate(-270.000000) translate(-199.500000, -136.000000) " x="199" y="129" width="1" height="14"></rect>
+            <polygon id="直线-2复制-2" fill="#1874E6" fill-rule="nonzero" points="205.633603 128.659774 206.366397 129.340226 193.366397 143.340226 192.633603 142.659774"></polygon>
+            <g id="轴线-切片" transform="translate(96.000000, 128.000000)"></g>
+        </g>
+    </g>
+</svg>

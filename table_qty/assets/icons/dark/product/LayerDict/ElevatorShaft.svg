@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>电梯井</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-97.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="111.5" y1="1033.5" x2="114.5" y2="1030.5" id="直线-122" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="111.5" y1="1042.5" x2="114.5" y2="1045.5" id="直线-123" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="102.5" y1="1033.5" x2="99.5" y2="1030.5" id="直线-124" stroke="#3898F9" stroke-linecap="square"></line>
+            <line x1="102.5" y1="1042.5" x2="99.5" y2="1045.5" id="直线-125" stroke="#3898F9" stroke-linecap="square"></line>
+            <rect id="矩形" stroke="#3898F9" x="98.5" y="1029.5" width="17" height="17" rx="2"></rect>
+            <rect id="矩形" stroke="#3898F9" x="102.5" y="1033.5" width="9" height="9" rx="2"></rect>
+            <polygon id="路径-6" fill-opacity="0.2" fill="#3898F9" points="99.1125284 1029.687 115.272518 1029.687 111.168547 1033.75461 102.825562 1033.75461"></polygon>
+            <polygon id="路径-6" fill-opacity="0.2" fill="#3898F9" transform="translate(106.930395, 1044.524710) scale(-1, -1) translate(-106.930395, -1044.524710) " points="98.8244152 1042.687 115.036374 1042.88877 110.930962 1046.36243 102.154301 1046.36243"></polygon>
+            <polygon id="路径-6" fill-opacity="0.2" fill="#3898F9" transform="translate(100.430395, 1037.524710) scale(-1, -1) rotate(-270.000000) translate(-100.430395, -1037.524710) " points="92.3244152 1035.687 108.536374 1035.88877 104.430962 1039.36243 95.6543011 1039.36243"></polygon>
+            <polygon id="路径-6" fill-opacity="0.2" fill="#3898F9" transform="translate(113.430395, 1038.524710) scale(-1, -1) rotate(-90.000000) translate(-113.430395, -1038.524710) " points="105.324415 1036.687 121.536374 1036.88877 117.430962 1040.36243 108.654301 1040.36243"></polygon>
+        </g>
+    </g>
+</svg>

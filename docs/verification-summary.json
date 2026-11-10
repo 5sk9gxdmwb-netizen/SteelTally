@@ -1,0 +1,29 @@
+{
+  "native_ok": true,
+  "runs": [
+    {
+      "mode": "calculation",
+      "exit_code": 0
+    },
+    {
+      "mode": "interaction",
+      "exit_code": 0
+    }
+  ],
+  "xlsx": [
+    {
+      "name": "做法汇总分析",
+      "rows": 12
+    },
+    {
+      "name": "构件汇总分析",
+      "rows": 27
+    },
+    {
+      "name": "明细表",
+      "rows": 33
+    }
+  ],
+  "pdf_bytes": 61765,
+  "evidence": "E:\\表格算量\\verification\\20261110-091019"
+}

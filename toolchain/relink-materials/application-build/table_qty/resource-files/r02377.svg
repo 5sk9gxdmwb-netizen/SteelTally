@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>网架单元</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1218.000000, -1028.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <line x1="1219.5" y1="1033.5" x2="1236.5" y2="1033.5" id="直线-156" stroke="#D4D5D5" stroke-linecap="square"></line>
+            <line x1="1219.5" y1="1038.5" x2="1236.5" y2="1038.5" id="直线-157" stroke="#D4D5D5" stroke-linecap="square"></line>
+            <line x1="1219.5" y1="1043.5" x2="1236.5" y2="1043.5" id="直线-158" stroke="#D4D5D5" stroke-linecap="square"></line>
+            <line x1="1222.5" y1="1029.5" x2="1222.5" y2="1046.5" id="直线-159" stroke="#D4D5D5" stroke-linecap="square"></line>
+            <line x1="1227.5" y1="1029.5" x2="1227.5" y2="1046.5" id="直线-160" stroke="#D4D5D5" stroke-linecap="square"></line>
+            <line x1="1232.5" y1="1029.5" x2="1232.5" y2="1046.5" id="直线-161" stroke="#D4D5D5" stroke-linecap="square"></line>
+            <rect id="矩形" stroke="#3898F9" fill="#D1E3FA" x="1227.5" y="1033.5" width="5" height="5"></rect>
+        </g>
+    </g>
+</svg>

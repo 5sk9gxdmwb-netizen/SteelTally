@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>门</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-484.000000, -3808.000000)">
+            <path d="M497,3808.5 L485.5,3809 L485.5,3822.5 L497.5,3822.5 L497,3808.5 Z" id="矩形" stroke="#3898F9"></path>
+            <path d="M494,3810.5 L489,3810.5 C488.585786,3810.5 488.210786,3810.66789 487.93934,3810.93934 C487.667893,3811.21079 487.5,3811.58579 487.5,3812 L487.5,3822.5 L495.5,3822.5 L495.5,3812 C495.5,3811.58579 495.332107,3811.21079 495.06066,3810.93934 C494.789214,3810.66789 494.414214,3810.5 494,3810.5 Z" id="矩形" stroke="#3898F9"></path>
+            <circle id="椭圆形" fill="#3898F9" cx="493.5" cy="3816.5" r="1"></circle>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>画板</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-869.000000, -552.000000)">
+            <circle id="椭圆形" fill="#43D689" cx="889" cy="572" r="20"></circle>
+            <line x1="879.5" y1="571.5" x2="886.5" y2="578.5" id="直线-25" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="886.5" y1="578.5" x2="899.5" y2="564.5" id="直线-26" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>

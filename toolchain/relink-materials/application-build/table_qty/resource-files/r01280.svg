@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>FindRule</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-913.000000, -280.000000)">
+            <polygon id="路径-23" fill="#1874E6" opacity="0.200000003" points="925.5 290.318901 925 288.431187 923.744203 287.719642 921.839905 287.719642 920.5 289.390422 920.860519 291.5 922.790367 292.5 924.5 292"></polygon>
+            <circle id="椭圆形" stroke="#1874E6" cx="923" cy="290" r="2.5"></circle>
+            <path d="M925,292 C925.347061,292.347061 925.575307,292.575307 925.684738,292.684738 C925.894913,292.894913 926,293 926,293" id="直线-3" stroke="#1874E6" stroke-linecap="round"></path>
+            <path d="M924,280 C925.104569,280 926,280.895431 926,282 L926,287 L925,287 L925,283 C925,281.895431 924.104569,281 923,281 L916,281 C914.945638,281 914.081835,281.815878 914.005486,282.850738 L914,283 L914,290 C914,291.054362 914.815878,291.918165 915.850738,291.994514 L916,292 L920,292 L920,293 L915,293 C913.895431,293 913,292.104569 913,291 L913,282 C913,280.895431 913.895431,280 915,280 L924,280 Z" id="形状结合" fill="#1874E6"></path>
+            <circle id="椭圆形" stroke="#1874E6" cx="923" cy="290" r="2.5"></circle>
+            <path d="M925,292 C925.347061,292.347061 925.575307,292.575307 925.684738,292.684738 C925.894913,292.894913 926,293 926,293" id="直线-3" stroke="#1874E6" stroke-linecap="round"></path>
+            <rect id="矩形" fill="#1874E6" x="916" y="284" width="6" height="1"></rect>
+            <rect id="矩形备份-2" fill="#1874E6" x="916" y="287" width="4" height="1"></rect>
+        </g>
+    </g>
+</svg>

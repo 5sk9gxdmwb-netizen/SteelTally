@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>导出记录</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1033.000000, -2997.000000)">
+            <g id="定义" transform="translate(1033.000000, 2997.000000)">
+                <path d="M13,0 C14.1045695,0 15,0.8954305 15,2 L15,7 L14,7 L14,2 C14,1.44771525 13.5522847,1 13,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,13 C1,13.5522847 1.44771525,14 2,14 L7,14 L7,15 L2,15 C0.8954305,15 0,14.1045695 0,13 L0,2 C0,0.8954305 0.8954305,0 2,0 L13,0 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+                <line x1="3.5" y1="4.5" x2="4.5" y2="4.5" id="直线复制-20" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="3.5" y1="7.5" x2="4.5" y2="7.5" id="直线复制-23" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="3.5" y1="10.5" x2="4.5" y2="10.5" id="直线复制-24" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="6.5" y1="7.5" x2="10.5" y2="7.5" id="直线复制-25" stroke="#51596A" stroke-linecap="square"></line>
+                <line x1="6.36363636" y1="4.5" x2="12.5" y2="4.5" id="直线复制-28" stroke="#51596A" stroke-linecap="square"></line>
+            </g>
+            <g id="恢复" transform="translate(1042.000000, 3004.000000)" fill="#1874E6" fill-rule="nonzero">
+                <path d="M3.16536049,3.99358614 L3.18860618,6.21961 L6,3.14530587 L3.12367642,0 L3.1463777,2.17417384 C2.22576392,2.04463864 1.2755563,2.40710579 0.644768988,3.23251634 C-0.351118528,4.53565251 -0.173699325,6.49923618 1.0410552,7.61831375 C1.2037648,7.76819131 1.37682864,7.89533395 1.5569494,8 C0.828269257,7.10900186 0.776713735,5.75971065 1.48220982,4.8365646 C1.91298964,4.27288657 2.53528195,3.98679038 3.16536049,3.99358614 L3.16536049,3.99358614 Z" id="路径"></path>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

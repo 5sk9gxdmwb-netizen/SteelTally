@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="69px" viewBox="0 0 98 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>NoEqualAngleStyle_01</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-325.000000, -4900.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <polygon id="路径-42备份" fill-opacity="0.2" fill="#FDC200" points="350 4960 401 4960 350 4911"></polygon>
+            <line x1="350" y1="4911" x2="401" y2="4960" id="路径-40备份" stroke="#CBA358" fill="#D8D8D8" stroke-linecap="round"></line>
+            <path d="M346,4903 C348.209139,4903 350,4904.79086 350,4907 L350,4960 L403,4960 C405.142195,4960 406.891079,4961.68397 406.995105,4963.80036 L407,4964 L407,4966 L344,4966 L344,4903 L346,4903 Z M345,4965 L349,4965 L406.0003,4965 L406.0003,4964.02451 L405.99631,4963.84945 C405.920963,4962.31653 404.696819,4961.09361 403.176667,4961.00513 L403,4961 L349,4961 L349,4907 C349,4905.40232 347.75108,4904.09634 346.176273,4904.00509 L346,4904 L345,4904 L345,4965 Z" id="形状结合备份-36" fill="#1874E6" fill-rule="nonzero"></path>
+            <path d="M346,4903 C348.209139,4903 350,4904.79086 350,4907 L350,4960 L403,4960 C405.142195,4960 406.891079,4961.68397 406.995105,4963.80036 L407,4964 L407,4966 L344,4966 L344,4903 L346,4903 Z" id="形状结合备份-37" fill-opacity="0.2" fill="#1874E6"></path>
+        </g>
+    </g>
+</svg>

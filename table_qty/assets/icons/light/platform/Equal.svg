@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Equal</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-944.000000, -99.000000)">
+            <g id="编组-2" transform="translate(33.000000, 29.000000)"></g>
+            <path d="M957,103 C957.552285,103 958,103.447715 958,104 L958,105 C958,105.552285 957.552285,106 957,106 L947,106 C946.447715,106 946,105.552285 946,105 L946,104 C946,103.447715 946.447715,103 947,103 L957,103 Z M957,104 L947,104 L947,105 L957,105 L957,104 Z" id="矩形" fill="#000000" fill-rule="nonzero"></path>
+            <rect id="矩形" fill="#FFFF00" x="947" y="104" width="10" height="1"></rect>
+            <rect id="矩形备份-4" fill="#FFFF00" x="947" y="109" width="10" height="1"></rect>
+            <path d="M957,108 C957.552285,108 958,108.447715 958,109 L958,110 C958,110.552285 957.552285,111 957,111 L947,111 C946.447715,111 946,110.552285 946,110 L946,109 C946,108.447715 946.447715,108 947,108 L957,108 Z M957,109 L947,109 L947,110 L957,110 L957,109 Z" id="矩形备份-5" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

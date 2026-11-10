@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>直角梯形1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢板库图标" transform="translate(-382.000000, -33.000000)" fill="#1874E6">
+            <g id="编组-11" transform="translate(393.000000, 56.000000)">
+                <path d="M12,0 L0.5,0 C0.223857625,0 -5.68434189e-14,0.223857625 -5.68434189e-14,0.5 L-5.68434189e-14,17.5 C-5.68434189e-14,17.7761424 0.223857625,18 0.5,18 L42,18 C42.5136862,18 42.6934247,17.3182427 42.2465063,17.0649889 L12.2465063,0.0649889071 C12.1713331,0.0223907426 12.0864038,0 12,0 Z M11.868,1 L40.103,17 L1,17 L1,1 L11.868,1 Z" id="路径-46" fill-rule="nonzero"></path>
+                <polygon id="路径-46" fill-opacity="0.2" points="0.5 17.5 42 17.5 12 0.5 0.5 0.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

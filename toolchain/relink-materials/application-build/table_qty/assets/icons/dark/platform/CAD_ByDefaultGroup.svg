@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>按默认分组</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-57备份-3" transform="translate(-20.000000, -100.000000)"></g>
+        <path d="M5.00084563,14.5 L1.5,14.5 C0.94771525,14.5 0.5,14.0522847 0.5,13.5 L0.5,1.55871695 C0.5,1.0064322 0.94771525,0.558716954 1.5,0.558716954 L13.5,0.558716954 C14.0522847,0.558716954 14.5,1.0064322 14.5,1.55871695 L14.5,5.99647562 L14.5,5.99647562" id="路径-17" stroke="#D4D5D5"></path>
+        <rect id="矩形复制-44-copy-2" stroke="#D4D5D5" x="2.5" y="3.5" width="4" height="2" rx="1"></rect>
+        <line x1="8.5" y1="4.5" x2="12.5" y2="4.5" id="直线复制-38-copy-2" stroke="#D4D5D5" stroke-linecap="square"></line>
+        <rect id="矩形" stroke="#3898F9" x="12.5" y="7.5" width="2" height="2"></rect>
+        <rect id="矩形" stroke="#3898F9" x="12.5" y="12.5" width="2" height="2"></rect>
+        <rect id="矩形" stroke="#3898F9" x="6.5" y="8.5" width="2" height="4"></rect>
+        <line x1="10.5" y1="8.5" x2="10.5" y2="13.5" id="直线-79" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="10.5" y1="13.5" x2="11.5" y2="13.5" id="直线-80" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="10.5" y1="8.5" x2="11.5" y2="8.5" id="直线-81" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="9.5" y1="10.5" x2="10.5" y2="10.5" id="直线-82" stroke="#3898F9" stroke-linecap="square"></line>
+        <path d="M5,9.5 L3.5,9.5 C2.94771525,9.5 2.5,9.94771525 2.5,10.5 C2.5,11.0522847 2.94771525,11.5 3.5,11.5 L5,11.5 L5,11.5" id="路径-18" stroke="#D4D5D5"></path>
+    </g>
+</svg>

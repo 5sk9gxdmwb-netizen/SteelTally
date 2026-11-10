@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>拖拽-tabDir</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="其他补充" transform="translate(-256.000000, -256.000000)">
+            <g id="编组" transform="translate(4.000000, 32.000000)"></g>
+            <g id="编组-4" transform="translate(256.000000, 256.000000)">
+                <path d="M21,0 C21.5522847,0 22,0.44771525 22,1 L22,20 C22,20.5522847 21.5522847,21 21,21 L1,21 C0.44771525,21 0,20.5522847 0,20 L0,1 C0,0.44771525 0.44771525,0 1,0 L21,0 Z M21,1 L1,1 L1,20 L21,20 L21,1 Z" id="矩形" fill="#62AFFB" fill-rule="nonzero"></path>
+                <path d="M21,1 L21,5 L1,5 L1,4 L7,4 L7,2 L1,2 L1,1 L21,1 Z M14,2 L8,2 L8,4 L14,4 L14,2 Z" id="形状结合" fill="#62AFFB"></path>
+                <rect id="矩形" fill="#D7EBFF" x="1" y="5" width="20" height="15"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

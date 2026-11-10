@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>轴网</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-211.000000, -3808.000000)">
+            <rect id="矩形复制-31" fill="#1874E6" x="213" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-32" fill="#1874E6" x="223" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-32" fill="#1874E6" x="218" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-33" fill="#1874E6" transform="translate(218.500000, 3810.500000) rotate(-270.000000) translate(-218.500000, -3810.500000) " x="218" y="3803" width="1" height="15"></rect>
+            <rect id="矩形复制-36" fill="#1874E6" transform="translate(218.500000, 3815.500000) rotate(-270.000000) translate(-218.500000, -3815.500000) " x="218" y="3808" width="1" height="15"></rect>
+            <rect id="矩形复制-35" fill="#1874E6" transform="translate(218.500000, 3820.500000) rotate(-270.000000) translate(-218.500000, -3820.500000) " x="218" y="3813" width="1" height="15"></rect>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

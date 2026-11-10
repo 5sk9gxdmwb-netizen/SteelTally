@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>设置构件显隐</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1436.000000, -2653.000000)">
+            <path d="M1439,2665 L1439,2668 L1436,2668 L1436,2665 L1439,2665 Z M1438,2666 L1437,2666 L1437,2667 L1438,2667 L1438,2666 Z M1439,2660 L1439,2663 L1436,2663 L1436,2660 L1439,2660 Z M1438,2661 L1437,2661 L1437,2662 L1438,2662 L1438,2661 Z M1439,2655 L1439,2658 L1436,2658 L1436,2655 L1439,2655 Z M1438,2656 L1437,2656 L1437,2657 L1438,2657 L1438,2656 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+            <path d="M1443,2666 L1443,2667 L1441,2667 L1441,2666 L1443,2666 Z M1451,2661 L1451,2662 L1441,2662 L1441,2661 L1451,2661 Z M1451,2656 L1451,2657 L1441,2657 L1441,2656 L1451,2656 Z" id="形状结合" fill="#51596A"></path>
+            <g id="编组-13" transform="translate(1444.000000, 2663.000000)" fill="#1874E6">
+                <path d="M1,0 L3,0 L3,0 L3,1 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="矩形"></path>
+                <path d="M0,4 L3,4 L3,5 L1,5 C0.44771525,5 6.76353751e-17,4.55228475 0,4 L0,4 L0,4 Z" id="矩形备份-339"></path>
+                <rect id="矩形备份-339" x="0" y="1" width="1" height="3"></rect>
+                <path d="M5,0 L7,0 L7,0 L7,1 L4,1 C4,0.44771525 4.44771525,1.01453063e-16 5,0 Z" id="矩形" transform="translate(5.500000, 0.500000) scale(-1, 1) translate(-5.500000, -0.500000) "></path>
+                <path d="M4,4 L7,4 L7,5 L5,5 C4.44771525,5 4,4.55228475 4,4 L4,4 L4,4 Z" id="矩形备份-339" transform="translate(5.500000, 4.500000) scale(-1, 1) translate(-5.500000, -4.500000) "></path>
+                <rect id="矩形备份-339" transform="translate(6.500000, 2.500000) scale(-1, 1) translate(-6.500000, -2.500000) " x="6" y="1" width="1" height="3"></rect>
+                <rect id="矩形备份-339" x="2" y="2" width="3" height="1"></rect>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

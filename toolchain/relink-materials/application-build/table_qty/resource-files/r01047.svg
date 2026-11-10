@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>楼承板</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-355.000000, -755.000000)">
+            <g id="钢结构" transform="translate(85.000000, 77.192388)"></g>
+            <polyline id="直线-92" stroke="#3898F9" stroke-linecap="round" points="356.5 770.5 360.916932 767.641381 364.062688 770.351752 368.018366 767.641381 371.504127 770.5"></polyline>
+            <polyline id="直线-92" stroke="#3898F9" stroke-linecap="round" points="358.5 761.5 362.916932 758.641381 366.062688 761.351752 370.018366 758.641381 373.504127 761.5"></polyline>
+            <line x1="356.5" y1="770.5" x2="358.5" y2="761.5" id="直线-93" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="360.916932" y1="767.641381" x2="362.889316" y2="758.974689" id="直线-94" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="364.002064" y1="770" x2="366.002064" y2="761.231542" id="直线-95" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="368.145778" y1="767.641381" x2="370.135154" y2="759.227727" id="直线-96" stroke="#3898F9" stroke-linecap="round"></line>
+            <line x1="371.5" y1="770.5" x2="373.5" y2="761.5" id="直线-97" stroke="#3898F9" stroke-linecap="round"></line>
+            <polygon id="路径-5" fill-opacity="0.2" fill="#3898F9" points="358.259945 761.75034 362.889316 758.641381 360.916932 767.900912 356.689662 770"></polygon>
+            <polygon id="路径-5" fill-opacity="0.2" fill="#3898F9" points="366.267678 761.231542 369.889316 758.641381 367.916932 767.900912 363.689662 770"></polygon>
+        </g>
+    </g>
+</svg>

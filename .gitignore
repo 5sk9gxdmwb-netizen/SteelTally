@@ -1,0 +1,60 @@
+# Build outputs and intermediate files
+build/
+build-*/
+release-static/
+release-native/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+qrc_*.cpp
+moc_*.cpp
+ui_*.h
+
+# Verification and test outputs
+verification/
+selftest-output/
+
+# Retired versions and backups (user manually deletes)
+旧版可删/
+
+# Toolchain artifacts (kept in separate E:\SteelTallyToolchain)
+toolchain/qt-build/
+toolchain/download-cache/
+
+# User data and projects (never commit)
+projects/
+*.gjg
+runtime/user-settings.json
+runtime/enterprise-*.json
+
+# Legacy and reference data excluded per AGENTS.md
+02_远东项目实操/
+04_运行证据/v1.0-verified-*/
+新的聊天-3-outputs-gjg_table_qty_qt/
+
+# Temporary and editor files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code and IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Windows image cache
+*.db

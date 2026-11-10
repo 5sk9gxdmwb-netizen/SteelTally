@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>屋脊檩条连接</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="钢结构" transform="translate(-400.000000, -1312.000000)">
+            <g id="编组-5" transform="translate(89.000000, 80.000000)"></g>
+            <path d="M415,1315 L415,1319 L410,1319 L410,1318 L414,1318 L414,1316 L410,1316 L410,1315 L415,1315 Z M405,1316 L401,1316 L401,1318 L405,1318 L405,1319 L400,1319 L400,1315 L405,1315 L405,1316 Z" id="形状结合" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <polygon id="直线-26" fill="#D4D5D5" fill-rule="nonzero" points="401 1314 401 1320 400 1320 400 1314"></polygon>
+            <polygon id="直线-26备份" fill="#D4D5D5" fill-rule="nonzero" points="415 1314 415 1320 414 1320 414 1314"></polygon>
+            <path d="M408,1315 L408,1321 L404,1321 L404,1315 L408,1315 Z M407,1316 L405,1316 L405,1320 L407,1320 L407,1316 Z" id="矩形" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M411,1315 L411,1321 L407,1321 L407,1315 L411,1315 Z M410,1316 L408,1316 L408,1320 L410,1320 L410,1316 Z" id="矩形备份-21" fill="#3898F9" fill-rule="nonzero"></path>
+            <path d="M409,1320 L409,1326 L406,1326 L406,1320 L409,1320 Z M408,1321 L407,1321 L407,1325 L408,1325 L408,1321 Z" id="矩形" fill="#D4D5D5" fill-rule="nonzero"></path>
+            <polygon id="直线-27" fill="#3898F9" fill-rule="nonzero" points="412 1320 412 1321 403 1321 403 1320"></polygon>
+        </g>
+    </g>
+</svg>

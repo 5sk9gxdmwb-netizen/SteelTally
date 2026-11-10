@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>批量选择</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="2.22431496e-17 0 7 0 7 5 2.22431496e-17 5"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ribbon" transform="translate(-1049.000000, -328.000000)">
+            <g id="批量选择" transform="translate(1049.000000, 328.000000)">
+                <path d="M9,0 C10.1045695,0 11,0.8954305 11,2 L11,5 L10,5 L10,2 C10,1.48716416 9.61395981,1.06449284 9.11662113,1.00672773 L9,1 L2,1 C1.48716416,1 1.06449284,1.38604019 1.00672773,1.88337887 L1,2 L1,9 C1,9.51283584 1.38604019,9.93550716 1.88337887,9.99327227 L2,10 L5,10 L5,11 L2,11 C0.8954305,11 0,10.1045695 0,9 L0,2 C0,0.8954305 0.8954305,0 2,0 L9,0 Z" id="形状结合" fill="#51596A" fill-rule="nonzero"></path>
+                <path d="M13,4 C14.1045695,4 15,4.8954305 15,6 L15,9 L14,9 L14,6 C14,5.48716416 13.6139598,5.06449284 13.1166211,5.00672773 L13,5 L6,5 C5.48716416,5 5.06449284,5.38604019 5.00672773,5.88337887 L5,6 L5,13 C5,13.5128358 5.38604019,13.9355072 5.88337887,13.9932723 L6,14 L8,14 L8,15 L6,15 C4.8954305,15 4,14.1045695 4,13 L4,6 C4,4.8954305 4.8954305,4 6,4 L13,4 Z" id="形状结合" fill="#1874E6" fill-rule="nonzero"></path>
+                <g id="xuanze" transform="translate(8.000000, 10.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#1874E6" mask="url(#mask-2)" points="6.24990926 0 2.83151755 3.63214554 0.499949743 2.00016418 0 2.25008209 2.99993299 5 7 0"></polygon>
+                </g>
+            </g>
+            <g id="切片" transform="translate(61.000000, 129.000000)"></g>
+        </g>
+    </g>
+</svg>

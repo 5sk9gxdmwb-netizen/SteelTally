@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>自定义多面体</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-57备份-3" transform="translate(-901.000000, -114.000000)"></g>
+        <polygon id="路径-7" stroke="#3898F9" points="1.5 10.5 5.54354408 3.51384246 14.6327226 3.51384246 18.5 10.5 14.6327226 17.4977977 5.54354408 17.4977977"></polygon>
+        <polygon id="路径-8" stroke="#3898F9" points="7.9734934 7.05566921 7.20196292 14.0233151 13.9056675 10.5"></polygon>
+        <line x1="13.5" y1="10.5" x2="17.5" y2="10.5" id="直线-35" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="8.26740726" y1="7.36224361" x2="5.61839214" y2="3.66351943" id="直线-48" stroke="#3898F9" stroke-linecap="round"></line>
+        <line x1="7.35684031" y1="13.7917813" x2="5.61839214" y2="17.2106206" id="直线-49" stroke="#3898F9" stroke-linecap="round"></line>
+        <line x1="8.13796987" y1="7.21340954" x2="1.93450156" y2="10.4841308" id="直线-50" stroke="#3898F9" stroke-linecap="round"></line>
+        <line x1="7.20196292" y1="14.0233151" x2="1.72186075" y2="10.5394922" id="直线-51" stroke="#3898F9" stroke-linecap="round"></line>
+        <line x1="8.26740726" y1="7.21340954" x2="14.7249347" y2="3.78844279" id="直线-52" stroke="#3898F9" stroke-linecap="round"></line>
+        <line x1="13.5" y1="10.5" x2="14.5" y2="4.5" id="直线-53" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="13.5" y1="10.5" x2="14.5" y2="16.5" id="直线-54" stroke="#3898F9" stroke-linecap="square"></line>
+        <line x1="7.482512" y1="14.2427855" x2="14.5" y2="17.0735779" id="直线-55" stroke="#3898F9" stroke-linecap="round"></line>
+    </g>
+</svg>

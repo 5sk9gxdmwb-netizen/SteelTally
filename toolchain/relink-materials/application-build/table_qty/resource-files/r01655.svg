@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>插入行</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="土建ribbon" transform="translate(-192.000000, -5168.000000)">
+            <g id="编组-145" transform="translate(192.000000, 5169.000000)">
+                <rect id="矩形" stroke="#51596A" x="0.5" y="3.5" width="7" height="4"></rect>
+                <path d="M12.6540089,2.71637392 L14.9173498,5.52978516 L12.6540089,8.34319639 L11.8748468,7.71637392 L13.227498,6.03358876 L10.010498,6.03405762 L10.010498,5.03405762 L13.234498,5.03358876 L11.8748468,3.34319639 L12.6540089,2.71637392 Z" id="形状结合" fill="#1874E6"></path>
+                <polygon id="直线-157" fill="#51596A" fill-rule="nonzero" points="10 0 10 1 0 1 0 0"></polygon>
+                <polygon id="直线-157" fill="#51596A" fill-rule="nonzero" points="10 10 10 11 0 11 0 10"></polygon>
+                <polygon id="直线-158" fill="#51596A" fill-rule="nonzero" points="10 0 10 3 9 3 9 0"></polygon>
+                <polygon id="直线-158" fill="#51596A" fill-rule="nonzero" points="10 8 10 11 9 11 9 8"></polygon>
+            </g>
+            <g id="做法界面切片" transform="translate(96.000000, 4976.000000)"></g>
+        </g>
+    </g>
+</svg>
